@@ -20,7 +20,7 @@ def meaning_to_pinyin(v,vocab):
 		if v2["pinyin"] == in_pinyin:
 			if my_meaning in v2["meaning"]:
 				print ("Correct, although I had intended the pinyin " + v["pinyin"] + ".")
-	print "Incorrect. The only pinyin matching that meaning in the given vocabulary file is " + v["meaning"][0]
+	print("Incorrect. The only pinyin matching that meaning in the given vocabulary file is " + v["meaning"][0])
 	return 0
 
 def pinyin_to_meaning(v,vocab):
@@ -31,11 +31,38 @@ def pinyin_to_meaning(v,vocab):
 		print "Correct!"
 		return 1
 	if len(v["meaning"]) == 1:
-		print "Incorrect. The correct meaning is " + v["meaning"][0]
+		print("Incorrect. The correct meaning is " + v["meaning"][0])
 	else:
-		print "Incorrect. The correct meanings are " + ", ".join(v["meaning"])
+		print("Incorrect. The correct meanings are " + ", ".join(v["meaning"]))
 	return 0
 	
+def character_to_pinyin(v, vocab):
+	print("Please type the pinyin for the following character:")
+	character = random.choice(v["character"])
+	print(character)
+	
+	in_pinyin = raw_input("P > ")
+	if convert_pinyin(in_pinyin) == v["pinyin"]:
+		print "Correct!"
+		return 1
+	print("Incorrect. The pinyin for " + character + " is " + v["pinyin"] + ".")
+	return 0
+	
+def character_to_meaning(v, vocab):
+	print("Please type the meaning for the following character:")
+	character = random.choice(v["character"])
+	print(character)
+	
+	in_meaning = raw_input("P > ")
+	if in_meaning.lower() in map(lambda x: x.lower(), v["meaning"]):
+		print "Correct!"
+		return 1
+	if len(v["meaning"]) == 1:
+		print("Incorrect. The meaning for " + character + " is " + v["meaning"][0])
+	else:
+		print("Incorrect. The meanings for " + character + " are " + ", ".join(v["meaning"]))
+	return 0
+
 def main (vocab,methods):
 	maxscore = 0
 	score = 0
@@ -52,4 +79,4 @@ def main (vocab,methods):
 	
 with open("vocab.json", "r+") as f:
 	vocab = json.loads(f.read())
-	main(vocab, [pinyin_to_meaning, meaning_to_pinyin]) #,pinyin_to_meaning,character_to_pinyin,meaning_select_character,pinyin_select_character])
+	main(vocab, [character_to_meaning,character_to_pinyin,pinyin_to_meaning,meaning_to_pinyin]) #,pinyin_to_meaning,character_to_pinyin,meaning_select_character,pinyin_select_character])
