@@ -38,7 +38,7 @@ def xpinyin_unit():
     if unicodedata.normalize('NFC', pinyin_expected) == unicodedata.normalize('NFC', pretty_pinyin(in_pinyin)):
       print("Correct!")
       return 1
-    print("Incorrect. The correct answer was " + pinyin_expected)
+    print("Incorrect. The correct answer was " + pinyin_expected + ": " + my_char)
     return 0
 
 def xpinyin_test():
