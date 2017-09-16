@@ -213,7 +213,8 @@ def main (vocab,methods):
   except QuitException:
     pass
   print("You're done! Score was " + str(score) + "/" + str(maxscore))
-  print("(That's " + '{0:.1f}'.format(float(score)/maxscore * 100.0) + "%)")
+  if maxscore > 0:
+    print("(That's " + '{0:.1f}'.format(float(score)/maxscore * 100.0) + "%)")
   
 vocab = []
 methods = []
