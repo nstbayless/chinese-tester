@@ -1,0 +1,52 @@
+[
+	{
+		"character": ["我"],
+	 	"pinyin": "wo3",
+	 	"meaning": ["I", "me"]
+	},
+	{
+		"character": ["你"],
+	 	"pinyin": "ni3",
+	 	"meaning": ["you"]
+	},
+	{
+		"character": ["好"],
+	 	"pinyin": "hao3",
+	 	"meaning": ["fine","good","nice","ok","O.K","okay","it's settled"]
+	},
+	{
+		"character": ["请"],
+	 	"pinyin": "qi3ng",
+	 	"meaning": ["please"]
+	},
+	{
+		"character": ["问"],
+	 	"pinyin": "we4n",
+	 	"meaning": ["to ask"]
+	},
+	{
+		"character": ["贵"],
+	 	"pinyin": "gui4",
+	 	"meaning": ["expensive","honourable","honorable"]
+	},
+	{
+		"character": ["呢"],
+	 	"pinyin": "ne",
+	 	"meaning": ["?","question particle","ne?","eh?","hmm?"]
+	},
+	{
+		"character": ["小姐"],
+	 	"pinyin": "xia3ojie3",
+	 	"meaning": ["Miss","Ms.","Ms","young lady"]
+	},
+	{
+		"character": ["叫"],
+	 	"pinyin": "jia4o",
+	 	"meaning": ["to call", "to be called", "name is"]
+	},
+	{
+		"character": ["什么"],
+	 	"pinyin": "she2nme",
+	 	"meaning": ["what"]
+	}
+]

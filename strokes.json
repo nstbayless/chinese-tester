@@ -1,0 +1,52 @@
+[
+	{
+		"character": ["点"],
+	 	"pinyin": "dia3n",
+	 	"meaning": ["dot stroke"]
+	},
+	{
+		"character": ["横"],
+	 	"pinyin": "he2ng",
+	 	"meaning": ["horizontal stroke"]
+	},
+	{
+		"character": [],
+	 	"pinyin": "shu4",
+	 	"meaning": ["vertical stroke"]
+	},
+	{
+		"character": [],
+	 	"pinyin": "pie3",
+	 	"meaning": ["downward left stroke", "down-left stroke", "diagonal down left stroke"]
+	},
+	{
+		"character": [],
+	 	"pinyin": "na4",
+	 	"meaning": ["downward right stroke", "down right stroke"]
+	},
+	{
+		"character": [],
+	 	"pinyin": "ti2",
+	 	"meaning": ["upward stroke"]
+	},
+	{
+		"character": [],
+	 	"pinyin": "he2nggo1u",
+	 	"meaning": ["horizontal hook stroke"]
+	},
+	{
+		"character": [],
+	 	"pinyin": "shu4go1u",
+	 	"meaning": ["vertical hook stroke"]
+	},
+	{
+		"character": [],
+	 	"pinyin": "he2ngzhe2",
+	 	"meaning": ["horizontal bend stroke", "top right corner stroke", "top-right corner stroke"]
+	},
+	{
+		"character": [],
+	 	"pinyin": "shu4zhe2",
+	 	"meaning": ["vertical bend stroke", "bottom left corner stroke", "bottom-left corner stroke"]
+	}
+]

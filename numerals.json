@@ -1,0 +1,52 @@
+[
+	{
+		"character": ["一"],
+	 	"pinyin": "yi1",
+	 	"meaning": ["one","1"]
+	},
+	{
+		"character": ["二"],
+	 	"pinyin": "e4r",
+	 	"meaning": ["two","2"]
+	},
+	{
+		"character": ["三"],
+	 	"pinyin": "sa1n",
+	 	"meaning": ["three","3"]
+	},
+	{
+		"character": ["四"],
+	 	"pinyin": "si4",
+	 	"meaning": ["four","4"]
+	},
+	{
+		"character": ["五"],
+	 	"pinyin": "wu3",
+	 	"meaning": ["five","5"]
+	},
+	{
+		"character": ["六"],
+	 	"pinyin": "liu4",
+	 	"meaning": ["six","6"]
+	},
+	{
+		"character": ["七"],
+	 	"pinyin": "qi1",
+	 	"meaning": ["seven","7"]
+	},
+	{
+		"character": ["八"],
+	 	"pinyin": "ba1",
+	 	"meaning": ["eight","8"]
+	},
+	{
+		"character": ["九"],
+	 	"pinyin": "jiu3",
+	 	"meaning": ["nine","9"]
+	},
+	{
+		"character": ["十"],
+	 	"pinyin": "shi2",
+	 	"meaning": ["ten","10"]
+	}
+]

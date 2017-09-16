@@ -1,0 +1,189 @@
+[
+	{
+		"character": ["日"],
+	 	"pinyin": "ri4",
+	 	"meaning": ["sun", "day"]
+	},
+	{
+		"character": ["人"],
+	 	"pinyin": "re2n",
+	 	"meaning": ["person","human"]
+	},
+	{
+		"character": ["刀"],
+	 	"pinyin": "da1o",
+	 	"meaning": ["knife"]
+	},
+	{
+		"character": ["力"],
+	 	"pinyin": "li4",
+	 	"meaning": ["power"]
+	},
+	{
+		"character": ["又"],
+	 	"pinyin": "yo4u",
+	 	"meaning": ["right hand","again"]
+	},
+	{
+		"character": ["口"],
+	 	"pinyin": "ko3u",
+	 	"meaning": ["mouth"]
+	},
+	{
+		"character": ["囗"],
+	 	"pinyin": "we2i",
+	 	"meaning": ["enclose","enclosed","enclosing","enclosure"]
+	},
+	{
+		"character": ["土"],
+	 	"pinyin": "tu3",
+	 	"meaning": ["earth"]
+	},
+	{
+		"character": ["大"],
+	 	"pinyin": "da4",
+	 	"meaning": ["big","large"]
+	},
+	{
+		"character": ["女"],
+	 	"pinyin": "nv3",
+	 	"meaning": ["woman"]
+	},
+	{
+		"character": ["子"],
+	 	"pinyin": "zi3",
+	 	"meaning": ["son"]
+	},
+	{
+		"character": ["寸"],
+	 	"pinyin": "cu4n",
+	 	"meaning": ["inch"]
+	},
+	{
+		"character": ["小"],
+	 	"pinyin": "xia3o",
+	 	"meaning": ["small"]
+	},
+	{
+		"character": ["工"],
+	 	"pinyin": "go1ng",
+	 	"meaning": ["labor","work"]
+	},
+	{
+		"character": ["幺"],
+	 	"pinyin": "ya1o",
+	 	"meaning": ["tiny","small"]
+	},
+	{
+		"character": ["心"],
+	 	"pinyin": "xi1n",
+	 	"meaning": ["heart"]
+	},
+	{
+		"character": ["戈"],
+	 	"pinyin": "ge1",
+	 	"meaning": ["dagger-axe"]
+	},
+	{
+		"character": ["shou"],
+	 	"pinyin": "sho3u",
+	 	"meaning": ["hand"]
+	},
+	{
+		"character": ["月"],
+	 	"pinyin": "yue4",
+	 	"meaning": ["moon","month"]
+	},
+	{
+		"character": ["木"],
+	 	"pinyin": "mu4",
+	 	"meaning": ["wood","tree"]
+	},
+	{
+		"character": ["水"],
+	 	"pinyin": "shui3",
+	 	"meaning": ["water"]
+	},
+	{
+		"character": ["火"],
+	 	"pinyin": "huo3",
+	 	"meaning": ["fiery"]
+	},
+	{
+		"character": ["田"],
+	 	"pinyin": "tia2n",
+	 	"meaning": ["eye"]
+	},
+	{
+		"character": ["示"],
+	 	"pinyin": "shi4",
+	 	"meaning": ["show"]
+	},
+	{
+		"character": ["糸"],
+	 	"pinyin": "mi4",
+	 	"meaning": ["fine silk","silk"]
+	},
+	{
+		"character": ["耳"],
+	 	"pinyin": "e3r",
+	 	"meaning": ["ear"]
+	},
+	{
+		"character": ["衣"],
+	 	"pinyin": "yi1",
+	 	"meaning": ["clothing","clothes"]
+	},
+	{
+		"character": ["言"],
+	 	"pinyin": "ya2n",
+	 	"meaning": ["speech"]
+	},
+	{
+		"character": ["贝"],
+	 	"pinyin": "be4i",
+	 	"meaning": ["cowrie shell"]
+	},
+	{
+		"character": ["走"],
+	 	"pinyin": "zo3u",
+	 	"meaning": ["walk"]
+	},
+	{
+		"character": ["足"],
+	 	"pinyin": "zu2",
+	 	"meaning": ["foot"]
+	},
+	{
+		"character": ["金"],
+	 	"pinyin": "ji1n",
+	 	"meaning": ["gold","metal"]
+	},
+	{
+		"character": ["们"],
+	 	"pinyin": "me2n",
+	 	"meaning": ["door"]
+	},
+	{
+		"character": ["隹"],
+	 	"pinyin": "zhui1",
+	 	"meaning": ["short-tailed bird"],
+		"radical": "only"
+	},
+	{
+		"character": ["雨"],
+	 	"pinyin": "yu3",
+	 	"meaning": ["rain"]
+	},
+	{
+		"character": ["食"],
+	 	"pinyin": "shi2",
+	 	"meaning": ["eat", "eating"],
+		"radical": "only"
+	},
+	{
+		"character": ["马"],
+	 	"pinyin": "ma3",
+	 	"meaning": ["horse"]
+	}
+]
