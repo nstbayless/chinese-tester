@@ -162,7 +162,7 @@ def main (vocab,methods):
         score += t_score
         maxscore += 1
         success = True
-        print ("FYI: " + "/".join(v["character"]) + " (" + pretty_pinyin(v["pinyin"]) + ") means \"" + ",\" or \"".join(v["meaning"]) + ".\"")
+        print ("FYI: " + "/".join(v["character"]) + " (" + pretty_pinyin(v["pinyin"]) + ") means \"" + ",\" or \"".join(v["meaning"]) + ".\"\n")
         if t_score < 1:
           raw_input("Press Enter to acknowledge. ")
         break
@@ -204,7 +204,7 @@ if args.pinyin:
   methods.extend([character_to_pinyin, pinyin_to_meaning, meaning_to_pinyin])
   
 if args.msc:
-  methods.append(meaning_select_charater)
+  methods.append(meaning_select_character)
 
 if args.mp:
   methods.append(meaning_to_pinyin)
