@@ -26,6 +26,8 @@ def pretty_pinyin(pinyin):
     .replace("2",u'\u0301') \
     .replace("3",u'\u030C') \
     .replace("4",u'\u0300') \
+    .replace("v",u'\u0308') \
+    .replace("V",U'\u0308') \
     .replace("5","")
   return pinyin
   
