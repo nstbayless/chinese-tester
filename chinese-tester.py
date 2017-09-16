@@ -18,12 +18,23 @@ def convert_pinyin(pinyin):
   # converts pinyin to standardized form
   pinyin = pinyin.replace("0","")
   
-  return pinyin;
+  return pinyin.lower();
+
+def pretty_pinyin(pinyin):
+  pinyin = pinyin.replace("0","") \
+    .replace("1",u'\u0304') \
+    .replace("2",u'\u0301') \
+    .replace("3",u'\u030C') \
+    .replace("4",u'\u0300') \
+    .replace("5","")
+  return pinyin
   
 def standard_meaning(m):
   m = m.lower()
   if (m.startswith("to ")):
     m = m[3:]
+  if (m.endswith("...")):
+    m = m[:-3]
   return m
 
 def meaning_select_character(v,vocab):
@@ -64,26 +75,29 @@ def meaning_select_character(v,vocab):
   
 
 def meaning_to_pinyin(v,vocab):
-  print("Please type the pinyin for Mandarin word meaning the following:")
+  print("Please type the pinyin for a Mandarin word meaning the following:")
   my_meaning = random.choice(v["meaning"])
   print(my_meaning)
   in_pinyin = raw_input("P > ")
+  print(pretty_pinyin(in_pinyin))
+  
   check_quit(in_pinyin)
-  if convert_pinyin(in_pinyin) == v["pinyin"]:
+  if convert_pinyin(in_pinyin) == convert_pinyin(v["pinyin"]):
     print "Correct!"
     return 1
   for v2 in vocab:
-    if v2["pinyin"] == in_pinyin:
-      if my_meaning in v2["meaning"]:
-        print ("Correct, although I had intended the pinyin " + v["pinyin"] + ".")
-  print("Incorrect. A correct answer would have been " + v["pinyin"])
+    if convert_pinyin(v2["pinyin"]) == convert_pinyin(in_pinyin):
+      if standard_meaning(my_meaning) in map(standard_meaning, v2["meaning"]):
+        print ("Correct, although I had intended the pinyin " + pretty_pinyin(v["pinyin"]) + ".")
+  print("Incorrect. A correct answer would have been " + pretty_pinyin(v["pinyin"]))
   return 0
 
 def pinyin_to_meaning(v,vocab):
   print("Please type the meaning for the following pinyin:")
-  print(v["pinyin"])
+  print(pretty_pinyin(v["pinyin"]))
   in_meaning = raw_input("M > ")
   check_quit(in_meaning)
+  
   if standard_meaning(in_meaning) in map(standard_meaning, v["meaning"]):
     print "Correct!"
     return 1
@@ -102,11 +116,12 @@ def character_to_pinyin(v, vocab):
   
   in_pinyin = raw_input("P > ")
   check_quit(in_pinyin)
+  print(pretty_pinyin(in_pinyin))
   
-  if convert_pinyin(in_pinyin) == v["pinyin"]:
+  if convert_pinyin(in_pinyin) == convert_pinyin(v["pinyin"]):
     print "Correct!"
     return 1
-  print("Incorrect. The pinyin for " + character + " is " + v["pinyin"] + ".")
+  print("Incorrect. The pinyin for " + character + " is " + pretty_pinyin(v["pinyin"]) + ".")
   return 0
   
 def character_to_meaning(v, vocab):
@@ -147,7 +162,7 @@ def main (vocab,methods):
         score += t_score
         maxscore += 1
         success = True
-        print ("FYI: " + "/".join(v["character"]) + " (" + v["pinyin"] + ") means \"" + ",\" or \"".join(v["meaning"]) + ".\"")
+        print ("FYI: " + "/".join(v["character"]) + " (" + pretty_pinyin(v["pinyin"]) + ") means \"" + ",\" or \"".join(v["meaning"]) + ".\"")
         if t_score < 1:
           raw_input("Press Enter to acknowledge. ")
         break
@@ -160,12 +175,51 @@ def main (vocab,methods):
   print("(That's " + '{0:.1f}'.format(float(score)/maxscore * 100.0) + "%)")
   
 vocab = []
-methods = [character_to_meaning,character_to_pinyin,pinyin_to_meaning,meaning_to_pinyin,meaning_select_character]
+methods = []
 
 parser = argparse.ArgumentParser(description='Practice Chinese.')
 parser.add_argument('file', type=argparse.FileType('r'), nargs='+')
+parser.add_argument('--characters',action = 'store_true')
+parser.add_argument('--all',action = 'store_true')
+parser.add_argument('--text',action = 'store_true')
+parser.add_argument('--pinyin',action = 'store_true')
+parser.add_argument('-msc',action = 'store_true')
+parser.add_argument('-mp',action = 'store_true')
+parser.add_argument('-pm',action = 'store_true')
+parser.add_argument('-cm',action = 'store_true')
+parser.add_argument('-cp',action = 'store_true')
 
 args = parser.parse_args()
+
+if args.all:
+  methods.extend([character_to_meaning,character_to_pinyin,pinyin_to_meaning,meaning_to_pinyin,meaning_select_character])
+
+if args.text:
+  methods.extend([character_to_meaning,character_to_pinyin,pinyin_to_meaning,meaning_to_pinyin,meaning_select_character])
+
+if args.characters:
+  methods.extend([character_to_meaning,character_to_pinyin,meaning_select_character])
+
+if args.pinyin:
+  methods.extend([character_to_pinyin, pinyin_to_meaning, meaning_to_pinyin])
+  
+if args.msc:
+  methods.append(meaning_select_charater)
+
+if args.mp:
+  methods.append(meaning_to_pinyin)
+  
+if args.pm:
+  methods.append(pinyin_to_meaning)
+  
+if args.cm:
+  methods.append(character_to_meaning)
+
+if args.cp:
+  methods.append(character_to_pinyin)
+
+# remove duplicates
+methods = list(set(methods))
 
 for f in args.file:
   #with open(fa, "r+") as f:

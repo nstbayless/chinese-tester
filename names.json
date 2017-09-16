@@ -1,0 +1,26 @@
+[
+	{
+		"character": ["王"],
+	 	"pinyin": "wa2ng",
+	 	"meaning": ["king", "Wang (surname)"],
+	 	"name": "surname"
+	},
+	{
+		"character": ["朋"],
+	 	"pinyin": "Pe2ng",
+	 	"meaning": ["Peng (name)"],
+	 	"name": "given"
+	},
+	{
+		"character": ["李"],
+	 	"pinyin": "li3",
+	 	"meaning": ["plum", "plum tree", "Lee (surname)", "Li (surname)"],
+	 	"name": "surname"
+	},
+	{
+		"character": ["友"],
+	 	"pinyin": "Yo3u",
+	 	"meaning": ["You (name)"],
+	 	"name": "given"
+	}
+]

@@ -10,8 +10,13 @@
 	 	"meaning": ["you"]
 	},
 	{
+		"character": ["您"],
+	 	"pinyin": "ni2n",
+	 	"meaning": ["you (honourable)", "you (honourable)", "you (formal)", "you (polite)"]
+	},
+	{
 		"character": ["好"],
-	 	"pinyin": "hao3",
+	 	"pinyin": "ha3o",
 	 	"meaning": ["fine","good","nice","ok","O.K","okay","it's settled"]
 	},
 	{
@@ -32,7 +37,7 @@
 	{
 		"character": ["呢"],
 	 	"pinyin": "ne",
-	 	"meaning": ["?","question particle","ne?","eh?","hmm?"]
+	 	"meaning": ["?","question particle","ne?","ne","eh?","hmm?"]
 	},
 	{
 		"character": ["小姐"],
@@ -42,11 +47,26 @@
 	{
 		"character": ["叫"],
 	 	"pinyin": "jia4o",
-	 	"meaning": ["to call", "to be called", "name is"]
+	 	"meaning": ["to call", "to be called", "name is...", "(one's) name is...", "to be named"]
 	},
 	{
 		"character": ["什么"],
 	 	"pinyin": "she2nme",
 	 	"meaning": ["what"]
+	},
+	{
+		"character": ["名字"],
+	 	"pinyin": "mi2ngzi",
+	 	"meaning": ["name","given name"]
+	},
+	{
+		"character": ["姓"],
+	 	"pinyin": "xi4ng",
+	 	"meaning": ["surname is...", "(one's) surname is...", "to be surnamed", "to have the surname..."]
+	},
+	{
+		"character": ["先生"],
+	 	"pinyin": "xia1nsheng",
+	 	"meaning": ["Mr.", "Mr", "husband", "teacher", "Mister"]
 	}
 ]
