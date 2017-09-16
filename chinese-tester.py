@@ -1,10 +1,18 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import json
 import random
 import sys
 import argparse
+import os
 import numpy as np
+
+audio_enabled = True
+try:
+  from gtts import gTTS
+  from playsound import playsound
+except:
+  audio_enabled = False
 
 class QuitException(Exception):
   pass
@@ -41,6 +49,34 @@ def standard_meaning(m):
     m = m[:-3]
   return m
 
+def play_audio(character):
+  gtts = gTTS(text=character, lang="zh")
+  gtts.save("/tmp/tts.mp3")
+  playsound("/tmp/tts.mp3")
+  os.remove("/tmp/tts.mp3")
+  
+def audio_to_pinyin(v, vocab):
+  if not audio_enabled:
+    print("gTTS and playsound needed to perform audio-to-pinyin quizzing.")
+    raise MissingDataException("missing library")
+  if len(v["character"]) == 0:
+    raise MissingDataException("no character")
+  print("Please listen to the following audio.")
+  
+  while True:
+    play_audio(pretty_pinyin(random.choice(v["character"])))
+    print('type "P" to play again.')
+    in_pinyin = input("P > ")
+    if in_pinyin == "p":
+      continue
+    check_quit(in_pinyin)
+    
+    if convert_pinyin(v["pinyin"]) == convert_pinyin(in_pinyin):
+      print("Correct!")
+      return 1
+    print ("Incorrect.")
+    return 0
+
 def meaning_select_character(v,vocab):
   my_meaning = random.choice(v["meaning"])
   if len(v["character"]) == 0:
@@ -63,7 +99,7 @@ def meaning_select_character(v,vocab):
   while True:
     print("(Please enter a number)")
     try:
-      ri = raw_input("# > ")
+      ri = input("# > ")
       check_quit(ri)
       n = int(ri)
       if n <= 0 or n > len(vlist):
@@ -82,12 +118,12 @@ def meaning_to_pinyin(v,vocab):
   print("Please type the pinyin for a Mandarin word meaning the following:")
   my_meaning = random.choice(v["meaning"])
   print(my_meaning)
-  in_pinyin = raw_input("P > ")
+  in_pinyin = input("P > ")
   print(pretty_pinyin(in_pinyin))
   
   check_quit(in_pinyin)
   if convert_pinyin(in_pinyin) == convert_pinyin(v["pinyin"]):
-    print "Correct!"
+    print("Correct!")
     return 1
   for v2 in vocab:
     if convert_pinyin(v2["pinyin"]) == convert_pinyin(in_pinyin):
@@ -100,11 +136,11 @@ def pinyin_to_meaning(v,vocab):
 
   print("Please type the meaning for the following pinyin:")
   print(pretty_pinyin(v["pinyin"]))
-  in_meaning = raw_input("M > ")
+  in_meaning = input("M > ")
   check_quit(in_meaning)
   
   if standard_meaning(in_meaning) in map(standard_meaning, v["meaning"]):
-    print "Correct!"
+    print("Correct!")
     return 1
   if len(v["meaning"]) == 1:
     print("Incorrect. The correct meaning is " + v["meaning"][0])
@@ -119,12 +155,12 @@ def character_to_pinyin(v, vocab):
   character = random.choice(v["character"])
   print(character)
   
-  in_pinyin = raw_input("P > ")
+  in_pinyin = input("P > ")
   check_quit(in_pinyin)
   print(pretty_pinyin(in_pinyin))
   
   if convert_pinyin(in_pinyin) == convert_pinyin(v["pinyin"]):
-    print "Correct!"
+    print("Correct!")
     return 1
   print("Incorrect. The pinyin for " + character + " is " + pretty_pinyin(v["pinyin"]) + ".")
   return 0
@@ -136,11 +172,11 @@ def character_to_meaning(v, vocab):
   character = random.choice(v["character"])
   print(character)
   
-  in_meaning = raw_input("M > ")
+  in_meaning = input("M > ")
   check_quit(in_meaning)
   
   if standard_meaning(in_meaning) in map(standard_meaning, v["meaning"]):
-    print "Correct!"
+    print("Correct!")
     return 1
   if len(v["meaning"]) == 1:
     print("Incorrect. The meaning for " + character + " is " + v["meaning"][0])
@@ -169,7 +205,7 @@ def main (vocab,methods):
         success = True
         print ("FYI: " + "/".join(v["character"]) + " (" + pretty_pinyin(v["pinyin"]) + ") means \"" + ",\" or \"".join(v["meaning"]) + ".\"\n")
         if t_score < 1:
-          raw_input("Press Enter to acknowledge. ")
+          input("Press Enter to acknowledge. ")
         break
       if not success:
         #print("Could not quiz you on one of the vocabulary items, as it\nlacked data... please select additional quizzing methods.")
@@ -183,7 +219,7 @@ vocab = []
 methods = []
 
 parser = argparse.ArgumentParser(description='Practice Chinese.')
-parser.add_argument('file', type=argparse.FileType('r'), nargs='+')
+parser.add_argument('file', type=argparse.FileType('r'), nargs='+', help="JSON file containing vocabulary dictionary")
 parser.add_argument('--characters',action = 'store_true')
 parser.add_argument('--all',action = 'store_true')
 parser.add_argument('--text',action = 'store_true')
@@ -193,11 +229,14 @@ parser.add_argument('-mp',action = 'store_true')
 parser.add_argument('-pm',action = 'store_true')
 parser.add_argument('-cm',action = 'store_true')
 parser.add_argument('-cp',action = 'store_true')
+parser.add_argument('-ap',action = 'store_true')
 
 args = parser.parse_args()
 
 if args.all:
   methods.extend([character_to_meaning,character_to_pinyin,pinyin_to_meaning,meaning_to_pinyin,meaning_select_character])
+  if audio_enabled:
+    methods.extend([audio_to_pinyin])
 
 if args.text:
   methods.extend([character_to_meaning,character_to_pinyin,pinyin_to_meaning,meaning_to_pinyin,meaning_select_character])
@@ -222,6 +261,9 @@ if args.cm:
 
 if args.cp:
   methods.append(character_to_pinyin)
+  
+if args.ap:
+  methods.append(audio_to_pinyin)
 
 # remove duplicates
 methods = list(set(methods))
