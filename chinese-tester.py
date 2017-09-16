@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import json
 import random
 import sys
@@ -95,6 +97,7 @@ def meaning_to_pinyin(v,vocab):
   return 0
 
 def pinyin_to_meaning(v,vocab):
+
   print("Please type the meaning for the following pinyin:")
   print(pretty_pinyin(v["pinyin"]))
   in_meaning = raw_input("M > ")
@@ -169,8 +172,8 @@ def main (vocab,methods):
           raw_input("Press Enter to acknowledge. ")
         break
       if not success:
-        print("Could not quiz you on one of the vocabulary items, as it\nlacked data... please select additional quizzing methods.")
-        break
+        #print("Could not quiz you on one of the vocabulary items, as it\nlacked data... please select additional quizzing methods.")
+        continue
   except QuitException:
     pass
   print("You're done! Score was " + str(score) + "/" + str(maxscore))
