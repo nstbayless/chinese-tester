@@ -6,6 +6,7 @@ import sys
 import argparse
 import os
 import numpy as np
+import unicodedata
 
 audio_enabled = True
 try:
@@ -13,6 +14,54 @@ try:
   from playsound import playsound
 except:
   audio_enabled = False
+
+xpin_enabled = True
+try:
+  from xpinyin import Pinyin
+  xpin = Pinyin()
+except:
+  xpin_enabled = False
+
+def xpinyin_unit():
+  global xpin
+  print("Please enter the pinyin for the following sound.")
+  my_char = chr(0x4e00 + int(random.random()*0x4189))
+  while True:
+    play_audio(my_char)
+    pinyin_expected = xpin.get_pinyin(my_char, '', show_tone_marks = True)
+    in_pinyin = input("P > ")
+    check_quit(in_pinyin)
+    if in_pinyin == "p":
+      continue
+    print(pretty_pinyin(in_pinyin))
+
+    if unicodedata.normalize('NFC', pinyin_expected) == unicodedata.normalize('NFC', pretty_pinyin(in_pinyin)):
+      print("Correct!")
+      return 1
+    print("Incorrect. The correct answer was " + pinyin_expected)
+    return 0
+
+def xpinyin_test():
+  if not xpin_enabled:
+    print("xpinyin library needs to be installed.")
+    return -1
+  
+  print("Testing arbitrary audio-to-pinyin comprehension.")
+  print("Quiz begins now.")
+  score = 0
+  maxscore = 0
+  try:
+    while True:
+      tscore = xpinyin_unit()
+      score += tscore
+      if (tscore < 1):
+        input("Press Enter to acknowledge. ")
+      maxscore += 1
+  except QuitException:
+    pass
+  print("You're done! Score was " + str(score) + "/" + str(maxscore))
+  if maxscore > 0:
+    print("(That's " + '{0:.1f}'.format(float(score)/maxscore * 100.0) + "%)")
 
 class QuitException(Exception):
   pass
@@ -36,8 +85,8 @@ def pretty_pinyin(pinyin):
     .replace("2",u'\u0301') \
     .replace("3",u'\u030C') \
     .replace("4",u'\u0300') \
-    .replace("v",u'\u0308') \
-    .replace("V",U'\u0308') \
+    .replace("v",u'u\u0308') \
+    .replace("V",u'U\u0308') \
     .replace("5","")
   return pinyin
   
@@ -64,12 +113,14 @@ def audio_to_pinyin(v, vocab):
   print("Please listen to the following audio.")
   
   while True:
-    play_audio(pretty_pinyin(random.choice(v["character"])))
+    play_audio(random.choice(v["character"]))
     print('type "P" to play again.')
     in_pinyin = input("P > ")
     if in_pinyin == "p":
       continue
     check_quit(in_pinyin)
+    print(pretty_pinyin(in_pinyin))
+    
     
     if convert_pinyin(v["pinyin"]) == convert_pinyin(in_pinyin):
       print("Correct!")
@@ -231,6 +282,7 @@ parser.add_argument('-pm',action = 'store_true')
 parser.add_argument('-cm',action = 'store_true')
 parser.add_argument('-cp',action = 'store_true')
 parser.add_argument('-ap',action = 'store_true')
+parser.add_argument('-axp',action = 'store_true')
 
 args = parser.parse_args()
 
@@ -265,6 +317,10 @@ if args.cp:
   
 if args.ap:
   methods.append(audio_to_pinyin)
+
+if args.axp:
+  xpinyin_test()
+  sys.exit()
 
 # remove duplicates
 methods = list(set(methods))

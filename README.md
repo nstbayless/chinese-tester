@@ -2,6 +2,8 @@
 
 Tests your understanding of Chinese characters, Pinyin, and meanings of chinese words. Just plug in a json file with the dictionary of terms you're learning (or use any of the presets included in the repo) and select which quiz methods you prefer (or just `--all` if you don't care), and you're good to go!
 
+There's also a support for "arbitrary pinyin" mode: listen to random chinese words drawn from 4000+ sounds and transcribe them into pinyin!
+
 Here's a sample output:
 
 ```
