@@ -1,0 +1,32 @@
+[
+	{
+		"character": ["人"],
+	 	"pinyin": "re2n",
+	 	"meaning": ["person", "people"]
+	},
+	{
+		"character": ["中国"],
+	 	"pinyin": "Zho1ngguo2",
+	 	"meaning": ["China"]
+	},
+	{
+		"character": ["北京"],
+	 	"pinyin": "Be3iji1ng",
+	 	"meaning": ["Beijing"]
+	},
+	{
+		"character": ["美国"],
+	 	"pinyin": "Me3iguo2",
+	 	"meaning": ["America"]
+	},
+	{
+		"character": ["日本"],
+	 	"pinyin": "ri4be3n",
+	 	"meaning": ["Japan"]
+	},
+	{
+		"character": ["加拿大"],
+	 	"pinyin": "Jia1'na2da4",
+	 	"meaning": ["Canada"]
+	}
+]

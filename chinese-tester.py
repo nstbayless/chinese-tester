@@ -22,6 +22,13 @@ try:
 except:
   xpin_enabled = False
 
+def print_pinyin_help():
+  pinyin = "xia3ojie3"
+  if random.random() > 0.5:
+    pinyin = "xia1nsheng"
+  print("Write numbers after the principal vowel to indicate tone in pinyin.")
+  print("For example: " + pinyin + " becomes " + pretty_pinyin(pinyin) + ".")
+
 def xpinyin_unit():
   global xpin
   print("Please enter the pinyin for the following sound.")
@@ -47,6 +54,7 @@ def xpinyin_test():
     return -1
   
   print("Testing arbitrary audio-to-pinyin comprehension.")
+  print_pinyin_help()
   print("Quiz begins now.")
   score = 0
   maxscore = 0
@@ -235,12 +243,13 @@ def character_to_meaning(v, vocab):
     print("Incorrect. The meanings for " + character + " are " + ", ".join(v["meaning"]))
   return 0
 
-def main (vocab,methods):
+def main (vocab,methods, retest):
   maxscore = 0
   score = 0
   random.shuffle(vocab)
-  print("Quiz begins now.")
+  print_pinyin_help()
   print("Type q or quit at any time to end.")
+  print("Quiz begins now.")
   try:
     for v in vocab:
       random.shuffle(methods)
@@ -253,6 +262,8 @@ def main (vocab,methods):
           continue
         score += t_score
         maxscore += 1
+        if t_score == 0 and retest:
+          vocab.append(v)
         success = True
         print ("FYI: " + "/".join(v["character"]) + " (" + pretty_pinyin(v["pinyin"]) + ") means \"" + ",\" or \"".join(v["meaning"]) + ".\"\n")
         if t_score < 1:
@@ -283,6 +294,7 @@ parser.add_argument('-cm',action = 'store_true')
 parser.add_argument('-cp',action = 'store_true')
 parser.add_argument('-ap',action = 'store_true')
 parser.add_argument('-axp',action = 'store_true')
+parser.add_argument('--retest-failure',action = 'store_true')
 
 args = parser.parse_args()
 
@@ -337,4 +349,4 @@ if len(vocab) <= 0:
   print("Need at least one vocab word")
   sys.exit(-2)
 
-main(vocab, methods)
+main(vocab, methods, args.retest_failure)

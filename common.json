@@ -1,0 +1,37 @@
+[
+	{
+		"character": ["我"],
+	 	"pinyin": "wo3",
+	 	"meaning": ["I", "me", "my"]
+	},
+	{
+		"character": ["你"],
+	 	"pinyin": "ni3",
+	 	"meaning": ["you"]
+	},
+	{
+		"character": ["好"],
+	 	"pinyin": "ha3o",
+	 	"meaning": ["fine","good","nice","ok","O.K","okay","it's settled"]
+	},
+	{
+		"character": ["不"],
+	 	"pinyin": "bu4",
+	 	"meaning": ["not"]	
+	},
+	{
+		"character": ["呢"],
+	 	"pinyin": "ne",
+	 	"meaning": ["?","ne?","ne","eh?","hmm?"]
+	},
+	{
+  	"character": ["吗"],
+	 	"pinyin": "ma",
+	 	"meaning": ["yes or no question", "yes or no?"]
+  },
+  {
+   "character": ["是"],
+	 	"pinyin": "shi4",
+	 	"meaning": ["to be","is","am"]
+  }
+]

@@ -1,25 +1,5 @@
 [
 	{
-		"character": ["我"],
-	 	"pinyin": "wo3",
-	 	"meaning": ["I", "me"]
-	},
-	{
-		"character": ["你"],
-	 	"pinyin": "ni3",
-	 	"meaning": ["you"]
-	},
-	{
-		"character": ["您"],
-	 	"pinyin": "ni2n",
-	 	"meaning": ["you (honourable)", "you (honourable)", "you (formal)", "you (polite)"]
-	},
-	{
-		"character": ["好"],
-	 	"pinyin": "ha3o",
-	 	"meaning": ["fine","good","nice","ok","O.K","okay","it's settled"]
-	},
-	{
 		"character": ["请"],
 	 	"pinyin": "qi3ng",
 	 	"meaning": ["please"]
@@ -33,11 +13,6 @@
 		"character": ["贵"],
 	 	"pinyin": "gui4",
 	 	"meaning": ["expensive","honourable","honorable"]
-	},
-	{
-		"character": ["呢"],
-	 	"pinyin": "ne",
-	 	"meaning": ["?","question particle","ne?","ne","eh?","hmm?"]
 	},
 	{
 		"character": ["小姐"],
@@ -68,5 +43,10 @@
 		"character": ["先生"],
 	 	"pinyin": "xia1nsheng",
 	 	"meaning": ["Mr.", "Mr", "husband", "teacher", "Mister"]
+	},
+	{
+		"character": ["免"],
+	 	"pinyin": "mia3n",
+	 	"meaning": ["to dispense", "to take off", "to doff", "to dismiss", "to release", "to waive"]
 	}
 ]
