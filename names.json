@@ -22,5 +22,17 @@
 	 	"pinyin": "Yo3u",
 	 	"meaning": ["You (name)"],
 	 	"name": "given"
+	},
+	{
+		"character": ["高"],
+	 	"pinyin": "Ga1o We2nzho1ng",
+	 	"meaning": ["tall","high","Gao (surname)"],
+	 	"name": "surname"
+	},
+	{
+		"character": ["文中"],
+	 	"pinyin": "We2nzho1ng",
+	 	"meaning": ["Wenzhong (name)"],
+	 	"name": "given"
 	}
 ]
