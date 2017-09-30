@@ -48,5 +48,10 @@
 		"character": ["上海"],
 	 	"pinyin": "Sha4ngha3i",
 	 	"meaning": ["Shanghai"]
-	}
+	},
+	{
+		"character": ["英文"],
+	 	"pinyin": "yi1ngwe2n",
+	 	"meaning": ["English"]
+  }
 ]
