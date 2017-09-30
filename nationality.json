@@ -28,5 +28,25 @@
 		"character": ["加拿大"],
 	 	"pinyin": "Jia1'na2da4",
 	 	"meaning": ["Canada"]
+	},
+	{
+		"character": ["温哥华"],
+	 	"pinyin": "we1n'ge1hua2",
+	 	"meaning": ["Vancouver"]
+	},
+	{
+		"character": ["纽约"],
+	 	"pinyin": "Niu3yue1",
+	 	"meaning": ["New York"]
+	},
+	{
+		"character": ["印度"],
+	 	"pinyin": "Yi4ndu4",
+	 	"meaning": ["India"]
+	},
+	{
+		"character": ["上海"],
+	 	"pinyin": "Sha4ngha3i",
+	 	"meaning": ["Shanghai"]
 	}
 ]

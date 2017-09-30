@@ -1,0 +1,27 @@
+[
+  {
+		"character": ["谁"],
+	 	"pinyin": "she2i",
+	 	"meaning": ["who"]
+	},
+  {
+		"character": ["呢"],
+	 	"pinyin": "ne",
+	 	"meaning": ["?","ne?","ne","eh?","hmm?"]
+	},
+	{
+  	"character": ["吗"],
+	 	"pinyin": "ma",
+	 	"meaning": ["yes or no question", "yes or no?"]
+  },
+	{
+  	"character": ["吗"],
+	 	"pinyin": "ma",
+	 	"meaning": ["yes or no question", "yes or no?"]
+  },
+	{
+  	"character": ["几"],
+	 	"pinyin": "ji3",
+	 	"meaning": ["how many"]
+  }
+]

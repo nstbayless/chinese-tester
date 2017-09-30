@@ -1,0 +1,52 @@
+[
+  {
+		"character": ["做"],
+	 	"pinyin": "zuo4",
+	 	"meaning": ["to do"]
+  },
+  {
+		"character": ["工作"],
+	 	"pinyin": "go1ngzuo4",
+	 	"meaning": ["job","to work","work"]
+  },
+  {
+		"character": ["律师"],
+	 	"pinyin": "lv4shi1",
+	 	"meaning": ["lawyer"]
+  },
+  {
+		"character": ["英文"]
+	 	"pinyin": "yi1ngwe4n"
+	 	"meaning": ["English"]
+  },
+  {
+		"character": ["都"],
+	 	"pinyin": "do1u",
+	 	"meaning": ["both","all"]
+  },
+  {
+		"character": ["大学"],
+	 	"pinyin": "da4xue2",
+	 	"meaning": ["college","university","post-secondary institution"]
+  },
+  {
+		"character": ["大学生"],
+	 	"pinyin": "da4xue2she1ng",
+	 	"meaning": ["college student","university student", "undergrad"]
+  },
+  {
+		"character": ["医生"],
+	 	"pinyin": "yi1she1ng",
+	 	"meaning": ["doctor","physician"]
+  },
+  {
+		"character": ["大学"],
+	 	"pinyin": "da4xue2",
+	 	"meaning": ["college","university"]
+  },
+  {
+		"character": ["作家"],
+	 	"pinyin": "zuo4jia1",
+	 	"meaning": ["author","writer"]
+  }
+]

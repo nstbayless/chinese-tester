@@ -5,21 +5,6 @@
 	 	"meaning": ["child"]
 	},
   {
-		"character": ["谁"],
-	 	"pinyin": "she2i",
-	 	"meaning": ["who"]
-	},
-  {
-		"character": ["她"],
-	 	"pinyin": "ta1",
-	 	"meaning": ["she","her"]
-	},
-  {
-		"character": ["他"],
-	 	"pinyin": "ta1",
-	 	"meaning": ["he","him"]
-	},
-  {
 		"character": ["姐姐"],
 	 	"pinyin": "jie3jie",
 	 	"meaning": ["older sister", "big sister"]
@@ -58,5 +43,45 @@
 		"character": ["没"],
 	 	"pinyin": "me2i",
 	 	"meaning": ["not"]
-	}
+	},
+	{
+		"character": ["照片"],
+	 	"pinyin": "zha4opia4n",
+	 	"meaning": ["photo","photograph","picture"]
+	},
+	{
+		"character": ["没"],
+	 	"pinyin": "me2i",
+	 	"meaning": ["not"]
+	},
+	{
+		"character": ["家"],
+	 	"pinyin": "jia1",
+	 	"meaning": ["family"]
+	},
+	{
+		"character": ["哥哥"],
+	 	"pinyin": "ge1ge",
+	 	"meaning": ["older brother"]
+	},
+	{
+		"character": ["大街"],
+	 	"pinyin": "da4jie3",
+	 	"meaning": ["oldest sister"]
+	},
+	{
+		"character": ["妹妹"],
+	 	"pinyin": "me4imei",
+	 	"meaning": ["younger sister", "little sister"]
+	},
+	{
+		"character": ["二姐"],
+	 	"pinyin": "e4rjie3",
+	 	"meaning": ["second oldest sister", "second sister"]
+	},
+	{
+		"character": ["二哥"],
+	 	"pinyin": "e4rge1",
+	 	"meaning": ["second brother", "second oldest brother"]
+	},
 ]

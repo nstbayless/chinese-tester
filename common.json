@@ -19,16 +19,6 @@
 	 	"pinyin": "bu4",
 	 	"meaning": ["not"]	
 	},
-	{
-		"character": ["呢"],
-	 	"pinyin": "ne",
-	 	"meaning": ["?","ne?","ne","eh?","hmm?"]
-	},
-	{
-  	"character": ["吗"],
-	 	"pinyin": "ma",
-	 	"meaning": ["yes or no question", "yes or no?"]
-  },
   {
    "character": ["是"],
 	 	"pinyin": "shi4",

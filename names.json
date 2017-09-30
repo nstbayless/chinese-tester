@@ -25,7 +25,7 @@
 	},
 	{
 		"character": ["高"],
-	 	"pinyin": "Ga1o We2nzho1ng",
+	 	"pinyin": "Ga1o",
 	 	"meaning": ["tall","high","Gao (surname)"],
 	 	"name": "surname"
 	},
@@ -33,6 +33,18 @@
 		"character": ["文中"],
 	 	"pinyin": "We2nzho1ng",
 	 	"meaning": ["Wenzhong (name)"],
+	 	"name": "given"
+	}
+	{
+		"character": ["白"],
+	 	"pinyin": "Ba2i",
+	 	"meaning": ["Bai (surname)"],
+	 	"name": "surname"
+	},
+	{
+		"character": ["英爱"],
+	 	"pinyin": "Yi1ng'a4i",
+	 	"meaning": ["Yingai (name)"],
 	 	"name": "given"
 	}
 ]

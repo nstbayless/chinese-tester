@@ -8,5 +8,46 @@
 		"character": ["也"],
 	 	"pinyin": "ye3",
 	 	"meaning": ["too", "also"]
+	},
+
+	{
+		"character": ["她"],
+	 	"pinyin": "ta1",
+	 	"meaning": ["she","her"]
+	},
+  {
+		"character": ["他"],
+	 	"pinyin": "ta1",
+	 	"meaning": ["he","him"]
+	},
+	{
+		"character": ["巴巴"],
+	 	"pinyin": "ba4ba",
+	 	"meaning": ["father","dad"]
+	},
+	{
+		"character": ["妈妈"],
+	 	"pinyin": "ma1ma",
+	 	"meaning": ["mom","mother"]
+	},
+	{
+		"character": ["这"],
+	 	"pinyin": "zhe4",
+	 	"meaning": ["this"]
+	},
+	{
+		"character": ["那"],
+	 	"pinyin": "na4",
+	 	"meaning": ["that"]
+	},
+	{
+		"character": ["和"],
+	 	"pinyin": "he2",
+	 	"meaning": ["and"]
+	},
+	{
+		"character": ["们"],
+	 	"pinyin": "men",
+	 	"meaning": ["plural","s"]
 	}
 ]
