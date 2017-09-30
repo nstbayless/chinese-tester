@@ -65,7 +65,7 @@
 	 	"meaning": ["older brother"]
 	},
 	{
-		"character": ["大街"],
+		"character": ["大姐"],
 	 	"pinyin": "da4jie3",
 	 	"meaning": ["oldest sister"]
 	},
@@ -83,5 +83,5 @@
 		"character": ["二哥"],
 	 	"pinyin": "e4rge1",
 	 	"meaning": ["second brother", "second oldest brother"]
-	},
+	}
 ]
