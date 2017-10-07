@@ -1,0 +1,57 @@
+[
+  {
+	  "character": ["多"],
+   	"pinyin": "duo1",
+   	"meaning": ["how many","how much","to what extent"]
+  },
+  {
+	  "character": ["大"],
+   	"pinyin": "da4",
+   	"meaning": ["big","large","old"]
+  },
+  {
+		"character": ["怎么样"],
+	 	"pinyin": "ze3nmeya4ng",
+	 	"meaning": ["How does that sound?","Is that ok?", "Is that okay?", "Is that O.K.?", "Is that alright?", "Does that sound good?", "Is that good?"]
+	},
+	{
+		"character": ["太...了"],
+	 	"pinyin": "ta4i...le",
+	 	"meaning": ["too", "extremely"]
+	},
+	{
+		"character": ["谢谢"],
+	 	"pinyin": "xie4xie",
+	 	"meaning": ["to thank", "thanks", "thank you"]
+	},
+	{
+		"character": ["喜欢"],
+	 	"pinyin": "xi3huan",
+	 	"meaning": ["to like"]
+	},
+	{
+		"character": ["还是"],
+	 	"pinyin": "ha2ishi",
+	 	"meaning": ["or"]
+	},
+	{
+		"character": ["可是"],
+	 	"pinyin": "ke3shi4",
+	 	"meaning": ["but"]
+	},
+	{
+		"character": ["见"],
+	 	"pinyin": "jia4n",
+	 	"meaning": ["to see"]
+	},
+	{
+		"character": ["再见"],
+	 	"pinyin": "za4ijia4n",
+	 	"meaning": ["goodbye","see you again"]
+	},
+	{
+		"character": ["再"],
+	 	"pinyin": "za4i",
+	 	"meaning": ["again"]
+	}
+]

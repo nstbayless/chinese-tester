@@ -1,4 +1,9 @@
 [
+  {
+		"character": ["零","〇"],
+	 	"pinyin": "li2ng",
+	 	"meaning": ["zero"]
+	},
 	{
 		"character": ["一"],
 	 	"pinyin": "yi1",

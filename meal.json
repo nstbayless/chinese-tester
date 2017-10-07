@@ -1,0 +1,17 @@
+[
+  {
+	  "character": ["吃"],
+   	"pinyin": "chi1",
+   	"meaning": ["to eat"]
+  },
+  {
+	  "character": ["饭"],
+   	"pinyin": "fa4n",
+   	"meaning": ["meal","(cooked) rice)"]
+  },
+	{
+		"character": ["菜"],
+	 	"pinyin": "ca4i",
+	 	"meaning": ["dishes","cuisine"]
+	}
+]

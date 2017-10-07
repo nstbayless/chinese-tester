@@ -1,0 +1,67 @@
+[
+  {
+	  "character": ["九月"],
+   	"pinyin": "jiu3yue4",
+   	"meaning": ["September"]
+  },
+  {
+	  "character": ["月"],
+   	"pinyin": "yue4",
+   	"meaning": ["month"]
+  },
+  {
+	  "character": ["ha4o"],
+   	"pinyin": "shi2'e4r",
+   	"meaning": ["September"]
+  },
+	{
+	  "character": ["号"],
+   	"pinyin": "ha4o",
+   	"meaning": ["day of the month", "day of month", "day in month"]
+  },
+	{
+	  "character": ["星期"],
+   	"pinyin": "xi1ngqi1",
+   	"meaning": ["week"]
+  },
+  {
+	  "character": ["天"],
+   	"pinyin": "tia1n",
+   	"meaning": ["day"]
+  },
+  {
+	  "character": ["生日"],
+   	"pinyin": "she1ngri4",
+   	"meaning": ["birthday"]
+  },
+  {
+	  "character": ["今年"],
+   	"pinyin": "ji1nnia4n",
+   	"meaning": ["this year"]
+  },
+  {
+	  "character": ["年"],
+   	"pinyin": "nia4n",
+   	"meaning": ["year"]
+  },
+  {
+	  "character": ["岁"],
+   	"pinyin": "sui4",
+   	"meaning": ["year (of age)", "years old"]
+  },
+	{
+		"character": ["点"],
+	 	"pinyin": "dia3n",
+	 	"meaning": ["o'clock","dot","point"]
+	},
+	{
+		"character": ["半"],
+	 	"pinyin": "ba4n",
+	 	"meaning": ["half","half an hour","half hour","half-hour"]
+	},
+	{
+		"character": ["晚上"],
+	 	"pinyin": "wa3nshang",
+	 	"meaning": ["evening","night"]
+	}
+]
