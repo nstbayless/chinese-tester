@@ -1,0 +1,77 @@
+[
+	{
+		"character": ["现在"],
+	 	"pinyin": "xia4nza4i",
+	 	"meaning": ["now", "right now", "currently", "presently", "at this moment", "this moment"]
+	},
+  {
+		"character": ["今天"],
+	 	"pinyin": "ji1ntia1n",
+	 	"meaning": ["today"]
+	},
+  {
+		"character": ["明天"],
+	 	"pinyin": "mi2ngtia1n",
+	 	"meaning": ["tomorrow"]
+	},
+  {
+		"character": ["刻"],
+	 	"pinyin": "ke4",
+	 	"meaning": ["quarter", "quarter hour", "quarter of an hour"]
+	},
+  {
+		"character": ["事儿"],
+	 	"pinyin": "shi4er",
+	 	"meaning": ["event","matter","affair"]
+	},
+  {
+		"character": ["事"],
+	 	"pinyin": "shi4",
+	 	"meaning": ["event","matter","affair"]
+	},
+  {
+		"character": ["很"],
+	 	"pinyin": "he3n",
+	 	"meaning": ["very"]
+	},
+  {
+		"character": ["忙"],
+	 	"pinyin": "ma2ng",
+	 	"meaning": ["busy"]
+	},
+  {
+		"character": ["晚饭"],
+	 	"pinyin": "wa3nfa4n",
+	 	"meaning": ["dinner","supper","evening meal"]
+	},
+  {
+		"character": ["为什么"],
+	 	"pinyin": "we4ishe2nme",
+	 	"meaning": ["for what","why"]
+	},
+  {
+		"character": ["为"],
+	 	"pinyin": "we4i",
+	 	"meaning": ["for"]
+	},
+  {
+		"character": ["因为"],
+	 	"pinyin": "yi1nwe4i",
+	 	"meaning": ["because"]
+	},
+  {
+		"character": ["同学"],
+	 	"pinyin": "to2ngxue4",
+	 	"meaning": ["classmate","class-mate","class mate"]
+	},
+  {
+		"character": ["认识"],
+	 	"pinyin": "re4nshi",
+	 	"meaning": ["to be acquainted with", "to recognize", "to know (a person)", "to know (somebody)"]
+	},
+  {
+		"character": ["朋友"],
+	 	"pinyin": "pe2ngyou",
+	 	"meaning": ["friend"]
+	}
+]
