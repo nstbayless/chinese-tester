@@ -44,22 +44,22 @@
   {
     "character": ["频道"],
     "pinyin": "pi2nda4o",
-    "meaning": "channel"
+    "meaning": ["channel"]
   },
   {
     "character": ["来自"],
     "pinyin": "la2izi4",
-    "meaning": "come from"
+    "meaning": ["come from"]
   },
   {
     "character": ["挺"],
     "pinyin": "ti3ng",
-    "meaning": "very"
+    "meaning": ["very"]
   },
   {
     "character": ["西岸"],
     "pinyin": "xi1'a4n",
-    "meaning": "west bank"
+    "meaning": ["west bank"]
   },
   {
     "character": ["時區"],
