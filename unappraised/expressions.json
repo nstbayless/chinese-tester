@@ -1,0 +1,79 @@
+[
+  {
+    "character": ["已经"],
+	 	"pinyin": "yi3ji1ng",
+	 	"meaning": ["already"]
+  },
+  {
+    "character": ["给"],
+	 	"pinyin": "ge3i",
+	 	"meaning": ["give"]
+  },
+  {
+    "character": ["一起"],
+    "pinyin": "yi1qi3",
+    "meaning": ["together"]
+  },
+  {
+    "character": ["加油"],
+    "pinyin": "jia1yo2u",
+    "meaning": ["work hard"]
+  },
+  {
+    "character": ["母语"],
+    "pinyin": "mu3yu3",
+    "meaning": ["native language", "mother tongue", "first language", "mother language"]
+  },
+  {
+    "character": ["不客气"],
+    "pinyin": "bu4 ke4qi4",
+    "english": ["you're welcome", "don't mention it"]
+  },
+  {
+    "character": ["伺服"],
+    "pinyin": "si4fu2",
+    "meaning": ["server", "to serve"],
+    "region": "taiwan"
+  },
+  {
+    "character": ["服务器"],
+    "pinyin": "si4fu2",
+    "meaning": ["server"],
+    "region": "mainland"
+  },
+  {
+    "character": ["频道"],
+    "pinyin": "pi2nda4o",
+    "meaning": "channel"
+  },
+  {
+    "character": ["来自"],
+    "pinyin": "la2izi4",
+    "meaning": "come from"
+  },
+  {
+    "character": ["挺"],
+    "pinyin": "ti3ng",
+    "meaning": "very"
+  },
+  {
+    "character": ["西岸"],
+    "pinyin": "xi1'a4n",
+    "meaning": "west bank"
+  },
+  {
+    "character": ["時區"],
+    "pinyin": "shi2qu1",
+    "meaning": ["time zone", "timezone"]
+  },
+  {
+    "character": ["時差"],
+    "pinyin": "shi2cha1",
+    "meaning": ["time zone difference", "timezone difference", "time difference"]
+  },
+  {
+    "character": ["电脑"],
+    "pinyin": "dia4nna3o",
+    "meaning": ["computer"]
+  }
+]
