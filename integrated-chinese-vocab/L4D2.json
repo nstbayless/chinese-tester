@@ -1,0 +1,42 @@
+[
+	{
+		"character": ["不错"],
+	 	"pinyin": "bu2cuo4",
+	 	"meaning": ["pretty good", "not bad"]
+	},
+  {
+		"character": ["觉得"],
+	 	"pinyin": "jue2de",
+	 	"meaning": ["to think", "to feel"]
+	},
+  {
+		"character": ["有意思"],
+	 	"pinyin": "yo3u yi4si",
+	 	"meaning": ["to be interesting"]
+	},
+  {
+		"character": ["只"],
+	 	"pinyin": "zhi3",
+	 	"meaning": ["only"]
+	},
+  {
+		"character": ["睡觉"],
+	 	"pinyin": "shui4 jia4o",
+	 	"meaning": ["to sleep"]
+	},
+  {
+		"character": ["算了"],
+	 	"pinyin": "sua4n le",
+	 	"meaning": ["nevermind", "forget it", "never mind"]
+	},
+  {
+		"character": ["找"],
+	 	"pinyin": "zha3o",
+	 	"meaning": ["to look for"]
+	},
+  {
+		"character": ["别人"],
+	 	"pinyin": "bie2re2n",
+	 	"meaning": ["other people"]
+	}
+]
