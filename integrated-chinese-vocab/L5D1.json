@@ -1,0 +1,145 @@
+[
+	{
+		"character": ["呀"],
+	 	"pinyin": "ya",
+	 	"meaning": ["(interjectory particle used to soften a question)"],
+    "meaning-accepted": ["ya"]
+	},
+  {
+		"character": ["吧"],
+	 	"pinyin": "ba",
+	 	"meaning": ["(a sentence final particle)"],
+    "meaning-accepted": ["ba"]
+	},
+	{
+		"character": ["进"],
+	 	"pinyin": "ji4n",
+	 	"meaning": ["to enter"]
+	},
+  {
+		"character": ["快"],
+	 	"pinyin": "kua4i",
+	 	"meaning": ["fast","quick","quickly"]
+	},
+  {
+		"character": ["进来"],
+	 	"pinyin": "ji4n lai",
+	 	"meaning": ["to come in"],
+    "meaning-accepted": ["to come enter"]
+	},
+  {
+		"character": ["来"],
+	 	"pinyin": "la2i",
+	 	"meaning": ["to come"]
+	},
+  {
+		"character": ["介绍"],
+	 	"pinyin": "jie4sha4o",
+	 	"meaning": ["to introduce"]
+	},
+  {
+		"character": ["一下"],
+	 	"pinyin": "yi2 xia4",
+	 	"meaning": ["once", "a bit"]
+	},
+  {
+		"character": ["高兴"],
+	 	"pinyin": "ga1oxi4ng",
+	 	"meaning": ["happy","pleased"]
+	},
+  {
+		"character": ["漂亮"],
+	 	"pinyin": "pia4oliang",
+	 	"meaning": ["pretty"],
+    "meaning-accepted": ["beautiful"]
+	},
+  {
+		"character": ["坐"],
+	 	"pinyin": "zuo4",
+	 	"meaning": ["to sit"]
+	},
+  {
+		"character": ["在"],
+	 	"pinyin": "za4i",
+	 	"meaning": ["at","in","on"]
+	},
+  {
+		"character": ["哪儿"],
+	 	"pinyin": "na3'er",
+	 	"meaning": ["where"]
+	},
+  {
+		"character": ["学校"],
+	 	"pinyin": "xue2xia4o",
+	 	"meaning": ["school"]
+	},
+  {
+		"character": ["喝"],
+	 	"pinyin": "he1",
+	 	"meaning": ["to drink"]
+	},
+  {
+		"character": ["点儿"],
+	 	"pinyin": "dia3n'er",
+	 	"meaning": ["a little", "a bit", "some"]
+	},
+  {
+		"character": ["茶"],
+	 	"pinyin": "cha2",
+	 	"meaning": ["tea"]
+	},
+  {
+		"character": ["咖啡"],
+	 	"pinyin": "ka1fe1i",
+	 	"meaning": ["coffee"]
+	},
+  {
+		"character": ["要"],
+	 	"pinyin": "ya4o",
+	 	"meaning": ["to want", "to want to"]
+	},
+  {
+		"character": ["瓶"],
+	 	"pinyin": "pi2ng",
+	 	"meaning": ["(measure word for bottles)", "bottle","a bottle of"],
+    "meaning-accepted": ["mw: bottles", "mw: bottle"]
+	},
+  {
+		"character": ["可乐"],
+	 	"pinyin": "ke3le4",
+	 	"meaning": ["cola"],
+    "meaning-accepted": ["Coke","Pepsi","Coca-cola","Pepsi cola"]
+	},
+  {
+		"character": ["可以"],
+	 	"pinyin": "ke3yi3",
+	 	"meaning": ["can","may"]
+	},
+  {
+		"character": ["对不起"],
+	 	"pinyin": "dui4buqi3",
+	 	"meaning": ["sorry"]
+	},
+  {
+		"character": ["给"],
+	 	"pinyin": "ge3i",
+	 	"meaning": ["to give"]
+	},
+  {
+		"character": ["杯"],
+	 	"pinyin": "be1i",
+	 	"meaning": ["(measure word for cup)", "(measure word for glass)", "(measure word for cup or glass)", "(measure word for cup and glass)", "a cup of", "a glass of", "a cup or glass of", "a glass or cup of"],
+    "meaning-accepted": ["mw: glass", "mw: cup", "mw: glass or cup", "mw: cup or glass", "mw: cup/glass", "mw: glass/cup"]
+	},
+  {
+		"character": ["水"],
+	 	"pinyin": "shui3",
+	 	"meaning": ["water"]
+	},
+  {
+		"character": ["高消音"],
+	 	"pinyin": "Ga1o Xia3oyi1n",
+	 	"meaning": ["Gao Xiaoyin"],
+    "meaning-accepted": ["name"]
+	}
+]

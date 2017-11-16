@@ -100,8 +100,11 @@ def pretty_pinyin(pinyin):
   
 def standard_meaning(m):
   m = m.lower()
+  m = m.strip()
   if (m.startswith("to ")):
     m = m[3:]
+  if (m.startswith("a ")):
+    m = m[2:]
   if (m.endswith("...")):
     m = m[:-3]
   return m
@@ -198,7 +201,8 @@ def pinyin_to_meaning(v,vocab):
   in_meaning = input("M > ")
   check_quit(in_meaning)
   
-  if standard_meaning(in_meaning) in map(standard_meaning, v["meaning"]):
+  if standard_meaning(in_meaning) in map(standard_meaning, v["meaning"]) or \
+      standard_meaning(in_meaning) in map(standard_meaning, v["meaning-accepted"]):
     print("Correct!")
     return 1
   if len(v["meaning"]) == 1:
@@ -234,7 +238,8 @@ def character_to_meaning(v, vocab):
   in_meaning = input("M > ")
   check_quit(in_meaning)
   
-  if standard_meaning(in_meaning) in map(standard_meaning, v["meaning"]):
+  if standard_meaning(in_meaning) in map(standard_meaning, v["meaning"]) \
+    or standard_meaning(in_meaning) in map(standard_meaning, v["meaning-accepted"]):
     print("Correct!")
     return 1
   if len(v["meaning"]) == 1:
@@ -341,6 +346,12 @@ for f in args.file:
   #with open(fa, "r+") as f:
     vocab.extend(json.loads(f.read()))
 
+for v in vocab:
+  v.setdefault("character",[])
+  v.setdefault("pinyin","")
+  v.setdefault("meaning",[])
+  v.setdefault("meaning-accepted",[])
+    
 if len(methods) <= 0:
   print("Need at least one quizzing method (try --text for all non-audio methods)")
   sys.exit(-1)
