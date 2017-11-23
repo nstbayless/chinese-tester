@@ -1,0 +1,37 @@
+[
+	{
+		"character": ["完"],
+	 	"pinyin": "wa2n",
+	 	"meaning": ["to have fun", "to play"]
+	},
+	{
+		"character": ["了"],
+	 	"pinyin": "le",
+	 	"meaning": ["(a dynamic particle)"]
+	},
+	{
+		"character": ["图书馆"],
+	 	"pinyin": "tu2shu1gua3n",
+	 	"meaning": ["library"]
+	},
+	{
+		"character": ["一起"],
+	 	"pinyin": "yi4qi3",
+	 	"meaning": ["together"]
+	},
+	{
+		"character": ["聊天"],
+	 	"pinyin": "lia2o tia1n",
+	 	"meaning": ["to chat"]
+	},
+	{
+		"character": ["才"],
+	 	"pinyin": "ca2i",
+	 	"meaning": ["not until", "only then"]
+	},
+	{
+		"character": ["回家"],
+	 	"pinyin": "hui2 jia1",
+	 	"meaning": ["to go home"]
+	}
+]
