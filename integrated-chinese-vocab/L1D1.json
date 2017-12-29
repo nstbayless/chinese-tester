@@ -1,0 +1,64 @@
+[
+	{
+		"character": ["你"],
+	 	"pinyin": "ni3",
+	 	"meaning": ["you"]
+	},
+  {
+    "character": ["好"],
+	 	"pinyin": "ha3o",
+	 	"meaning": ["good"]
+  },
+  {
+    "character": ["请"],
+	 	"pinyin": "qi3ng",
+	 	"meaning": ["please", "to invite", "to treat"]
+  },
+  {
+    "character": ["文"],
+	 	"pinyin": "we2n",
+	 	"meaning": ["to ask"]
+  },
+  {
+    "character": ["姓"],
+	 	"pinyin": "xi4ng",
+	 	"meaning": ["to be surnamed", "to have the surname", "surname"]
+  },
+  {
+    "character": ["我"],
+	 	"pinyin": "wo3",
+	 	"meaning": ["I", "me"]
+  },
+  {
+    "character": ["呢"],
+	 	"pinyin": "ne",
+	 	"meaning": ["(question particle) what about..?"],
+    "meaning-accepted": ["ne"]
+  },
+  {
+    "character": ["小姐"],
+	 	"pinyin": "xia3ojie3",
+	 	"meaning": ["Miss", "Ms.", "young lady"]
+  },
+  {
+    "character": ["叫"],
+	 	"pinyin": "jia4o",
+	 	"meaning": ["to be called", "to call"]
+  },
+  {
+    "character": ["什么"],
+	 	"pinyin": "she2nme",
+	 	"meaning": ["what"]
+  },
+  {
+    "character": ["名字"],
+	 	"pinyin": "mi2ngzi",
+	 	"meaning": ["name"]
+  },
+  {
+    "character": ["先生"],
+	 	"pinyin": "xia1nsheng",
+	 	"meaning": ["Mr.", "Mister", "husband"],
+    "meaning-accepted": ["teacher"]
+  }
+]

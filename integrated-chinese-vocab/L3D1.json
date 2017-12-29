@@ -1,0 +1,153 @@
+[
+	{
+		"character": ["九月"],
+	 	"pinyin": "jiu3yue4",
+	 	"meaning": ["September"]
+	},
+  {
+		"character": ["月"],
+	 	"pinyin": "yue4",
+	 	"meaning": ["month"]
+	},
+  {
+		"character": ["十二"],
+	 	"pinyin": "shi2e4r",
+	 	"meaning": ["twelve"]
+	},
+  {
+		"character": ["号"],
+	 	"pinyin": "ha4o",
+	 	"meaning": ["day of the month"]
+	},
+  {
+		"character": ["星期"],
+	 	"pinyin": "xi1ngqi1",
+	 	"meaning": ["week"]
+	},
+  {
+		"character": ["天"],
+	 	"pinyin": "tia1n",
+	 	"meaning": ["day"],
+    "meaning-accepted": ["sky"]
+	},
+  {
+		"character": ["生日"],
+	 	"pinyin": "she1ngri4",
+	 	"meaning": ["birthday"]
+	},
+  {
+		"character": ["日"],
+	 	"pinyin": "ri4",
+	 	"meaning": ["day", "sun"]
+	},
+  {
+		"character": ["今年"],
+	 	"pinyin": "ji1nnia2n",
+	 	"meaning": ["this year"]
+	},
+  {
+		"character": ["年"],
+	 	"pinyin": "nia2n",
+	 	"meaning": ["year"]
+	},
+  {
+		"character": ["多"],
+	 	"pinyin": "duo1",
+	 	"meaning": ["how many", "how much", "to what extent", "many"]
+	},
+  {
+		"character": ["大"],
+	 	"pinyin": "da4",
+	 	"meaning": ["big", "large", "old"]
+	},
+  {
+		"character": ["十八"],
+	 	"pinyin": "shi2ba4",
+	 	"meaning": ["eighteen"]
+	},
+  {
+		"character": ["岁"],
+	 	"pinyin": "sui4",
+	 	"meaning": ["year", "year (old)", "year (of age)"]
+	},
+  {
+		"character": ["吃"],
+	 	"pinyin": "chi1",
+	 	"meaning": ["eat"]
+	},
+  {
+		"character": ["饭"],
+	 	"pinyin": "fa4n",
+	 	"meaning": ["meal", "cooked rice", "(cooked) rice"]
+	},
+  {
+		"character": ["怎么样"],
+	 	"pinyin": "ze3nmeya4ng",
+	 	"meaning": ["Is it O.K.?", "How is that?", "How does that sound?", "Does that sound good?", "Is that alright?", "Is that okay?"]
+	},
+  {
+		"character": ["太...了"],
+	 	"pinyin": "tai...le",
+	 	"meaning": ["too", "extremely"]
+	},
+  {
+		"character": ["谢谢"],
+	 	"pinyin": "xie4xie",
+	 	"meaning": ["to thank", "thanks", "thank you"]
+	},
+  {
+		"character": ["喜欢"],
+	 	"pinyin": "xi3huan",
+	 	"meaning": ["to like"]
+	},
+  {
+		"character": ["菜"],
+	 	"pinyin": "ca4i",
+	 	"meaning": ["dishes", "cuisine", "dish"]
+	},
+  {
+		"character": ["还是"],
+	 	"pinyin": "ha2ishi",
+	 	"meaning": ["or"]
+	},
+  {
+		"character": ["可是"],
+	 	"pinyin": "ke3shi4",
+	 	"meaning": ["but"]
+	},
+  {
+		"character": ["我们"],
+	 	"pinyin": "wo3men",
+	 	"meaning": ["we"]
+	},
+  {
+		"character": ["点"],
+	 	"pinyin": "dia3n",
+	 	"meaning": ["o'clock", "dot", "point", "points"]
+	},
+  {
+		"character": ["半"],
+	 	"pinyin": "ba4n",
+	 	"meaning": ["half", "a half", "half an hour", "a half hour", "half hour"]
+	},
+  {
+		"character": ["晚上"],
+	 	"pinyin": "wa3nshang",
+	 	"meaning": ["evening", "night"]
+	},
+  {
+		"character": ["见"],
+	 	"pinyin": "jia4n",
+	 	"meaning": ["to see"]
+	},
+  {
+		"character": ["再见"],
+	 	"pinyin": "za4ijia4n",
+	 	"meaning": ["to see again", "goodbye", "see you again", "see you later"]
+	},
+  {
+		"character": ["再"],
+	 	"pinyin": "za4i",
+	 	"meaning": ["again"]
+	}
+]

@@ -1,0 +1,73 @@
+[
+	{
+		"character": ["家"],
+	 	"pinyin": "jia1",
+	 	"meaning": ["family"]
+	},
+  {
+		"character": ["几"],
+	 	"pinyin": "ji3",
+	 	"meaning": ["how many", "what number"],
+    "meaning-accepted": ["some", "a few"]
+	},
+  {
+		"character": ["口"],
+	 	"pinyin": "ko3u",
+	 	"meaning": ["(measure word for number of family members)"]
+	},
+  {
+		"character": ["两"],
+	 	"pinyin": "lia3ng",
+	 	"meaning": ["two", "a couple of"]
+	},
+  {
+		"character": ["妹妹"],
+	 	"pinyin": "me4imei",
+	 	"meaning": ["little sister"]
+	},
+  {
+		"character": ["大姐"],
+	 	"pinyin": "da4jie3",
+	 	"meaning": ["eldest sister", "oldest sister"]
+	},
+  {
+		"character": ["做"],
+	 	"pinyin": "zuo4",
+	 	"meaning": ["to do"]
+	},
+  {
+		"character": ["工作"],
+	 	"pinyin": "go1ngzuo4",
+	 	"meaning": ["to work", "work", "job"]
+	},
+  {
+		"character": ["律师"],
+	 	"pinyin": "lv4shi1",
+	 	"meaning": ["lawyer"]
+	},
+  {
+		"character": ["英文"],
+	 	"pinyin": "Yi1ngwe4n",
+	 	"meaning": ["English", "English (language)", "English language"]
+	},
+  {
+		"character": ["都"],
+	 	"pinyin": "do1u",
+	 	"meaning": ["both", "all"]
+	},
+  {
+		"character": ["大学生"],
+	 	"pinyin": "da4xue2she1ng",
+	 	"meaning": ["college student", "university student"]
+	},
+  {
+		"character": ["大学"],
+	 	"pinyin": "da4xue2",
+	 	"meaning": ["college", "university"]
+	},
+  {
+		"character": ["医生"],
+	 	"pinyin": "yi1she1ng",
+	 	"meaning": ["doctor", "physician"]
+	}
+]

@@ -1,0 +1,54 @@
+[
+	{
+		"character": ["是"],
+	 	"pinyin": "shi4",
+	 	"meaning": ["to be", "is"],
+    "meaning-accepted": ["am", "are"]
+	},
+  {
+    "character": ["老师"],
+	 	"pinyin": "la3oshi1",
+	 	"meaning": ["teacher"]
+  },
+  {
+    "character": ["吗"],
+	 	"pinyin": "ma",
+	 	"meaning": ["(question particle)"],
+    "meaning-accepted": "ma"
+  },
+  {
+    "character": ["不"],
+	 	"pinyin": "bu4",
+	 	"meaning": ["not"]
+  },
+  {
+    "character": ["也"],
+	 	"pinyin": "ye3",
+	 	"meaning": ["also", "as well", "too"]
+  },
+  {
+    "character": ["人"],
+	 	"pinyin": "re2n",
+	 	"meaning": ["person"]
+  },
+  {
+    "character": ["中国"],
+	 	"pinyin": "Zho1ngguo2",
+	 	"meaning": ["China"]
+  },
+  {
+    "character": ["北京"],
+	 	"pinyin": "Be3iji1ng",
+	 	"meaning": ["Beijing"]
+  },
+  {
+    "character": ["美国"],
+	 	"pinyin": "Me3iguo2",
+	 	"meaning": ["America"]
+  },
+  {
+    "character": ["纽约"],
+	 	"pinyin": "Niu3yue1",
+	 	"meaning": ["teacher"]
+  }
+]

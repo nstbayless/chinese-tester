@@ -1,0 +1,94 @@
+[
+	{
+		"character": ["吗"],
+	 	"pinyin": "na4",
+	 	"meaning": ["that"]
+	},
+  {
+    "character": ["的"],
+	 	"pinyin": "de",
+	 	"meaning": ["'s", "(possessive)"],
+    "meaning-accepted": ["de"]
+  },
+  {
+    "character": ["照片"],
+	 	"pinyin": "zha4opia4n",
+	 	"meaning": ["photo", "photograph"]
+  },
+  {
+    "character": ["这"],
+	 	"pinyin": "zhe4",
+	 	"meaning": ["this"]
+  },
+  {
+    "character": ["爸爸"],
+	 	"pinyin": "ba4ba",
+	 	"meaning": ["father", "dad"]
+  },
+  {
+    "character": ["妈妈"],
+	 	"pinyin": "ma1ma",
+	 	"meaning": ["mom", "mother"]
+  },
+  {
+    "character": ["女"],
+	 	"pinyin": "nv3",
+	 	"meaning": ["female"]
+  },
+  {
+    "character": ["孩子"],
+	 	"pinyin": "ha2izi",
+	 	"meaning": ["child"]
+  },
+  {
+    "character": ["谁"],
+	 	"pinyin": "she2i",
+	 	"meaning": ["who"]
+  },
+  {
+    "character": ["她"],
+	 	"pinyin": "ta1",
+	 	"meaning": ["she", "her"]
+  },
+  {
+    "character": ["姐姐"],
+	 	"pinyin": "jie3jie",
+	 	"meaning": ["older sister", "big sister"]
+  },
+  {
+    "character": ["男"],
+	 	"pinyin": "na2n",
+	 	"meaning": ["male"]
+  },
+  {
+    "character": ["大哥"],
+	 	"pinyin": "da4ge1",
+	 	"meaning": ["eldest brother", "oldest brother"]
+  },
+  {
+    "character": ["儿子"],
+	 	"pinyin": "e2rzi",
+	 	"meaning": ["son"]
+  },
+  {
+    "character": ["有"],
+	 	"pinyin": "yo3u",
+	 	"meaning": ["to have", "has", "to exist"]
+  },
+  {
+    "character": ["女儿"],
+	 	"pinyin": "nv3'e2r",
+	 	"meaning": ["女儿"]
+  },
+  {
+    "character": ["老师"],
+	 	"pinyin": "la3oshi1",
+	 	"meaning": ["teacher"]
+  },
+  {
+    "character": ["没"],
+	 	"pinyin": "me2i",
+	 	"meaning": ["not"],
+    "meaning-accepted": ["didn't", "did not"]
+  }
+]
