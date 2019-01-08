@@ -1,0 +1,79 @@
+[
+    {
+		"character": ["咖啡色"],
+	 	"pinyin": "ka1fe1ise4",
+	 	"meaning": ["brown", "coffee-coloured", "coffee-colored", "coffee coloured", "coffee colored", "coffee color", "coffee colour", "coffee-color", "coffee-colour"]	
+	},
+    {
+		"character": ["金色"],
+	 	"pinyin": "ji1nse4",
+	 	"meaning": ["gold-coloured", "gold (colour)", "gold-colored", "gold (color)", "golden", "blond", "blonde"],
+        "meaning-accepted": ["gold"]	
+	},
+    {
+		"character": ["银色"],
+	 	"pinyin": "yi2nse4",
+	 	"meaning": ["silver (colour)", "silver (color)"],
+        "meaning-accepted": ["silver", "silvery"]	
+	},
+    {
+		"character": ["彩色"],
+	 	"pinyin": "ca3ise4",
+	 	"meaning": ["multi-color", "multicolour", "multicolor", "multi-colour", "multicoloured", "multicolored", "multi-colored", "multi-coloured"]
+	},
+    {
+		"character": ["米色"],
+	 	"pinyin": "mi3se4",
+	 	"meaning": ["beige"]
+	},
+    {
+		"character": ["无色"],
+	 	"pinyin": "wu2se4",
+	 	"meaning": ["colourless", "colorless", "uncoloured", "uncolored"]
+	},
+    {
+		"character": ["透明"],
+	 	"pinyin": "to4umi2ng",
+	 	"meaning": ["transparent"],
+        "meaning-accepted": ["clear"]
+	},
+    {
+		"character": ["冷色"],
+	 	"pinyin": "le3ngse4",
+	 	"meaning": ["cool-coloured", "cool-colored", "cool (color)", "cool (colour)"],
+        "meaning-accepted": ["cool"]
+	},
+    {
+		"character": ["暖色"],
+	 	"pinyin": "nua3nse4",
+	 	"meaning": ["warm-coloured", "warm-colored", "warm (color)", "warm (colour)"],
+        "meaning-accepted": ["warm"]
+	},
+    {
+		"character": ["深色"],
+	 	"pinyin": "she1nse4",
+	 	"meaning": ["dark colours", "dark colors", "dark-colored", "dark-coloured", "dark coloured", "dark colored"],
+        "meaning-accepted": ["dark"]
+	},
+    {
+		"character": ["浅色"],
+	 	"pinyin": "qia3nse4",
+	 	"meaning": ["light colours", "light colors", "light-colored", "light-coloured", "light coloured", "light colored"],
+        "meaning-accepted": ["light"]
+	},
+    {
+		"character": ["浅蓝色"],
+	 	"pinyin": "qia3nla2nse4",
+	 	"meaning": ["light blue", "bright blue"]	
+	},
+    {
+		"character": ["深蓝色"],
+	 	"pinyin": "she1nla2nse4",
+	 	"meaning": ["dark blue", "deep blue"]	
+	}
+    {
+		"character": ["蓝紫色"],
+	 	"pinyin": "la2nzi3se4",
+	 	"meaning": ["blueish purple"],
+	}
+]
