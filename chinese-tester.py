@@ -7,6 +7,7 @@ import argparse
 import os
 import numpy as np
 import unicodedata
+import time
 
 audio_enabled = True
 try:
@@ -248,6 +249,21 @@ def character_to_meaning(v, vocab):
     print("Incorrect. The meanings for " + character + " are " + ", ".join(v["meaning"]))
   return 0
 
+def list_vocab(vocab):
+  random.shuffle(vocab)
+  for v in vocab:
+    sys.stdout.write(pretty_pinyin(v["pinyin"]))
+    sys.stdout.flush()
+    time.sleep(1)
+    sys.stdout.write(" " +random.choice(v["character"]))
+    sys.stdout.flush()
+    time.sleep(1)
+    sys.stdout.write(" " +random.choice(v["meaning"]))
+    sys.stdout.flush()
+    time.sleep(2)
+    print("")
+  
+
 def main (vocab,methods, retest):
   maxscore = 0
   score = 0
@@ -292,6 +308,7 @@ parser.add_argument('--characters',action = 'store_true')
 parser.add_argument('--all',action = 'store_true')
 parser.add_argument('--text',action = 'store_true')
 parser.add_argument('--pinyin',action = 'store_true')
+parser.add_argument('--list',action = 'store_true')
 parser.add_argument('-msc',action = 'store_true')
 parser.add_argument('-mp',action = 'store_true')
 parser.add_argument('-pm',action = 'store_true')
@@ -351,13 +368,17 @@ for v in vocab:
   v.setdefault("pinyin","")
   v.setdefault("meaning",[])
   v.setdefault("meaning-accepted",[])
-    
-if len(methods) <= 0:
-  print("Need at least one quizzing method (try --text for all non-audio methods)")
-  sys.exit(-1)
   
 if len(vocab) <= 0:
   print("Need at least one vocab word")
   sys.exit(-2)
+  
+if args.list:
+    list_vocab(vocab)
+    sys.exit(0)
 
+if len(methods) <= 0:
+  print("Need at least one quizzing method (try --text for all non-audio methods)")
+  sys.exit(-1)
+  
 main(vocab, methods, args.retest_failure)
