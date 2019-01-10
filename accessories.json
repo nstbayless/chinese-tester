@@ -6,7 +6,7 @@
 	},
 	{
 		"character": ["戒指"],
-	 	"pinyin": "ji4ezhi3",
+	 	"pinyin": "jie4zhi3",
 	 	"meaning": ["ring"]
 	},
 	{
@@ -38,6 +38,11 @@
     {
 		"character": ["口袋"],
 	 	"pinyin": "ko4uda4i",
-	 	"meaning": ["pocket"]	
+	 	"meaning": ["pocket", "pockets"]	
+	},
+    {
+		"character": ["围巾"],
+	 	"pinyin": "we2iji1n",
+	 	"meaning": ["scarf"]	
 	}
 ]
