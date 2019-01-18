@@ -192,6 +192,7 @@ def meaning_to_pinyin(v,vocab):
     if convert_pinyin(v2["pinyin"]) == convert_pinyin(in_pinyin):
       if standard_meaning(my_meaning) in map(standard_meaning, v2["meaning"]):
         print ("Correct, although I had intended the pinyin " + pretty_pinyin(v["pinyin"]) + ".")
+        return 1
   print("Incorrect. A correct answer would have been " + pretty_pinyin(v["pinyin"]))
   return 0
 
