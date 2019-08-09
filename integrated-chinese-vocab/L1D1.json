@@ -2,12 +2,15 @@
 	{
 		"character": ["你"],
 	 	"pinyin": "ni3",
-	 	"meaning": ["you"]
+	 	"meaning": ["you"],
+        "type": "pronoun",
+        "hint": "person"
 	},
   {
     "character": ["好"],
 	 	"pinyin": "ha3o",
-	 	"meaning": ["good"]
+	 	"meaning": ["good"],
+        "type": "adj"
   },
   {
     "character": ["请"],
@@ -15,19 +18,34 @@
 	 	"meaning": ["please", "to invite", "to treat"]
   },
   {
-    "character": ["文"],
-	 	"pinyin": "we2n",
-	 	"meaning": ["to ask"]
+    "character": ["问"],
+	 	"pinyin": "we4n",
+	 	"meaning": ["to ask"],
+        "type": "verb:d:i:id:iq",
+        "hint":
+        {
+            "s": "person",
+            "i": "person",
+            "d": "question"
+        }
   },
   {
     "character": ["姓"],
 	 	"pinyin": "xi4ng",
-	 	"meaning": ["to be surnamed", "to have the surname", "surname"]
+	 	"meaning": ["to be surnamed", "to have the surname", "surname"],
+        "type": "verb:d",
+        "hint":
+        {
+            "s": "person",
+            "d": "surname"
+        }
   },
   {
     "character": ["我"],
 	 	"pinyin": "wo3",
-	 	"meaning": ["I", "me"]
+	 	"meaning": ["I", "me"],
+        "type": "pronoun",
+        "hint": "person"
   },
   {
     "character": ["呢"],
@@ -43,7 +61,13 @@
   {
     "character": ["叫"],
 	 	"pinyin": "jia4o",
-	 	"meaning": ["to be called", "to call"]
+	 	"meaning": ["to be called", "to call"],
+        "type": "verb:d",
+        "hint":
+        {
+            "s": "person",
+            "d": "forename"
+        }
   },
   {
     "character": ["什么"],
@@ -53,7 +77,8 @@
   {
     "character": ["名字"],
 	 	"pinyin": "mi2ngzi",
-	 	"meaning": ["name"]
+	 	"meaning": ["name"],
+        "type": "noun"
   },
   {
     "character": ["先生"],

@@ -7,6 +7,7 @@ import argparse
 import os
 import numpy as np
 import unicodedata
+from src import generate
 
 audio_enabled = True
 try:
@@ -52,7 +53,7 @@ def xpinyin_test():
   if not xpin_enabled:
     print("xpinyin library needs to be installed.")
     return -1
-  
+
   print("Testing arbitrary audio-to-pinyin comprehension.")
   print_pinyin_help()
   print("Quiz begins now.")
@@ -73,7 +74,7 @@ def xpinyin_test():
 
 class QuitException(Exception):
   pass
-  
+
 class MissingDataException(Exception):
   pass
 
@@ -84,7 +85,7 @@ def check_quit(s):
 def convert_pinyin(pinyin):
   # converts pinyin to standardized form
   pinyin = pinyin.replace("0","")
-  
+
   return pinyin.lower();
 
 def pretty_pinyin(pinyin):
@@ -97,7 +98,7 @@ def pretty_pinyin(pinyin):
     .replace("V",u'U\u0308') \
     .replace("5","")
   return pinyin
-  
+
 def standard_meaning(m):
   m = m.lower()
   m = m.strip()
@@ -114,7 +115,7 @@ def play_audio(character):
   gtts.save("/tmp/tts.mp3")
   playsound("/tmp/tts.mp3")
   os.remove("/tmp/tts.mp3")
-  
+
 def audio_to_pinyin(v, vocab):
   if not audio_enabled:
     print("gTTS and playsound needed to perform audio-to-pinyin quizzing.")
@@ -122,7 +123,7 @@ def audio_to_pinyin(v, vocab):
   if len(v["character"]) == 0:
     raise MissingDataException("no character")
   print("Please listen to the following audio.")
-  
+
   while True:
     play_audio(random.choice(v["character"]))
     print('type "P" to play again.')
@@ -131,8 +132,8 @@ def audio_to_pinyin(v, vocab):
       continue
     check_quit(in_pinyin)
     print(pretty_pinyin(in_pinyin))
-    
-    
+
+
     if convert_pinyin(v["pinyin"]) == convert_pinyin(in_pinyin):
       print("Correct!")
       return 1
@@ -151,7 +152,7 @@ def meaning_select_character(v,vocab):
       vlist.append(v2)
 
   random.shuffle(vlist)
-  
+
   print("Which of the following characters means \"" + my_meaning + "\"?")
   print("")
   for i,v2 in enumerate(vlist):
@@ -174,7 +175,7 @@ def meaning_select_character(v,vocab):
       return 0
     except ValueError:
       continue
-  
+
 
 def meaning_to_pinyin(v,vocab):
   print("Please type the pinyin for a Mandarin word meaning the following:")
@@ -182,7 +183,7 @@ def meaning_to_pinyin(v,vocab):
   print(my_meaning)
   in_pinyin = input("P > ")
   print(pretty_pinyin(in_pinyin))
-  
+
   check_quit(in_pinyin)
   if convert_pinyin(in_pinyin) == convert_pinyin(v["pinyin"]):
     print("Correct!")
@@ -200,7 +201,7 @@ def pinyin_to_meaning(v,vocab):
   print(pretty_pinyin(v["pinyin"]))
   in_meaning = input("M > ")
   check_quit(in_meaning)
-  
+
   if standard_meaning(in_meaning) in map(standard_meaning, v["meaning"]) or \
       standard_meaning(in_meaning) in map(standard_meaning, v["meaning-accepted"]):
     print("Correct!")
@@ -210,34 +211,34 @@ def pinyin_to_meaning(v,vocab):
   else:
     print("Incorrect. The correct meanings are " + ", ".join(v["meaning"]))
   return 0
-  
+
 def character_to_pinyin(v, vocab):
   if len(v["character"]) == 0:
     raise MissingDataException("no character")
   print("Please type the pinyin for the following character:")
   character = random.choice(v["character"])
   print(character)
-  
+
   in_pinyin = input("P > ")
   check_quit(in_pinyin)
   print(pretty_pinyin(in_pinyin))
-  
+
   if convert_pinyin(in_pinyin) == convert_pinyin(v["pinyin"]):
     print("Correct!")
     return 1
   print("Incorrect. The pinyin for " + character + " is " + pretty_pinyin(v["pinyin"]) + ".")
   return 0
-  
+
 def character_to_meaning(v, vocab):
   if len(v["character"]) == 0:
     raise MissingDataException("no character")
   print("Please type the meaning for the following character:")
   character = random.choice(v["character"])
   print(character)
-  
+
   in_meaning = input("M > ")
   check_quit(in_meaning)
-  
+
   if standard_meaning(in_meaning) in map(standard_meaning, v["meaning"]) \
     or standard_meaning(in_meaning) in map(standard_meaning, v["meaning-accepted"]):
     print("Correct!")
@@ -248,7 +249,7 @@ def character_to_meaning(v, vocab):
     print("Incorrect. The meanings for " + character + " are " + ", ".join(v["meaning"]))
   return 0
 
-def main (vocab,methods, retest):
+def quiz (vocab,methods, retest):
   maxscore = 0
   score = 0
   random.shuffle(vocab)
@@ -282,7 +283,7 @@ def main (vocab,methods, retest):
   print("You're done! Score was " + str(score) + "/" + str(maxscore))
   if maxscore > 0:
     print("(That's " + '{0:.1f}'.format(float(score)/maxscore * 100.0) + "%)")
-  
+
 vocab = []
 methods = []
 
@@ -300,6 +301,7 @@ parser.add_argument('-cp',action = 'store_true')
 parser.add_argument('-ap',action = 'store_true')
 parser.add_argument('-axp',action = 'store_true')
 parser.add_argument('--retest-failure',action = 'store_true')
+parser.add_argument('--generate-sentences',action = 'store_true')
 
 args = parser.parse_args()
 
@@ -316,22 +318,22 @@ if args.characters:
 
 if args.pinyin:
   methods.extend([character_to_pinyin, pinyin_to_meaning, meaning_to_pinyin])
-  
+
 if args.msc:
   methods.append(meaning_select_character)
 
 if args.mp:
   methods.append(meaning_to_pinyin)
-  
+
 if args.pm:
   methods.append(pinyin_to_meaning)
-  
+
 if args.cm:
   methods.append(character_to_meaning)
 
 if args.cp:
   methods.append(character_to_pinyin)
-  
+
 if args.ap:
   methods.append(audio_to_pinyin)
 
@@ -344,20 +346,32 @@ methods = list(set(methods))
 
 for f in args.file:
   #with open(fa, "r+") as f:
+  try:
     vocab.extend(json.loads(f.read()))
+  except json.decoder.JSONDecodeError as e:
+    print("\nError in file " + str(f.name))
+    raise e;
+
 
 for v in vocab:
   v.setdefault("character",[])
   v.setdefault("pinyin","")
   v.setdefault("meaning",[])
   v.setdefault("meaning-accepted",[])
-    
+  v.setdefault("type",[])
+  v.setdefault("hint","")
+
+if (args.generate_sentences):
+    print(generate.sentence(vocab))
+    sys.exit(0)
+
 if len(methods) <= 0:
   print("Need at least one quizzing method (try --text for all non-audio methods)")
   sys.exit(-1)
-  
+
 if len(vocab) <= 0:
   print("Need at least one vocab word")
   sys.exit(-2)
 
-main(vocab, methods, args.retest_failure)
+quiz(vocab, methods, args.retest_failure)
+sys.exit(0)

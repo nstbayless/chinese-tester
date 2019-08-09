@@ -2,17 +2,23 @@
 	{
 		"character": ["现在"],
 	 	"pinyin": "xia4nza4i",
-	 	"meaning": ["now", "right now", "currently", "presently", "at this moment", "this moment"]
+	 	"meaning": ["now", "right now", "currently", "presently", "at this moment", "this moment"],
+        "type": "noun",
+        "hint": "time"
 	},
   {
 		"character": ["今天"],
 	 	"pinyin": "ji1ntia1n",
-	 	"meaning": ["today"]
+	 	"meaning": ["today"],
+        "type": "noun",
+        "hint": "time:day"
 	},
   {
 		"character": ["明天"],
 	 	"pinyin": "mi2ngtia1n",
-	 	"meaning": ["tomorrow"]
+	 	"meaning": ["tomorrow"],
+        "type": "noun",
+        "hint": "time:day"
 	},
   {
 		"character": ["刻"],
@@ -22,27 +28,36 @@
   {
 		"character": ["事儿"],
 	 	"pinyin": "shi4er",
-	 	"meaning": ["event","matter","affair"]
+	 	"meaning": ["event","matter","affair"],
+        "type": "noun",
+        "hint": "have"
 	},
   {
 		"character": ["事"],
 	 	"pinyin": "shi4",
-	 	"meaning": ["event","matter","affair"]
+	 	"meaning": ["event","matter","affair"],
+        "type": "noun",
+        "hint": "have"
 	},
   {
 		"character": ["很"],
 	 	"pinyin": "he3n",
-	 	"meaning": ["very"]
+	 	"meaning": ["very"],
+        "type": "adverb:adjonly"
 	},
   {
 		"character": ["忙"],
 	 	"pinyin": "ma2ng",
-	 	"meaning": ["busy"]
+	 	"meaning": ["busy"],
+        "type": "adjective:hen",
+        "hint": "person"
 	},
   {
 		"character": ["晚饭"],
 	 	"pinyin": "wa3nfa4n",
-	 	"meaning": ["dinner","supper","evening meal"]
+	 	"meaning": ["dinner","supper","evening meal"],
+        "type": "noun",
+        "hint": "food"
 	},
   {
 		"character": ["为什么"],
@@ -62,16 +77,25 @@
   {
 		"character": ["同学"],
 	 	"pinyin": "to2ngxue2",
-	 	"meaning": ["classmate","class-mate","class mate"]
+	 	"meaning": ["classmate","class-mate","class mate"],
+        "type": "noun",
+        "hint": "person"
 	},
   {
 		"character": ["认识"],
 	 	"pinyin": "re4nshi",
-	 	"meaning": ["to be acquainted with", "to recognize", "to know (a person)", "to know (somebody)"]
+	 	"meaning": ["to be acquainted with", "to recognize", "to know (a person)", "to know (somebody)"],
+        "type": "verb:o",
+        "hint": {
+			"s": "person",
+            "o": "person"
+        }
 	},
   {
 		"character": ["朋友"],
 	 	"pinyin": "pe2ngyou",
-	 	"meaning": ["friend"]
+	 	"meaning": ["friend"],
+        "type": "noun",
+        "hint": "person"
 	}
 ]
