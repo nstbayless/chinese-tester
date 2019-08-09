@@ -1,0 +1,87 @@
+[
+	{
+		"character": ["衬衫"],
+	 	"pinyin": "che4nsha1n",
+	 	"meaning": ["shirt", "blouse"]
+	},
+	{
+		"character": ["裤子"],
+	 	"pinyin": "ku4zi",
+	 	"meaning": ["trousers", "pants"]
+	},
+	{
+		"character": ["内衣"],
+	 	"pinyin": "ne4iyi1",
+	 	"meaning": ["underwear"]	
+	},
+	{
+		"character": ["裙子"],
+	 	"pinyin": "qu2nzi",
+	 	"meaning": ["skirt"]	
+	},
+    {
+		"character": ["短袜"],
+	 	"pinyin": "dua3nwa4",
+	 	"meaning": ["sock", "socks"]
+	},
+    {
+		"character": ["T恤"],
+	 	"pinyin": "T xu4",
+	 	"meaning": ["T-shirt", "T shirt"]	
+	},
+    {
+		"character": ["连衣裙"],
+	 	"pinyin": "lia2nyi1qu2n",
+	 	"meaning": ["dress"]	
+	},
+    {
+		"character": ["泳衣"],
+	 	"pinyin": "yo3ngyi1",
+	 	"meaning": ["bathing suit"]	
+	},
+    {
+		"character": ["睡衣"],
+	 	"pinyin": "shui4yi1",
+	 	"meaning": ["pajamas"]	
+	},
+    {
+		"character": ["外套"],
+	 	"pinyin": "wa4ita4o",
+	 	"meaning": ["coat"]	
+	},
+    {
+		"character": ["手套"],
+	 	"pinyin": "sho3uta4o",
+	 	"meaning": ["glove", "gloves"]	
+	},
+    {
+		"character": ["帽子"],
+	 	"pinyin": "ma4ozi",
+	 	"meaning": ["hat"]	
+	},
+    {
+		"character": ["鞋"],
+	 	"pinyin": "xie2",
+	 	"meaning": ["shoe", "shoes"]	
+	},
+    {
+		"character": ["靴子"],
+	 	"pinyin": "xue1zi",
+	 	"meaning": ["boot", "boots"]	
+	},
+    {
+		"character": ["雨衣"],
+	 	"pinyin": "yu3yi1",
+	 	"meaning": ["raincoat"]	
+	},
+    {
+      "character": ["制服"],
+      "pinyin": "zhi4fu2",
+      "meaning": ["uniform"]
+    },
+    {
+		"character": ["衣服"],
+	 	"pinyin": "yi1fu2",
+	 	"meaning": ["clothes"]	
+    }
+]

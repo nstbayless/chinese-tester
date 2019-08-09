@@ -1,0 +1,68 @@
+[
+    {
+		"character": ["鸡蛋"],
+	 	"pinyin": "ji1da4n",
+	 	"meaning": ["egg", "eggs"]	
+	},
+	{
+		"character": ["面包"],
+	 	"pinyin": "mia4nba1o",
+	 	"meaning": ["bread"]	
+	},
+	{
+		"character": ["盐"],
+	 	"pinyin": "ya2n",
+	 	"meaning": ["salt"]	
+	},
+	{
+		"character": ["黄油"],
+	 	"pinyin": "hua2ngyo2u",
+	 	"meaning": ["butter"]	
+	},
+	{
+		"character": ["奶酪"],
+	 	"pinyin": "na3ila4o",
+	 	"meaning": ["cheese"]	
+	},
+	{
+		"character": ["肉"],
+	 	"pinyin": "ro4u",
+	 	"meaning": ["meat"]	
+	},
+	{
+		"character": ["牛奶"],
+	 	"pinyin": "niu2na3i",
+	 	"meaning": ["milk"]	
+	},
+	{
+		"character": ["沙拉"],
+	 	"pinyin": "sha1la1",
+	 	"meaning": ["salad"]	
+	},
+	{
+		"character": ["三文治"],
+	 	"pinyin": "sa1nwe2nzhi4",
+	 	"meaning": ["sandwich"]	
+	},
+	{
+		"character": ["炒面"],
+	 	"pinyin": "cha3o mia4n",
+	 	"meaning": ["fried noodles"],
+	 	"meaning-accepted": ["fried noodle"]	
+	},
+	{
+		"character": ["壽司"],
+	 	"pinyin": "sho4usi1",
+	 	"meaning": ["sushi"]	
+	},
+	{
+		"character": ["豆腐"],
+	 	"pinyin": "do4ufu",
+	 	"meaning": ["tofu"]	
+	},
+	{
+		"character": ["面条"],
+	 	"pinyin": "mia4ntia2o",
+	 	"meaning": ["noodle", "noodles"]	
+	}
+]

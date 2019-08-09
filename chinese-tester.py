@@ -8,6 +8,7 @@ import os
 import numpy as np
 import unicodedata
 from src import generate
+import time
 
 audio_enabled = True
 try:
@@ -192,6 +193,7 @@ def meaning_to_pinyin(v,vocab):
     if convert_pinyin(v2["pinyin"]) == convert_pinyin(in_pinyin):
       if standard_meaning(my_meaning) in map(standard_meaning, v2["meaning"]):
         print ("Correct, although I had intended the pinyin " + pretty_pinyin(v["pinyin"]) + ".")
+        return 1
   print("Incorrect. A correct answer would have been " + pretty_pinyin(v["pinyin"]))
   return 0
 
@@ -250,6 +252,21 @@ def character_to_meaning(v, vocab):
   return 0
 
 def quiz (vocab,methods, retest):
+  random.shuffle(vocab)
+  for v in vocab:
+    sys.stdout.write(pretty_pinyin(v["pinyin"]))
+    sys.stdout.flush()
+    time.sleep(1)
+    sys.stdout.write(" " +random.choice(v["character"]))
+    sys.stdout.flush()
+    time.sleep(1)
+    sys.stdout.write(" " +random.choice(v["meaning"]))
+    sys.stdout.flush()
+    time.sleep(2)
+    print("")
+  
+
+def quiz (vocab,methods, retest):
   maxscore = 0
   score = 0
   random.shuffle(vocab)
@@ -293,6 +310,7 @@ parser.add_argument('--characters',action = 'store_true')
 parser.add_argument('--all',action = 'store_true')
 parser.add_argument('--text',action = 'store_true')
 parser.add_argument('--pinyin',action = 'store_true')
+parser.add_argument('--list',action = 'store_true')
 parser.add_argument('-msc',action = 'store_true')
 parser.add_argument('-mp',action = 'store_true')
 parser.add_argument('-pm',action = 'store_true')
@@ -372,6 +390,9 @@ if len(methods) <= 0:
 if len(vocab) <= 0:
   print("Need at least one vocab word")
   sys.exit(-2)
-
+  
+if len(methods) <= 0:
+  print("Need at least one quizzing method (try --text for all non-audio methods)")
+  sys.exit(-1)
+  
 quiz(vocab, methods, args.retest_failure)
-sys.exit(0)

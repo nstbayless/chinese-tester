@@ -1,0 +1,67 @@
+[
+	{
+		"character": ["颜色"],
+	 	"pinyin": "ya2nse4",
+	 	"meaning": ["colour", "color"]
+	},
+	{
+		"character": ["红色"],
+	 	"pinyin": "ho2ngse4",
+	 	"meaning": ["red"]
+	},
+	{
+		"character": ["橙色"],
+	 	"pinyin": "che2ngse4",
+	 	"meaning": ["orange"]
+	},
+	{
+		"character": ["黄色"],
+	 	"pinyin": "hua2ngse4",
+	 	"meaning": ["yellow"]	
+	},
+	{
+		"character": ["绿色"],
+	 	"pinyin": "lv4se4",
+	 	"meaning": ["green"]	
+	},
+    {
+		"character": ["蓝色"],
+	 	"pinyin": "la2nse4",
+	 	"meaning": ["blue"]	
+	},
+    {
+		"character": ["紫色"],
+	 	"pinyin": "zi3se4",
+	 	"meaning": ["purple"]	
+	},
+    {
+		"character": ["粉色"],
+	 	"pinyin": "fe3nse4",
+	 	"meaning": ["pink"]	
+	},
+    {
+		"character": ["粉红色"],
+	 	"pinyin": "fe3nho2ngse4",
+	 	"meaning": ["pink"]	
+	},
+    {
+		"character": ["黑色"],
+	 	"pinyin": "he1ise4",
+	 	"meaning": ["black"]	
+	},
+    {
+		"character": ["白色"],
+	 	"pinyin": "ba2ise4",
+	 	"meaning": ["white"]	
+	},
+    {
+		"character": ["灰色"],
+	 	"pinyin": "hui1se4",
+	 	"meaning": ["grey", "gray"]	
+	},
+    {
+		"character": ["棕色"],
+	 	"pinyin": "zo1ngse4",
+	 	"meaning": ["brown"]	
+	}
+]

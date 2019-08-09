@@ -1,0 +1,168 @@
+[
+	{
+		"character": ["给"],
+	 	"pinyin": "ge3i",
+	 	"meaning": ["to", "for"]
+	},
+  {
+		"character": ["打电话"],
+	 	"pinyin": "da4 dia4nhua4",
+	 	"meaning": ["to phone", "to make a phone call"]
+	},
+  {
+		"character": ["电话"],
+	 	"pinyin": "dia4nhua4",
+	 	"meaning": ["telephone", "phone"]
+	},
+  {
+		"character": ["喂"],
+	 	"pinyin": "we2i",
+    "pinyin-alt": ["we4i"],
+	 	"meaning": ["(greeting on telephone)"],
+    "meaning-accepted": ["hello", "hey", "hi"]
+	},
+  {
+		"character": ["在"],
+	 	"pinyin": "za4i",
+	 	"meaning": ["to be at", "to be present at"]
+	},
+  {
+		"character": ["您"],
+	 	"pinyin": "ni2n", 
+	 	"meaning": ["you (hon)", "you (honourific)", "you (honorific)"]
+	},
+  {
+		"character": ["哪"],
+	 	"pinyin": "na3",
+    "pinyin-alt": ["ne3i"],
+	 	"meaning": ["which"]
+	},
+  {
+		"character": ["下午"],
+	 	"pinyin": "xia4wu3",
+	 	"meaning": ["afternoon"]
+	},
+  {
+		"character": ["时间"],
+	 	"pinyin": "shi2jia1n",
+	 	"meaning": ["time"]
+	},
+  {
+		"character": ["问题"],
+	 	"pinyin": "we4nti2",
+	 	"meaning": ["question","problem"]
+	},
+  {
+		"character": ["要"],
+	 	"pinyin": "ya4o",
+	 	"meaning": ["will", "be going to", "is going to", "to want to", "to have a desire to", "will be"]
+	},
+  {
+		"character": ["开会"],
+	 	"pinyin": "kai1 hui4",
+	 	"meaning": ["to have a meeting", "to hold a meeting"]
+	},
+  {
+		"character": ["开"],
+	 	"pinyin": "ka4i",
+	 	"meaning": ["to open", "to hold (a meeting, party, etc.)"],
+    "meaning-accepted": ["to hold"]
+	},
+  {
+		"character": ["会"],
+	 	"pinyin": "hui4",
+	 	"meaning": ["meeting"]
+	},
+  {
+		"character": ["上午"],
+	 	"pinyin": "sha4ngwu3",
+	 	"meaning": ["morning"]
+	},
+  {
+		"character": ["节"],
+	 	"pinyin": "jie2",
+	 	"meaning": ["(measure word for class periods)"],
+    "meaning-accepted": ["mw: class period", "mw: class periods"]
+	},
+  {
+		"character": ["课"],
+	 	"pinyin": "ke4",
+	 	"meaning": ["class", "course", "lesson"]
+	},
+  {
+		"character": ["年级"],
+	 	"pinyin": "nia2nji2",
+	 	"meaning": ["school grade", "grade in school"],
+    "meaning-accepted": ["grade"]
+	},
+  {
+		"character": ["考试"],
+	 	"pinyin": "ka3o shi4",
+	 	"meaning": ["to give or take a test", "to give a test", "to take a test", "to write a test", "test"]
+	},
+  {
+		"character": ["考"],
+	 	"pinyin": "ka3o",
+	 	"meaning": ["to give a test", "to write a test", "to take a test"]
+	},
+  {
+		"character": ["试"],
+	 	"pinyin": "shi4",
+	 	"meaning": ["test", "to try", "to experiment", "to test"]
+	},
+  {
+		"character": ["以后"],
+	 	"pinyin": "yi3ho4u",
+	 	"meaning": ["after", "from now on", "later on"]
+	},
+  {
+		"character": ["空"],
+	 	"pinyin": "ko4ng",
+	 	"meaning": ["free time"]
+	},
+  {
+		"character": ["空儿"],
+	 	"pinyin": "ko4ngr",
+	 	"meaning": ["free time"]
+	},
+  {
+		"character": ["要是"],
+	 	"pinyin": "ya4oshi",
+	 	"meaning": ["if"]
+	},
+  {
+		"character": ["到"],
+	 	"pinyin": "da4o",
+	 	"meaning": ["to go to", "to arrive"]
+	},
+  {
+		"character": ["办公室"],
+	 	"pinyin": "ba4ngo1ngshi4",
+	 	"meaning": ["office"]
+	},
+  {
+		"character": ["行"],
+	 	"pinyin": "xi2ng",
+	 	"meaning": ["all right", "O.K.", "okay", "ok"]
+	},
+  {
+		"character": ["等"],
+	 	"pinyin": "de3ng",
+	 	"meaning": ["to wait", "to wait for"]
+	},
+  {
+		"character": ["别"],
+	 	"pinyin": "bie2",
+	 	"meaning": ["don't"]
+	},
+  {
+		"character": ["客气"],
+	 	"pinyin": "ke4qi",
+	 	"meaning": ["polite"]
+	},
+  {
+		"character": ["常老师"],
+	 	"pinyin": "Cha2ng la4oshi1",
+	 	"meaning": ["Teacher Chang"]
+	}
+]
