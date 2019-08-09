@@ -1,0 +1,114 @@
+[
+	{
+		"character": ["胳膊"],
+	 	"pinyin": "ge1bo",
+	 	"meaning": ["arm", "arms"]
+	},
+	{
+		"character": ["肚子"],
+	 	"pinyin": "du4zi",
+	 	"meaning": ["belly", "abdomen"]
+	},
+	{
+		"character": ["手肘"],
+	 	"pinyin": "sho3uzho3u",
+	 	"meaning": ["elbow", "elbows"]
+	},
+	{
+		"character": ["脸"],
+	 	"pinyin": "lia3n",
+	 	"meaning": ["face"]
+	},
+	{
+		"character": ["手指"],
+	 	"pinyin": "sho3uzhi3",
+	 	"meaning": ["finger", "fingers"]
+	},
+	{
+		"character": ["脚"],
+	 	"pinyin": "jia3o",
+	 	"meaning": ["foot", "feet"]
+	},
+	{
+		"character": ["头发"],
+	 	"pinyin": "to2ufa",
+	 	"meaning": ["hair (on head)"],
+		"meaning-accepted": ["hair"]
+	},
+	{
+		"character": ["毛"],
+	 	"pinyin": "ma2o",
+	 	"meaning": ["hair (on body)"],
+		"meaning-accepted": ["hair"]
+	},
+	{
+		"character": ["手"],
+	 	"pinyin": "sho3u",
+	 	"meaning": ["hand", "hands"]
+	},
+	{
+		"character": ["头"],
+	 	"pinyin": "to2u",
+	 	"meaning": ["head"]
+	},
+	{
+		"character": ["膝盖"],
+	 	"pinyin": "xi1ga4i",
+	 	"meaning": ["knee", "knees"]
+	},
+	{
+		"character": ["腿"],
+	 	"pinyin": "tui3",
+	 	"meaning": ["leg", "legs"]
+	},
+	{
+		"character": ["肩膀"],
+	 	"pinyin": "jia1nba3ng",
+	 	"meaning": ["shoulder"]
+	},
+	{
+		"character": ["皮肤"],
+	 	"pinyin": "pi2fu1",
+	 	"meaning": ["skin"]
+	},
+	{
+		"character": ["脚趾"],
+	 	"pinyin": "jia3ozhi3",
+	 	"meaning": ["toe", "toes"]
+	},
+	{
+		"character": ["腕"],
+	 	"pinyin": "wa4n",
+	 	"meaning": ["wrist"]
+	},
+	{
+		"character": ["耳"],
+	 	"pinyin": "e3r",
+	 	"meaning": ["ear", "ears"]
+	},
+	{
+		"character": ["鼻子"],
+	 	"pinyin": "bi2zi",
+	 	"meaning": ["nose"]
+	},
+	{
+		"character": ["口"],
+	 	"pinyin": "ko3u",
+	 	"meaning": ["mouth"]
+	},
+	{
+		"character": ["下巴"],
+	 	"pinyin": "xia4ba1",
+	 	"meaning": ["chin"]
+	},
+	{
+		"character": ["眼睛"],
+	 	"pinyin": "ya3nji1ng",
+	 	"meaning": ["eye", "eyes"]
+	},
+	{
+		"character": ["眉"],
+	 	"pinyin": "me2i",
+	 	"meaning": ["eyebrow", "eyebrows"]
+	}
+]

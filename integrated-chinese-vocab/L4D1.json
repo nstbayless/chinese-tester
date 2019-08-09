@@ -2,87 +2,134 @@
 	{
 		"character": ["周末"],
 	 	"pinyin": "zho1umo4",
-	 	"meaning": ["weekend"]
+	 	"meaning": ["weekend"],
+        "type": "noun",
+        "hint": "time:ofweek"
 	},
   {
 		"character": ["打球"],
 	 	"pinyin": "da3qiu2",
-	 	"meaning": ["to play ball"]
+	 	"meaning": ["to play ball"],
+        "type": "verb:s",
+		"hint": {
+			"s": "person"
+		}
 	},
   {
 		"character": ["打"],
 	 	"pinyin": "da3",
-	 	"meaning": ["to hit"]
+	 	"meaning": ["to hit"],
+        "type": "verb:o",
+		"hint": {
+			"s": "person"
+		}
 	},
   {
 		"character": ["球"],
 	 	"pinyin": "qiu2",
-	 	"meaning": ["ball"]
+	 	"meaning": ["ball"],
+        "type": "noun",
+        "hint": "have,hold"
 	},
   {
 		"character": ["看"],
 	 	"pinyin": "ka4n",
-	 	"meaning": ["to watch", "to look", "to read"]
+	 	"meaning": ["to watch", "to look", "to read"],
+        "type": "verb:o",
+        "hint": {
+			"s": "person",
+            "o": "kan"
+        }
 	},
   {
 		"character": ["电视"],
 	 	"pinyin": "dia4nshi4",
-	 	"meaning": ["television"]
+	 	"meaning": ["television"],
+        "type": "noun",
+        "hint": "kan"
 	},
   {
 		"character": ["电"],
 	 	"pinyin": "dia4n",
-	 	"meaning": ["electricity"]
+	 	"meaning": ["electricity"],
+        "type": "noun"
 	},
   {
 		"character": ["视"],
 	 	"pinyin": "shi4",
-	 	"meaning": ["vision"]
+	 	"meaning": ["vision"],
+        "type": "noun"
 	},
   {
 		"character": ["唱歌"],
 	 	"pinyin": "cha4ng ge1",
-	 	"meaning": ["to sing a song"]
+	 	"meaning": ["to sing a song"],
+        "type": "verb:s"
 	},
   {
 		"character": ["唱"],
 	 	"pinyin": "cha4ng",
-	 	"meaning": ["to sing"]
+	 	"meaning": ["to sing"],
+        "type": "verb:o",
+		"hint": {
+			"s": "person"
+		}
 	},
   {
 		"character": ["歌"],
 	 	"pinyin": "ge1",
-	 	"meaning": ["song"]
+	 	"meaning": ["song"],
+        "type": "noun",
+        "hint": "have"
 	},
   {
 		"character": ["跳舞"],
 	 	"pinyin": "tia4o wu3",
-	 	"meaning": ["to dance"]
+	 	"meaning": ["to dance"],
+        "type": "verb:s",
+		"hint": {
+			"s": "person"
+		}
 	},
   {
 		"character": ["跳"],
 	 	"pinyin": "tia4o",
-	 	"meaning": ["to jump"]
+	 	"meaning": ["to jump"],
+        "type": "verb:l",
+		"hint": {
+			"s": "person"
+		}
 	},
   {
 		"character": ["舞"],
 	 	"pinyin": "wu3",
-	 	"meaning": ["dance"]
+	 	"meaning": ["dance"],
+        "type": "noun",
+        "hint": "have"
 	},
   {
 		"character": ["听"],
 	 	"pinyin": "ti1ng",
-	 	"meaning": ["to listen"]
+	 	"meaning": ["to listen"],
+        "type": "verb:o",
+        "hint": {
+			"s": "person",
+            "o": "ting"
+        }
 	},
   {
 		"character": ["音乐"],
 	 	"pinyin": "yi1nyue4",
-	 	"meaning": ["music"]
+	 	"meaning": ["music"],
+        "type": "noun",
+        "hint": "ting"
 	},
   {
 		"character": ["书"],
 	 	"pinyin": "shu1",
-	 	"meaning": ["book"]
+	 	"meaning": ["book"],
+        "type": "noun",
+        "hint": "kan"
 	},
   {
 		"character": ["对"],
@@ -92,7 +139,8 @@
   {
 		"character": ["有的"],
 	 	"pinyin": "yo3u de",
-	 	"meaning": ["some"]
+	 	"meaning": ["some"],
+        "type": "quantifier:nocount"
 	},
   {
 		"character": ["时候"],
@@ -102,37 +150,47 @@
   {
 		"character": ["电影"],
 	 	"pinyin": "dia4nyi3ng",
-	 	"meaning": ["movie","film"]
+	 	"meaning": ["movie","film"],
+        "type": "noun",
+        "hint": "kan"
 	},
   {
 		"character": ["影"],
 	 	"pinyin": "yi3ng",
-	 	"meaning": ["shadow"]
+	 	"meaning": ["shadow"],
+        "type": "noun",
+        "hint": "have"
 	},
   {
 		"character": ["常常"],
 	 	"pinyin": "cha2ngcha2ng",
-	 	"meaning": ["often"]
+	 	"meaning": ["often"],
+        "type": "adverb"
 	},
   {
 		"character": ["去"],
 	 	"pinyin": "qu4",
-	 	"meaning": ["to go"]
+	 	"meaning": ["to go"],
+        "type": "verb:v:l"
 	},
   {
 		"character": ["外国"],
 	 	"pinyin": "wa4iguo2",
-	 	"meaning": ["foreign country"]
+	 	"meaning": ["foreign country"],
+        "type": "noun",
+        "hint": "place:country"
 	},
   {
 		"character": ["请客"],
 	 	"pinyin": "qi3ng ke4",
-	 	"meaning": ["to play host", "to play the host", "to invite (someone)"]
+	 	"meaning": ["to play host", "to play the host", "to invite (someone)"],
+        "type": "verb:s"
 	},
   {
 		"character": ["昨天"],
 	 	"pinyin": "zuo2tia1n",
-	 	"meaning": ["yesterday"]
+	 	"meaning": ["yesterday"],
+        "type": "time:day"
 	},
   {
 		"character": ["所以"],

@@ -2,12 +2,15 @@
 	{
 		"character": ["九月"],
 	 	"pinyin": "jiu3yue4",
-	 	"meaning": ["September"]
+	 	"meaning": ["September"],
+        "type": "noun",
+        "hint": "time,month"
 	},
   {
 		"character": ["月"],
 	 	"pinyin": "yue4",
-	 	"meaning": ["month"]
+	 	"meaning": ["month"],
+        "type": "noun"
 	},
   {
 		"character": ["十二"],
@@ -33,7 +36,9 @@
   {
 		"character": ["生日"],
 	 	"pinyin": "she1ngri4",
-	 	"meaning": ["birthday"]
+	 	"meaning": ["birthday"],
+        "type": "noun",
+        "hint": "time:have"
 	},
   {
 		"character": ["日"],
@@ -43,7 +48,8 @@
   {
 		"character": ["今年"],
 	 	"pinyin": "ji1nnia2n",
-	 	"meaning": ["this year"]
+	 	"meaning": ["this year"],
+        "hint": "time"
 	},
   {
 		"character": ["年"],
@@ -73,12 +79,19 @@
   {
 		"character": ["吃"],
 	 	"pinyin": "chi1",
-	 	"meaning": ["eat"]
+	 	"meaning": ["eat"],
+        "type": "verb:o",
+        "hint": {
+			"s": "person",
+            "o": "food"
+        }
 	},
   {
 		"character": ["饭"],
 	 	"pinyin": "fa4n",
-	 	"meaning": ["meal", "cooked rice", "(cooked) rice"]
+	 	"meaning": ["meal", "cooked rice", "(cooked) rice"],
+        "type": "noun",
+        "hint": "food"
 	},
   {
 		"character": ["怎么样"],
@@ -98,7 +111,12 @@
   {
 		"character": ["喜欢"],
 	 	"pinyin": "xi3huan",
-	 	"meaning": ["to like"]
+	 	"meaning": ["to like"],
+        "type": "verb:o:v",
+        "hint": {
+			"s": "person",
+            "o": "any"
+        }
 	},
   {
 		"character": ["菜"],
@@ -108,17 +126,21 @@
   {
 		"character": ["还是"],
 	 	"pinyin": "ha2ishi",
-	 	"meaning": ["or"]
+	 	"meaning": ["or"],
+        "type": "conjunction"
 	},
   {
 		"character": ["可是"],
 	 	"pinyin": "ke3shi4",
-	 	"meaning": ["but"]
+	 	"meaning": ["but"],
+        "type": "connector"
 	},
   {
 		"character": ["我们"],
 	 	"pinyin": "wo3men",
-	 	"meaning": ["we"]
+	 	"meaning": ["we"],
+        "type": "pronoun",
+        "hint": "person,plural"
 	},
   {
 		"character": ["点"],
@@ -133,7 +155,9 @@
   {
 		"character": ["晚上"],
 	 	"pinyin": "wa3nshang",
-	 	"meaning": ["evening", "night"]
+	 	"meaning": ["evening", "night"],
+        "type": "noun",
+        "hint": "time:ofday"
 	},
   {
 		"character": ["见"],

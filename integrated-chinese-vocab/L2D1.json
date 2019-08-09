@@ -2,7 +2,8 @@
 	{
 		"character": ["那"],
 	 	"pinyin": "na4",
-	 	"meaning": ["that"]
+	 	"meaning": ["that"],
+        "type": "quantifier"
 	},
   {
     "character": ["的"],
@@ -13,32 +14,42 @@
   {
     "character": ["照片"],
 	 	"pinyin": "zha4opia4n",
-	 	"meaning": ["photo", "photograph"]
+	 	"meaning": ["photo", "photograph"],
+        "type": "noun",
+        "hint": "hold,have,place"
   },
   {
     "character": ["这"],
 	 	"pinyin": "zhe4",
-	 	"meaning": ["this"]
+	 	"meaning": ["this"],
+        "type": "quantifier"
   },
   {
     "character": ["爸爸"],
 	 	"pinyin": "ba4ba",
-	 	"meaning": ["father", "dad"]
+	 	"meaning": ["father", "dad"],
+        "type": "noun",
+        "hint": "family-member,person"
   },
   {
     "character": ["妈妈"],
 	 	"pinyin": "ma1ma",
-	 	"meaning": ["mom", "mother"]
+	 	"meaning": ["mom", "mother"],
+        "type": "noun",
+        "hint": "family-member,person"
   },
   {
     "character": ["女"],
 	 	"pinyin": "nv3",
-	 	"meaning": ["female"]
+	 	"meaning": ["female"],
+        "type": "adj:de"
   },
   {
     "character": ["孩子"],
 	 	"pinyin": "ha2izi",
-	 	"meaning": ["child"]
+	 	"meaning": ["child"],
+        "type": "noun",
+        "hint": "person"
   },
   {
     "character": ["谁"],
@@ -48,27 +59,43 @@
   {
     "character": ["她"],
 	 	"pinyin": "ta1",
-	 	"meaning": ["she", "her"]
+	 	"meaning": ["she", "her"],
+        "type": "pronoun",
+        "hint": "person"
+  },
+  {
+    "character": ["他"],
+	 	"pinyin": "ta1",
+	 	"meaning": ["he", "him"],
+        "type": "pronoun",
+        "hint": "person"
   },
   {
     "character": ["姐姐"],
 	 	"pinyin": "jie3jie",
-	 	"meaning": ["older sister", "big sister"]
+	 	"meaning": ["older sister", "big sister"],
+        "type": "noun",
+        "hint": "family-member,person"
   },
   {
     "character": ["男"],
 	 	"pinyin": "na2n",
-	 	"meaning": ["male"]
+	 	"meaning": ["male"],
+        "type": "adj:de"
   },
   {
     "character": ["大哥"],
 	 	"pinyin": "da4ge1",
-	 	"meaning": ["eldest brother", "oldest brother"]
+	 	"meaning": ["eldest brother", "oldest brother"],
+        "type": "noun",
+        "hint": "family-member,person,single"
   },
   {
     "character": ["儿子"],
 	 	"pinyin": "e2rzi",
-	 	"meaning": ["son"]
+	 	"meaning": ["son"],
+        "type": "noun",
+        "hint": "family-member,person"
   },
   {
     "character": ["有"],
@@ -78,12 +105,9 @@
   {
     "character": ["女儿"],
 	 	"pinyin": "nv3'e2r",
-	 	"meaning": ["女儿"]
-  },
-  {
-    "character": ["老师"],
-	 	"pinyin": "la3oshi1",
-	 	"meaning": ["teacher"]
+	 	"meaning": ["daughter"],
+        "type": "noun",
+        "hint": "family-member,person"
   },
   {
     "character": ["没"],

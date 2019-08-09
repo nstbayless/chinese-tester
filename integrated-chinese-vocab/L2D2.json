@@ -23,12 +23,16 @@
   {
 		"character": ["妹妹"],
 	 	"pinyin": "me4imei",
-	 	"meaning": ["little sister"]
+	 	"meaning": ["little sister"],
+        "type": "noun",
+        "hint": "family-member,person"
 	},
   {
 		"character": ["大姐"],
 	 	"pinyin": "da4jie3",
-	 	"meaning": ["eldest sister", "oldest sister"]
+	 	"meaning": ["eldest sister", "oldest sister"],
+        "type": "noun",
+        "hint": "family-member,person,single"
 	},
   {
 		"character": ["做"],
@@ -38,36 +42,49 @@
   {
 		"character": ["工作"],
 	 	"pinyin": "go1ngzuo4",
-	 	"meaning": ["to work", "work", "job"]
+	 	"meaning": ["to work", "work", "job"],
+        "type": "noun",
+        "hint": "place"
 	},
   {
 		"character": ["律师"],
 	 	"pinyin": "lv4shi1",
-	 	"meaning": ["lawyer"]
+	 	"meaning": ["lawyer"],
+        "type": "noun",
+        "hint": "person,occupation"
 	},
   {
 		"character": ["英文"],
 	 	"pinyin": "Yi1ngwe2n",
-	 	"meaning": ["English", "English (language)", "English language"]
+	 	"meaning": ["English", "English (language)", "English language"],
+        "type": "noun",
+        "hint": "language"
 	},
   {
 		"character": ["都"],
 	 	"pinyin": "do1u",
-	 	"meaning": ["both", "all"]
+	 	"meaning": ["both", "all"],
+        "type": "adverb"
 	},
   {
 		"character": ["大学生"],
 	 	"pinyin": "da4xue2she1ng",
-	 	"meaning": ["college student", "university student"]
+	 	"meaning": ["college student", "university student"],
+        "type": "noun",
+        "hint": "person,occupation"
 	},
   {
 		"character": ["大学"],
 	 	"pinyin": "da4xue2",
-	 	"meaning": ["college", "university"]
+	 	"meaning": ["college", "university"],
+        "type": "noun",
+        "hint": "place"
 	},
   {
 		"character": ["医生"],
 	 	"pinyin": "yi1she1ng",
-	 	"meaning": ["doctor", "physician"]
+	 	"meaning": ["doctor", "physician"],
+        "type": "noun",
+        "hint": "person,occupation"
 	}
 ]

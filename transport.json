@@ -1,0 +1,49 @@
+[
+	{
+		"character": ["脚踏车"],
+	 	"pinyin": "jia3ota4che1",
+	 	"meaning": ["bicycle", "bike"]	
+	},
+	{
+		"character": ["船"],
+	 	"pinyin": "chua2n",
+	 	"meaning": ["boat"]	
+	},
+	{
+		"character": ["公车"],
+	 	"pinyin": "go1ngche1",
+	 	"meaning": ["bus"]	
+	},
+	{
+		"character": ["汽车"],
+	 	"pinyin": "qi4che1",
+	 	"meaning": ["car", "automobile"]
+	},
+	{
+		"character": ["摩托车"],
+	 	"pinyin": "mo2tuo1che1",
+	 	"meaning": ["motorcycle", "motorbike"]	
+	},
+	{
+		"character": ["飛機"],
+	 	"pinyin": "fe1iji1",
+	 	"meaning": ["airplane"],
+		"meaning-accepted": ["plane"]	
+	},
+	{
+		"character": ["火车"],
+	 	"pinyin": "huo3che1",
+	 	"meaning": ["train"]	
+	},
+	{
+		"character": ["直升机"],
+	 	"pinyin": "zhi2she1ngji1",
+	 	"meaning": ["helicopter"],
+		"meaning-accepted": ["heli"]
+	},
+	{
+		"character": ["飞艇"],
+	 	"pinyin": "fe1iti3ng",
+	 	"meaning": ["airship", "zeppelin", "blimp"]	
+	}
+]

@@ -1,0 +1,46 @@
+[
+	{
+		"character": ["要"],
+	 	"pinyin": "ya4o",
+	 	"meaning": ["to want", "to want to"]
+	},
+	{
+		"character": ["想"],
+	 	"pinyin": "xia3ng",
+	 	"meaning": ["to want", "to want to", "would like"]
+	},
+	{
+		"character": ["能"],
+	 	"pinyin": "ne2ng",
+	 	"meaning": ["can (modal)", "to be able to", "able to"],
+		"meaning-accepted": ["can", "could"]
+	},
+	{
+		"character": ["可以"],
+	 	"pinyin": "ke3yi3",
+	 	"meaning": ["can (modal)", "to be able to", "able to", "may (modal)", "to have permission to"],
+		"meaning-accepted": ["can", "could", "may"]
+	},
+	{
+		"character": ["会"],
+	 	"pinyin": "hui4",
+	 	"meaning": ["to know how to do something", "can (modal)", "to be able to", "able to"],
+		"meaning-accepted": ["can", "know", "to know"]
+	},
+	{
+		"character": ["敢"],
+	 	"pinyin": "ga3n",
+	 	"meaning": ["to dare to", "to venture to (modal)"],
+		"meaning-accepted": ["to dare", "to venture", "dare", "venture", "to venture to"]
+	},
+	{
+		"character": ["必须"],
+	 	"pinyin": "bi4xu1",
+	 	"meaning": ["must", "to have to", "has to", "to need to", "needs to"]
+	},
+	{
+		"character": ["应该"],
+	 	"pinyin": "yi1ngga1i",
+	 	"meaning": ["should", "ought to", "ought"]
+	}
+]

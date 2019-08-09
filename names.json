@@ -3,25 +3,33 @@
 		"character": ["王"],
 	 	"pinyin": "wa2ng",
 	 	"meaning": ["king", "Wang (surname)"],
-	 	"name": "surname"
+	 	"name": "surname",
+		"type": "noun",
+		"hint": "surname"
 	},
 	{
 		"character": ["朋"],
 	 	"pinyin": "Pe2ng",
 	 	"meaning": ["Peng (name)"],
-	 	"name": "given"
+	 	"name": "given",
+		"type": "noun",
+		"hint": "forename"
 	},
 	{
 		"character": ["李"],
 	 	"pinyin": "li3",
 	 	"meaning": ["plum", "plum tree", "Lee (surname)", "Li (surname)"],
-	 	"name": "surname"
+	 	"name": "surname",
+		"type": "noun",
+		"hint": "surname"
 	},
 	{
 		"character": ["友"],
 	 	"pinyin": "Yo3u",
 	 	"meaning": ["You (name)"],
-	 	"name": "given"
+	 	"name": "given",
+		"type": "noun",
+		"hint": "forename"
 	},
 	{
 		"character": ["高"],
@@ -33,18 +41,24 @@
 		"character": ["文中"],
 	 	"pinyin": "We2nzho1ng",
 	 	"meaning": ["Wenzhong (name)"],
-	 	"name": "given"
+	 	"name": "given",
+		"type": "noun",
+		"hint": "forename"
 	},
 	{
 		"character": ["白"],
 	 	"pinyin": "Ba2i",
 	 	"meaning": ["Bai (surname)"],
-	 	"name": "surname"
+	 	"name": "surname",
+		"type": "noun",
+		"hint": "surname"
 	},
 	{
 		"character": ["英爱"],
 	 	"pinyin": "Yi1ng'a4i",
 	 	"meaning": ["Yingai (name)"],
-	 	"name": "given"
+	 	"name": "given",
+		"type": "noun",
+		"hint": "forename"
 	}
 ]

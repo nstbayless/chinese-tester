@@ -58,5 +58,32 @@
 		"character": ["晚上"],
 	 	"pinyin": "wa3nshang",
 	 	"meaning": ["evening","night"]
+	},
+	{
+		"character": ["日历"],
+	 	"pinyin": "ri4li4",
+	 	"meaning": ["calendar"]
+	},
+	{
+		"character": ["秒"],
+	 	"pinyin": "mia3o",
+	 	"meaning": ["second (time)"],
+		"meaning-accepted": ["second", "seconds"]
+	},
+	{
+		"character": ["小时"],
+	 	"pinyin": "xia3oshi2",
+	 	"meaning": ["hour", "hours"]
+	},
+	{
+		"character": ["分钟"],
+	 	"pinyin": "fe1nzho1ng",
+	 	"meaning": ["minutes", "minute (time)"],
+		"meaning-accepted": ["minute"]
+	},
+	{
+		"character": ["钟表"],
+	 	"pinyin": "zho1ngbia3o",
+	 	"meaning": ["clock"]
 	}
 ]
