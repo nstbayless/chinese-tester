@@ -72,14 +72,15 @@
   {
 		"character": ["因为"],
 	 	"pinyin": "yi1nwe4i",
-	 	"meaning": ["because"]
+	 	"meaning": ["because"],
+        "type": "connector"
 	},
   {
 		"character": ["同学"],
 	 	"pinyin": "to2ngxue2",
 	 	"meaning": ["classmate","class-mate","class mate"],
         "type": "noun",
-        "hint": "person"
+        "hint": "person,generic"
 	},
   {
 		"character": ["认识"],
@@ -96,6 +97,6 @@
 	 	"pinyin": "pe2ngyou",
 	 	"meaning": ["friend"],
         "type": "noun",
-        "hint": "person"
+        "hint": "person,generic"
 	}
 ]

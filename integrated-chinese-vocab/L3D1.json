@@ -112,7 +112,7 @@
 		"character": ["喜欢"],
 	 	"pinyin": "xi3huan",
 	 	"meaning": ["to like"],
-        "type": "verb:o:v",
+        "type": "verb:o,modal",
         "hint": {
 			"s": "person",
             "o": "any"
@@ -139,7 +139,7 @@
 		"character": ["我们"],
 	 	"pinyin": "wo3men",
 	 	"meaning": ["we"],
-        "type": "pronoun",
+        "type": "noun:pronoun",
         "hint": "person,plural"
 	},
   {

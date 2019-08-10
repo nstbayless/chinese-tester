@@ -3,8 +3,8 @@
 		"character": ["你"],
 	 	"pinyin": "ni3",
 	 	"meaning": ["you"],
-        "type": "pronoun",
-        "hint": "person"
+        "type": "noun:pronoun",
+        "hint": "person,specific"
 	},
   {
     "character": ["好"],
@@ -44,7 +44,7 @@
     "character": ["我"],
 	 	"pinyin": "wo3",
 	 	"meaning": ["I", "me"],
-        "type": "pronoun",
+        "type": "noun:pronoun",
         "hint": "person"
   },
   {

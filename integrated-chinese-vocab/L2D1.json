@@ -49,7 +49,7 @@
 	 	"pinyin": "ha2izi",
 	 	"meaning": ["child"],
         "type": "noun",
-        "hint": "person"
+        "hint": "person,generic"
   },
   {
     "character": ["谁"],
@@ -60,14 +60,14 @@
     "character": ["她"],
 	 	"pinyin": "ta1",
 	 	"meaning": ["she", "her"],
-        "type": "pronoun",
+        "type": "noun:pronoun",
         "hint": "person"
   },
   {
     "character": ["他"],
 	 	"pinyin": "ta1",
 	 	"meaning": ["he", "him"],
-        "type": "pronoun",
+        "type": "noun:pronoun",
         "hint": "person"
   },
   {
@@ -100,7 +100,12 @@
   {
     "character": ["有"],
 	 	"pinyin": "yo3u",
-	 	"meaning": ["to have", "has", "to exist"]
+	 	"meaning": ["to have", "has", "to exist"],
+        "type":"verb:o",
+        "hint": {
+            "s": "person",
+            "o": "have"
+        }
   },
   {
     "character": ["女儿"],

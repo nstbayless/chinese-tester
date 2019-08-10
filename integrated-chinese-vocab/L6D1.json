@@ -50,7 +50,9 @@
   {
 		"character": ["问题"],
 	 	"pinyin": "we4nti2",
-	 	"meaning": ["question","problem"]
+	 	"meaning": ["question","problem"],
+        "type":"noun",
+        "hint":"question"
 	},
   {
 		"character": ["要"],

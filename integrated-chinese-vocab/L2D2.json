@@ -2,7 +2,9 @@
 	{
 		"character": ["家"],
 	 	"pinyin": "jia1",
-	 	"meaning": ["family"]
+	 	"meaning": ["family"],
+        "type":"noun",
+        "hint": "place"
 	},
   {
 		"character": ["几"],

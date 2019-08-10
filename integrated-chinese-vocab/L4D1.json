@@ -57,14 +57,17 @@
   {
 		"character": ["视"],
 	 	"pinyin": "shi4",
-	 	"meaning": ["vision"],
+        "meaning": ["vision"],
         "type": "noun"
 	},
   {
 		"character": ["唱歌"],
 	 	"pinyin": "cha4ng ge1",
 	 	"meaning": ["to sing a song"],
-        "type": "verb:s"
+        "type": "verb:s",
+        "hint": {
+			"s": "person"
+		}
 	},
   {
 		"character": ["唱"],
@@ -72,7 +75,8 @@
 	 	"meaning": ["to sing"],
         "type": "verb:o",
 		"hint": {
-			"s": "person"
+			"s": "person",
+            "o": "sing"
 		}
 	},
   {
@@ -80,7 +84,7 @@
 	 	"pinyin": "ge1",
 	 	"meaning": ["song"],
         "type": "noun",
-        "hint": "have"
+        "hint": "have,sing"
 	},
   {
 		"character": ["跳舞"],
@@ -171,7 +175,7 @@
 		"character": ["去"],
 	 	"pinyin": "qu4",
 	 	"meaning": ["to go"],
-        "type": "verb:v:l"
+        "type": "verb:l,modal"
 	},
   {
 		"character": ["外国"],
@@ -195,6 +199,7 @@
   {
 		"character": ["所以"],
 	 	"pinyin": "suo3yi3",
-	 	"meaning": ["so"]
+	 	"meaning": ["so"],
+        "type": "connector"
 	}
 ]

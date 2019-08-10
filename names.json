@@ -4,7 +4,7 @@
 	 	"pinyin": "wa2ng",
 	 	"meaning": ["king", "Wang (surname)"],
 	 	"name": "surname",
-		"type": "noun",
+		"type": "noun:proper",
 		"hint": "surname"
 	},
 	{
@@ -12,7 +12,7 @@
 	 	"pinyin": "Pe2ng",
 	 	"meaning": ["Peng (name)"],
 	 	"name": "given",
-		"type": "noun",
+		"type": "noun:proper",
 		"hint": "forename"
 	},
 	{
@@ -20,7 +20,7 @@
 	 	"pinyin": "li3",
 	 	"meaning": ["plum", "plum tree", "Lee (surname)", "Li (surname)"],
 	 	"name": "surname",
-		"type": "noun",
+		"type": "noun:proper",
 		"hint": "surname"
 	},
 	{
@@ -28,7 +28,7 @@
 	 	"pinyin": "Yo3u",
 	 	"meaning": ["You (name)"],
 	 	"name": "given",
-		"type": "noun",
+		"type": "noun:proper",
 		"hint": "forename"
 	},
 	{
@@ -42,7 +42,7 @@
 	 	"pinyin": "We2nzho1ng",
 	 	"meaning": ["Wenzhong (name)"],
 	 	"name": "given",
-		"type": "noun",
+		"type": "noun:proper",
 		"hint": "forename"
 	},
 	{
@@ -50,7 +50,7 @@
 	 	"pinyin": "Ba2i",
 	 	"meaning": ["Bai (surname)"],
 	 	"name": "surname",
-		"type": "noun",
+		"type": "noun:proper",
 		"hint": "surname"
 	},
 	{
@@ -58,7 +58,7 @@
 	 	"pinyin": "Yi1ng'a4i",
 	 	"meaning": ["Yingai (name)"],
 	 	"name": "given",
-		"type": "noun",
+		"type": "noun:proper",
 		"hint": "forename"
 	}
 ]

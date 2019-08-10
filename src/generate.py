@@ -72,7 +72,7 @@ def word(vocab, type, hint=""):
         vocab
     ))
     if len(_np) == 0:
-        return {}, "&<t~" + type + "/h~" + hint + ">"
+        return {"type": type, "hint": hint}, "&<t~" + type + "/h~" + hint + ">"
     w = np.random.choice(_np)
     return w, np.random.choice(w["character"])
 
@@ -162,9 +162,9 @@ def number_of(counter, count):
     return n + counter
 
 def family_list(vocab):
-    subj = word(vocab, "pronoun")[1]
+    subj = word(vocab, "noun:pronoun")[1]
     if np.random.random() < 0.1:
-        subj = "家有几口人？"
+        return subj + "家有几口人？"
     list = []
     if np.random.random() < 0.5:
         list.append(subj + "爸爸妈妈")
@@ -205,7 +205,27 @@ def bignumber(vocab):
     return number(c)
 
 def specific_noun(vocab, hint):
-    return word(vocab, "noun", hint)
+    if np.random.random() < 0.5 or hint=="surname" or hint=="forename":
+        wspec, s = word(vocab, "noun", hint)
+        if not matches(wspec, "noun", "generic"):
+            return wspec, s
+    
+    wspec, s = word(vocab, "noun", "specific")
+    while matches(wspec, "noun", "person") and np.random.random() < 0.3:
+        s += "的"
+        wspec, _s = word(vocab, "noun", "person")
+        if matches(wspec, "noun", "specific") or matches(wspec, "noun:proper")  or matches(wspec, "noun:pronoun"):
+            # try again
+            return specific_noun(vocab, hint)
+        s += _s
+    if not matches(wspec, "noun", hint):
+        s += "的"
+        wspec, _s = word(vocab, "noun", hint)
+        if matches(wspec, "noun", "specific") or matches(wspec, "noun:proper") or matches(wspec, "noun:pronoun"):
+            # try again
+            return specific_noun(vocab, hint)
+        s += _s
+    return wspec, s
 
 def verb_get_hints_for_object(v, object):
     hints = v["hint"]
@@ -213,9 +233,8 @@ def verb_get_hints_for_object(v, object):
         return hints[object]
     return ""
 
-def action(vocab):
+def action(vocab, can_time=True, can_location=True, can_remark=True, can_subordinate=True):
     # sort of general-purpose way in which sentences are formed
-    can_location = True
     s = ""
     wverb, verb = word(vocab, "verb")
     objects_opt = parse_list_xparams(wverb["type"])[1]
@@ -225,12 +244,13 @@ def action(vocab):
         objects = np.random.choice(objects_opt)
         if 's' not in objects:
             objects = "s" + objects
-    #TODO: get from hint from verb's hint
     wsubj, subj = specific_noun(vocab, verb_get_hints_for_object(wverb, "s"))
-    # TODO: decorate noun
     omit_subject = np.random.random() < .15
     if not omit_subject:
         s = subj
+    else:
+        can_location = False
+        can_time = False
 
     # objects
     strobjects = []
@@ -238,20 +258,41 @@ def action(vocab):
         if object == "s":
             continue
         if object == "o" or object == "d":
-            #TODO: get from hint from verb's hint
             noun = specific_noun(vocab, verb_get_hints_for_object(wverb, object))[1]
             strobjects.append(str(noun))
         if object == "l":
-            strobjects.append("在" + word(vocab, "noun", "place")[1])
+            strobjects.append(word(vocab, "noun", "place")[1])
             can_location = False
 
-    if can_location:
-        # TODO
-        pass
-
+    # time
+    if np.random.random() < 0.4 and can_time:
+        if np.random.random() < 0.1:
+            s += action(vocab, False, True, False, False) + "的时候"
+        #else:
+            #s += specific_time()
+    
+    # location
+    if can_location and np.random.random() < 0.4:
+        s += "在" + word(vocab, "noun", "place")[1]
+        
+    if np.random.random() < 0.3:
+        w, _s = word(vocab, "modal")
+        s += _s
     s += verb
     for object in strobjects:
         s += object
+    if can_remark and np.random.random() < 0.3:
+        can_subordinate = False
+        if np.random.random() < 0.2:
+            s += "吧"
+        else:
+            s += "吗？"
+    if can_subordinate and np.random.random() < 0.15:
+        if np.random.random() < 0.5:
+            w, _s = word(vocab, "connector")
+            s += "，" + _s + action(vocab, True, True, False, False)
+        else:
+            s = "因为" + s + "，所以" + action(vocab, True, True, False, False)
     return s
 
 def add_dot(s):
@@ -267,7 +308,7 @@ def sentence(vocab):
         family_list,
         bignumber,
         action
-    ], p=normalize([0.24, 1, 1.5, 0.2, 50]))
+    ], p=normalize([0.24, 1, 0.2, 0.2, 8]))
     s = f(vocab)
     if f != bignumber:
         s = add_dot(s)

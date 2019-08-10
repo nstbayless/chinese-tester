@@ -2,86 +2,140 @@
 	{
 		"character": ["衬衫"],
 	 	"pinyin": "che4nsha1n",
-	 	"meaning": ["shirt", "blouse"]
+	 	"meaning": ["shirt", "blouse"],
+        "type": "noun",
+        "hint":"have,clothes"
 	},
 	{
 		"character": ["裤子"],
 	 	"pinyin": "ku4zi",
-	 	"meaning": ["trousers", "pants"]
+	 	"meaning": ["trousers", "pants"],
+        "type": "noun",
+        "hint":"have,clothes"
 	},
 	{
 		"character": ["内衣"],
 	 	"pinyin": "ne4iyi1",
-	 	"meaning": ["underwear"]	
+	 	"meaning": ["underwear"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
 	{
 		"character": ["裙子"],
 	 	"pinyin": "qu2nzi",
-	 	"meaning": ["skirt"]	
+	 	"meaning": ["skirt"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
 		"character": ["短袜"],
 	 	"pinyin": "dua3nwa4",
-	 	"meaning": ["sock", "socks"]
+	 	"meaning": ["sock", "socks"],
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
 		"character": ["T恤"],
 	 	"pinyin": "T xu4",
-	 	"meaning": ["T-shirt", "T shirt"]	
+	 	"meaning": ["T-shirt", "T shirt"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
 		"character": ["连衣裙"],
 	 	"pinyin": "lia2nyi1qu2n",
-	 	"meaning": ["dress"]	
+	 	"meaning": ["dress"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
 		"character": ["泳衣"],
 	 	"pinyin": "yo3ngyi1",
-	 	"meaning": ["bathing suit"]	
+	 	"meaning": ["bathing suit"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
 		"character": ["睡衣"],
 	 	"pinyin": "shui4yi1",
-	 	"meaning": ["pajamas"]	
+	 	"meaning": ["pajamas"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
 		"character": ["外套"],
 	 	"pinyin": "wa4ita4o",
-	 	"meaning": ["coat"]	
+	 	"meaning": ["coat"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
 		"character": ["手套"],
 	 	"pinyin": "sho3uta4o",
-	 	"meaning": ["glove", "gloves"]	
+	 	"meaning": ["glove", "gloves"]	,
+        "type": "noun",
+        "hint":"have,accessory"
 	},
     {
 		"character": ["帽子"],
 	 	"pinyin": "ma4ozi",
-	 	"meaning": ["hat"]	
+	 	"meaning": ["hat"]	,
+        "type": "noun",
+        "hint":"have,accessory"
 	},
     {
 		"character": ["鞋"],
 	 	"pinyin": "xie2",
-	 	"meaning": ["shoe", "shoes"]	
+	 	"meaning": ["shoe", "shoes"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
 		"character": ["靴子"],
 	 	"pinyin": "xue1zi",
-	 	"meaning": ["boot", "boots"]	
+	 	"meaning": ["boot", "boots"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
 		"character": ["雨衣"],
 	 	"pinyin": "yu3yi1",
-	 	"meaning": ["raincoat"]	
+	 	"meaning": ["raincoat"]	,
+        "type": "noun",
+        "hint":"have,clothes"
 	},
     {
       "character": ["制服"],
       "pinyin": "zhi4fu2",
-      "meaning": ["uniform"]
+      "meaning": ["uniform"],
+      "type": "noun",
+      "hint":"have,clothes"
     },
     {
 		"character": ["衣服"],
 	 	"pinyin": "yi1fu2",
-	 	"meaning": ["clothes"]	
+	 	"meaning": ["clothes"]	,
+        "type": "noun",
+        "hint":"have,clothes"
+    },
+    {
+        "character": ["穿"],
+        "pinyin": "chua1n",
+	 	"meaning": ["wear"]	,
+        "type": "verb:o",
+        "hint": {
+            "s": "person",
+            "o": "clothes"
+        }
+    },
+    {
+        "character": ["戴"],
+        "pinyin": "da4i",
+	 	"meaning": ["wear", "wear (accessory)"]	,
+        "type": "verb:o",
+        "hint": {
+            "s": "person",
+            "o": "accessory"
+        }
     }
 ]

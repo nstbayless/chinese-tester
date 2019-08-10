@@ -61,7 +61,8 @@
   {
 		"character": ["在"],
 	 	"pinyin": "za4i",
-	 	"meaning": ["at","in","on"]
+	 	"meaning": ["at","in","on"],
+        "type": "verb:l"
 	},
   {
 		"character": ["哪儿"],
