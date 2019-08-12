@@ -99,9 +99,10 @@
 		"character": ["跳"],
 	 	"pinyin": "tia4o",
 	 	"meaning": ["to jump"],
-        "type": "verb:l",
+        "type": "verb:o",
 		"hint": {
-			"s": "person"
+			"s": "person",
+            "o": "dance"
 		}
 	},
   {
@@ -109,7 +110,7 @@
 	 	"pinyin": "wu3",
 	 	"meaning": ["dance"],
         "type": "noun",
-        "hint": "have"
+        "hint": "dance"
 	},
   {
 		"character": ["听"],
@@ -162,8 +163,7 @@
 		"character": ["影"],
 	 	"pinyin": "yi3ng",
 	 	"meaning": ["shadow"],
-        "type": "noun",
-        "hint": "have"
+        "type": "noun"
 	},
   {
 		"character": ["常常"],

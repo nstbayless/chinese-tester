@@ -85,5 +85,20 @@
 		"character": ["钟表"],
 	 	"pinyin": "zho1ngbia3o",
 	 	"meaning": ["clock"]
-	}
+	},
+    {
+        "character": ["周日"],
+        "pinyin": "zho1uri4",
+	 	"meaning": ["sunday"]
+    },
+    {
+        "character": ["星期日"],
+        "pinyin": "xi1ngqi1ri4",
+	 	"meaning": ["sunday"]
+    },
+    {
+        "character": ["星期天"],
+        "pinyin": "xi1ngqi1tia1n",
+	 	"meaning": ["sunday"]
+    },
 ]

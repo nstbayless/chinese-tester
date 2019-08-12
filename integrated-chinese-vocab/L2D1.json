@@ -29,20 +29,20 @@
 	 	"pinyin": "ba4ba",
 	 	"meaning": ["father", "dad"],
         "type": "noun",
-        "hint": "family-member,person"
+        "hint": "family-member,person,no-de"
   },
   {
     "character": ["妈妈"],
 	 	"pinyin": "ma1ma",
 	 	"meaning": ["mom", "mother"],
         "type": "noun",
-        "hint": "family-member,person"
+        "hint": "family-member,person,no-de"
   },
   {
     "character": ["女"],
 	 	"pinyin": "nv3",
 	 	"meaning": ["female"],
-        "type": "adj:de"
+        "type": "adjective:de"
   },
   {
     "character": ["孩子"],
@@ -75,20 +75,20 @@
 	 	"pinyin": "jie3jie",
 	 	"meaning": ["older sister", "big sister"],
         "type": "noun",
-        "hint": "family-member,person"
+        "hint": "family-member,person,no-de"
   },
   {
     "character": ["男"],
 	 	"pinyin": "na2n",
 	 	"meaning": ["male"],
-        "type": "adj:de"
+        "type": "adjective:de"
   },
   {
     "character": ["大哥"],
 	 	"pinyin": "da4ge1",
 	 	"meaning": ["eldest brother", "oldest brother"],
         "type": "noun",
-        "hint": "family-member,person,single"
+        "hint": "family-member,person,single,no-de"
   },
   {
     "character": ["儿子"],

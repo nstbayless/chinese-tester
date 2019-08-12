@@ -2,38 +2,52 @@
 	{
 		"character": ["项链"],
 	 	"pinyin": "xia4nlia4n",
-	 	"meaning": ["necklace"]
+	 	"meaning": ["necklace"],
+        "type": "noun",
+        "hint":"have,accessory"
 	},
 	{
 		"character": ["戒指"],
 	 	"pinyin": "jie4zhi3",
-	 	"meaning": ["ring"]
+	 	"meaning": ["ring"],
+        "type": "noun",
+        "hint":"have,accessory"
 	},
 	{
 		"character": ["耳环"],
 	 	"pinyin": "e3rhua2n",
-	 	"meaning": ["earring", "earrings"]	
+	 	"meaning": ["earring", "earrings"]	,
+        "type": "noun",
+        "hint":"have,accessory"
 	},
 	{
 		"character": ["手表"],
 	 	"pinyin": "sho3ubia3o",
 	 	"meaning": ["watch (accessory)", "wristwatch", "wrist watch", "wrist-watch"],
-        "meaning-accepted": ["watch"]
+        "meaning-accepted": ["watch"],
+        "type": "noun",
+        "hint":"have,accessory"
 	},
     {
 		"character": ["皮带"],
 	 	"pinyin": "pi2da4i",
-	 	"meaning": ["belt"]
+	 	"meaning": ["belt"],
+        "type": "noun",
+        "hint":"have"
 	},
     {
 		"character": ["太阳镜"],
 	 	"pinyin": "ta4iya2ngji4ng",
-	 	"meaning": ["sunglasses"]	
+	 	"meaning": ["sunglasses"]	,
+        "type": "noun",
+        "hint":"have,accessory,hold"
 	},
     {
 		"character": ["雨伞"],
 	 	"pinyin": "yu3sa3n",
-	 	"meaning": ["umbrella"]	
+	 	"meaning": ["umbrella"]	,
+        "type": "noun",
+        "hint":"have,hold"
 	},
     {
 		"character": ["口袋"],
@@ -43,6 +57,8 @@
     {
 		"character": ["围巾"],
 	 	"pinyin": "we2iji1n",
-	 	"meaning": ["scarf"]	
+	 	"meaning": ["scarf"]	,
+        "type": "noun",
+        "hint":"have,accessory"
 	}
 ]

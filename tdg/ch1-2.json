@@ -1,0 +1,111 @@
+[
+    {
+		"character": ["剩下"],
+	 	"pinyin": "she4ngxia4",
+	 	"meaning": ["remnants", "remainder"],
+        "type": "noun"
+	},
+    {
+		"character": ["吃的剩下"],
+	 	"pinyin": "chi1 de she4ngxia4",
+	 	"meaning": ["leftovers"],
+        "meaning-accepted": ["leftover"],
+        "type": "noun"
+	},
+    {
+		"character": ["课题"],
+	 	"pinyin": "ke4ti2",
+	 	"meaning": ["assignment", "homework", "task"],
+        "meaning-accepted": ["project", "problem"],
+        "type": "noun"
+	},
+    {
+        "character": ["周日"],
+        "pinyin": "zho1uri4",
+	 	"meaning": ["sunday"]
+    },
+    {
+        "character": ["休息"],
+        "pinyin": "xiu1xi",
+	 	"meaning": ["to rest"],
+        "type": "verb:s",
+        "hint": {
+            "s": "person"
+        }    
+    },
+    {
+        "character": ["怪"],
+        "pinyin": "gua4i",
+	 	"meaning": ["weird", "strange"],
+        "meaning-accepted": ["odd"],
+        "type": "adjective",
+        "hint": "any"
+    },
+    {
+        "character": ["买"],
+        "pinyin": "ma3i",
+	 	"meaning": ["to buy", "to purchase"],
+        "type": "verb:so",
+        "hint": {
+            "s": "person",
+            "o": "hold"
+        }
+    },
+    {
+        "character": ["往前"],
+        "pinyin": "wa3ngqia2n",
+	 	"meaning": ["forwards", "the past", "past"]
+    },
+    {
+        "character": ["走"],
+        "pinyin": "zo3u",
+	 	"meaning": ["to walk", "to go (by foot)", "to go by foot"],
+        "meaning-accepted": ["to go"]
+    },
+    {
+        "character": ["站"],
+        "pinyin": "zha4n",
+	 	"meaning": ["stop", "station"],
+        "meaning-accepted": ["a stop", "a station"],
+        "type": "noun",
+        "hint": "place"
+    },
+    {
+        "character": ["故"],
+        "pinyin": "gu4",
+	 	"meaning": ["hence", "thus", "thusly", "therefore", "as a result"]
+    },
+    {
+        "character": ["学后"],
+        "pinyin": "xue2ho4u",
+	 	"meaning": ["after school", "afterschool"],
+        "type": "noun",
+        "hint": "time"
+    },
+    {
+        "character": ["汪"],
+        "pinyin": "wa1ng",
+	 	"meaning": ["woof!", "bark!"],
+        "meaning-accepted": ["woof", "bark"]
+    },
+    {
+        "character": ["出去"],
+        "pinyin": "chu4qu4",
+	 	"meaning": ["to go out"]
+    },
+    {
+        "character": ["外面"],
+        "pinyin": "wa4imia4n",
+	 	"meaning": ["outside"]
+    },
+    {
+        "character": ["玩"],
+        "pinyin": "wa2n",
+	 	"meaning": ["to have fun"]
+    },
+    {
+        "character": ["啊"],
+        "pinyin": "a1",
+	 	"meaning": ["ah", "ah!"]
+    }
+]

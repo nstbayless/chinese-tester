@@ -84,8 +84,10 @@ def check_quit(s):
     raise QuitException
 
 def convert_pinyin(pinyin):
-  # converts pinyin to standardized form
-  pinyin = pinyin.replace("0","")
+  # converts pinyin to standardized form for comparison
+  pinyin = pinyin    \
+    .replace("0","") \
+    .replace(" ","")
 
   return pinyin.lower();
 

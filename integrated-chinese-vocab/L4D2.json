@@ -14,15 +14,27 @@
 	 	"pinyin": "yo3u yi4si",
 	 	"meaning": ["to be interesting"]
 	},
+    {
+  		"character": ["意思"],
+  	 	"pinyin": "yi4si",
+  	 	"meaning": ["interestingness", "meaning"],
+        "type": "noun",
+        "hint": "have,concept"
+  	},
   {
 		"character": ["只"],
 	 	"pinyin": "zhi3",
-	 	"meaning": ["only"]
+	 	"meaning": ["only"],
+        "type": "adverb"
 	},
   {
 		"character": ["睡觉"],
 	 	"pinyin": "shui4 jia4o",
-	 	"meaning": ["to sleep"]
+	 	"meaning": ["to sleep"],
+        "type": "verb:s",
+        "hint": {
+            "s": "person"
+        }
 	},
   {
 		"character": ["算了"],
@@ -32,7 +44,11 @@
   {
 		"character": ["找"],
 	 	"pinyin": "zha3o",
-	 	"meaning": ["to look for"]
+	 	"meaning": ["to look for"],
+        "type": "verb:o",
+        "hint": {
+            "s": "person"
+        }
 	},
   {
 		"character": ["别人"],

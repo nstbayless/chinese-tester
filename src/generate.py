@@ -44,6 +44,18 @@ def xparams_ral(s):
     for p in pral:
         o.append(parse_list_xparams(p))
     return o
+    
+def get_hint_for(v, type=""):
+    if "hint" not in v:
+        return ""
+    h = v["hint"]
+    if isinstance(h, str):
+        return h
+    if type in h:
+        return h[type]
+    if "noun" in h or "verb" in h or "adjective" in h or "adverb" in h or "modal" in h:
+        return ""
+    return h
 
 def matches(v, type, hint=""):
     if type != "" and type != "any":
@@ -56,7 +68,7 @@ def matches(v, type, hint=""):
             return False
 
     if hint != "" and hint != "any":
-        v_hint_ral = xparams_ral(v["hint"])
+        v_hint_ral = xparams_ral(get_hint_for(v, type))
         m_hint_ral = xparams_ral(hint)
         for xparams in m_hint_ral:
             if len(xparams[1]) == 0:
@@ -166,8 +178,10 @@ def family_list(vocab):
     if np.random.random() < 0.1:
         return subj + "家有几口人？"
     list = []
+    bonus = 0
     if np.random.random() < 0.5:
         list.append(subj + "爸爸妈妈")
+        bonus += 1
     else:
         if np.random.random() < 0.8:
             list.append(subj + "爸爸")
@@ -186,7 +200,7 @@ def family_list(vocab):
         return subj + "没有家"
     else:
         list.append(subj)
-    return subj + "家有" + number_of("口", len(list)) + "人。 " + punctuate_list(list)
+    return subj + "家有" + number_of("口", len(list) + bonus) + "人。 " + punctuate_list(list)
 
 
 def normalize(weights):
@@ -212,32 +226,49 @@ def specific_noun(vocab, hint):
     
     wspec, s = word(vocab, "noun", "specific")
     while matches(wspec, "noun", "person") and np.random.random() < 0.3:
-        s += "的"
         wspec, _s = word(vocab, "noun", "person")
         if matches(wspec, "noun", "specific") or matches(wspec, "noun:proper")  or matches(wspec, "noun:pronoun"):
             # try again
             return specific_noun(vocab, hint)
+        if np.random.random() < 0.05 or not matches(wspec, "noun", "no-de"):
+            s += "的"
         s += _s
     if not matches(wspec, "noun", hint):
-        s += "的"
         wspec, _s = word(vocab, "noun", hint)
         if matches(wspec, "noun", "specific") or matches(wspec, "noun:proper") or matches(wspec, "noun:pronoun"):
             # try again
             return specific_noun(vocab, hint)
+        if np.random.random() < 0.08 or not matches(wspec, "noun", "no-de"):
+            s += "的"
         s += _s
     return wspec, s
 
 def verb_get_hints_for_object(v, object):
-    hints = v["hint"]
+    hints = get_hint_for(v, "verb")
     if object in hints:
         return hints[object]
     return ""
+    
+def get_verb(vocab):
+    if np.random.random() < 0.8:
+        return word(vocab, "verb")
+    else:
+        # stative verb
+        wspec, s = word(vocab, "adjective")
+        if matches(wspec, "adjective:de"):
+            # try again
+            return get_verb(vocab)
+        return {"type": "verb:s", "hint": {"s": get_hint_for(wspec, "adjective")}}, ("很" + s)
 
 def action(vocab, can_time=True, can_location=True, can_remark=True, can_subordinate=True):
     # sort of general-purpose way in which sentences are formed
     s = ""
-    wverb, verb = word(vocab, "verb")
-    objects_opt = parse_list_xparams(wverb["type"])[1]
+    wverb, verb = get_verb(vocab)
+    objects_opt_ral = xparams_ral(wverb["type"])
+    objects_opt = "s"
+    for objor in objects_opt_ral:
+        if objor[0] == "verb":
+            objects_opt = objor[1]
     if (len(objects_opt) == 0):
         objects = "s"
     else:
@@ -266,13 +297,16 @@ def action(vocab, can_time=True, can_location=True, can_remark=True, can_subordi
 
     # time
     if np.random.random() < 0.4 and can_time:
-        if np.random.random() < 0.1:
-            s += action(vocab, False, True, False, False) + "的时候"
-        #else:
-            #s += specific_time()
+        if np.random.random() < 0.2:
+            s = action(vocab, False, True, False, False) + "的时候，" + s
+            can_subordinate = False
+        elif np.random.random() < 0.25:
+            s = "在" + action(vocab, False, True, False, False) + "时，" + s
+            can_subordinate = False
+            can_location = False
     
     # location
-    if can_location and np.random.random() < 0.4:
+    if can_location and np.random.random() < 0.3:
         s += "在" + word(vocab, "noun", "place")[1]
         
     if np.random.random() < 0.3:

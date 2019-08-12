@@ -124,7 +124,12 @@
   {
 		"character": ["给"],
 	 	"pinyin": "ge3i",
-	 	"meaning": ["to give"]
+	 	"meaning": ["to give"],
+        "type": "verb:do",
+        "hint": {
+            "s" : "person",
+            "d" : "person"
+        }
 	},
   {
 		"character": ["杯"],

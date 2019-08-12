@@ -27,14 +27,14 @@
 	 	"pinyin": "me4imei",
 	 	"meaning": ["little sister"],
         "type": "noun",
-        "hint": "family-member,person"
+        "hint": "family-member,person,no-de"
 	},
   {
 		"character": ["大姐"],
 	 	"pinyin": "da4jie3",
 	 	"meaning": ["eldest sister", "oldest sister"],
         "type": "noun",
-        "hint": "family-member,person,single"
+        "hint": "family-member,person,single,no-de"
 	},
   {
 		"character": ["做"],

@@ -1,0 +1,196 @@
+[
+    {
+		"character": ["浅色"],
+	 	"pinyin": "qia3nse4",
+	 	"meaning": ["light colours", "light colors", "light-colored", "light-coloured", "light coloured", "light colored"],
+        "meaning-accepted": ["light"]
+	},
+    {
+		"character": ["头发"],
+	 	"pinyin": "to2ufa",
+	 	"meaning": ["hair (on head)"],
+		"meaning-accepted": ["hair"]
+	},
+    {
+      "character": ["制服"],
+      "pinyin": "zhi4fu2",
+      "meaning": ["uniform"],
+      "type": "noun",
+      "hint":"have,clothes"
+    },
+    {
+      "character": ["祝"],
+      "pinyin": "zhu4",
+      "meaning": ["to wish (good luck on...)", "to wish luck", "to wish luck on (doing something)", "to wish luck in", "to wish luck (in an endeavour)"],
+      "meaning-accepted": ["to wish", "to wish luck for", "to wish good luck"],
+      "type": "verb:do",
+      "hint": {
+          "s": "person",
+          "d": "person",
+          "o": "zhu4"
+      }
+    },
+    {
+      "character": ["好运"],
+      "pinyin": "ha3o yu4n",
+      "meaning": ["good luck", "good fortune"],
+      "meaning-accepted": ["luck"],
+      "type": "noun",
+      "hint": "zhu4"
+    },
+    {
+        "character": ["成功"],
+        "pinyin": "che2nggo1ng",
+        "meaning": ["success", "to succeed", "to be successful"],
+        "type": "noun,verb:s",
+        "hint": {
+            "noun": "zhu4",
+            "verb": {
+                "s" : "person"
+            }
+        }
+    },
+    {
+        "character": ["到"],
+        "pinyin": "da4o",
+        "meaning": ["to arrive at", "to reach", "to arrive", "(completed action)"],
+        "meaning-accepted": ["to arrive", "to get to", "completed action", "completed", "successfully completed", "completed successfully", "past tense", "past"],
+        "type": "verb:s:o:l"
+    },
+    {
+        "character": ["手机"],
+        "pinyin": "sho3uji1",
+        "meaning": ["cellphone", "mobile phone"],
+        "meaning-accepted": ["phone", "handy", "smartphone", "mobile"],
+        "type": "noun",
+        "hint": "have"
+    },
+    {
+        "character": ["手机号"],
+        "pinyin": "sho3uji1 ha4o",
+        "meaning": ["cellphone number", "mobile phone number"],
+        "meaning-accepted": ["phone number", "mobile number", "number"],
+        "type": "noun",
+        "hint": "have"
+    },
+    {
+        "character": ["加油"],
+        "pinyin": "jia1yo2u",
+        "meaning": ["to refuel", "to add oil", "hit the gas", "go for it!"],
+        "type": "verb:s,exclamation",
+        "hint": {
+            "verb": {
+                "s": "person"
+            }
+        }
+    },
+    {
+        "character": ["接触"],
+        "pinyin": "jie1chu4",
+        "meaning": ["to come into contact with", "to come into contact"],
+        "meaning-accepted": ["to contact", "to engage", "to engage with"],
+        "type": "verb:so",
+        "hint": {
+            "s": "person"
+        }
+    },
+    {
+        "character": ["秒"],
+        "pinyin": "mia3o",
+        "meaning": ["second"],
+        "meaning-accepted": ["seconds", "a second", "one second"]
+    },
+    {
+        "character": ["总"],
+        "pinyin": "zo3ng",
+        "meaning": ["surely", "sooner or later", "invariably", "inevitably", "bound to"],
+        "type": "adverb"
+    },
+    {
+        "character": ["底"],
+        "pinyin": "di3",
+        "meaning": ["heart of the matter", "bottom", "bottom of"],
+        "meaning-accepted": ["heart", "heart of"],
+        "type": "noun"
+    },
+    {
+        "character": ["到底"],
+        "pinyin": "da4odi3",
+        "meaning": ["after all", "in the end", "ultimately"],
+        "type": "adverb"
+    },
+    {
+        "character": ["明白"],
+        "pinyin": "mi2ngba2i",
+        "meaning": ["understand", "realize", "come to realize", "clear (apparent)", "plainly apparent"],
+        "meaning-accepted": ["apparent", "clear"],
+        "type": "verb:s:o,adjective",
+        "hint": {
+            "verb": {
+                "s": "person",
+                "o": "concept"
+            },
+            "adjective": "concept"
+        }
+    },
+    {
+        "character": ["可恶"],
+        "pinyin": "ke3wu4",
+        "meaning": ["hateful", "loathsome", "repugnant", "vile", "repulsive", "abominable", "detestable"],
+        "meaning-accepted": ["apparent", "clear"],
+        "type": "adjective"
+    },
+    {
+        "character": ["笑"],
+        "pinyin": "xia4o",
+        "meaning": ["to laugh", "to smile", "laugh", "smile"],
+        "type": "verb:s,noun",
+        "hint": {
+            "verb": {
+                "s": "person"
+            },
+            "noun": "cho1ng"
+        }
+    },
+    {
+        "character": ["冲"],
+        "pinyin": "cho1ng",
+        "meaning": ["to rush", "to charge", "to charge ahead", "to dash"],
+        "type": "verb:s:so:sdo",
+        "hint": {
+            "s": "person",
+            "d": "person",
+            "o": "cho1ng"
+        }
+    },
+    {
+        "character": ["大脑"],
+        "pinyin": "da4na3o",
+        "meaning": ["mind", "brain"],
+        "type": "noun"
+    },
+    {
+        "character": ["就"],
+        "pinyin": "jiu4",
+        "meaning": ["at once", "right away", "as a result", "in that case"],
+        "meaning-accepted": ["then"],
+        "type": "adverb:verbonly"
+    },
+    {
+        "character": ["空白"],
+        "pinyin": "ko4ngba2i",
+        "meaning": ["blank space", "blankness", "emptiness", "nothingness", "void"],
+        "type": "noun"
+    },
+    {
+        "character": ["第一次"],
+        "pinyin": "di4yi1ci4",
+        "meaning": ["first time", "the first time"]
+    },
+    {
+        "character": ["第"],
+        "pinyin": "di4",
+        "meaning": ["ordinal/cardinal number marker"],
+        "meaning-accepted": ["ordinal", "cardinal", "number", "ordinal number", "cardinal number", "st", "th", "nd", "-st", "-th", "-nd"]
+    }
+]
