@@ -31,7 +31,7 @@
         "type": "verb:s",
         "hint": {
             "s": "person"
-        }    
+        }
     },
     {
         "character": ["怪"],
@@ -83,6 +83,12 @@
         "hint": "time"
     },
     {
+        "character": ["放学"],
+        "pinyin": "fa4ngxue2",
+	 	"meaning": ["when school lets out", "to be dismissed from school"],
+        "meaning-accepted": ["end of school"]
+    },
+    {
         "character": ["汪"],
         "pinyin": "wa1ng",
 	 	"meaning": ["woof!", "bark!"],
@@ -90,7 +96,7 @@
     },
     {
         "character": ["出去"],
-        "pinyin": "chu4qu4",
+        "pinyin": "chu1qu4",
 	 	"meaning": ["to go out"]
     },
     {

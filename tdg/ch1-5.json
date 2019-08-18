@@ -1,0 +1,134 @@
+[
+    {
+		"character": ["避"],
+	 	"pinyin": "bi4",
+	 	"meaning": ["to avoid", "to flee", "to shun"],
+        "meaning-accepted": ["to run from", "to hide from", "to flee from"],
+        "type": "verb:so",
+        "hint": {
+            "s": "person",
+            "o": "person"
+        }
+	},
+    {
+		"character": ["避"],
+	 	"pinyin": "pa3o",
+	 	"meaning": ["to run away", "to escape"],
+        "type": "verb:s",
+        "hint": {
+            "s": "person"
+        }
+	},
+    {
+		"character": ["躲"],
+	 	"pinyin": "duo3",
+	 	"meaning": ["to hide", "to avoid", "to evade"],
+        "meaning-accepted": ["to dodge"],
+        "type": "verb:s",
+        "hint": {
+            "s": "person"
+        }
+	},
+    {
+		"character": ["追"],
+	 	"pinyin": "zhui1",
+	 	"meaning": ["to chase after", "to chase", "to seek"],
+        "type": "verb:so",
+        "hint": {
+            "s": "person"
+        }
+	},
+    {
+		"character": ["每天"],
+	 	"pinyin": "me3itia1n",
+	 	"meaning": ["every day", "everyday", "each day"],
+        "type": "noun:time"
+	},
+    {
+		"character": ["脸"],
+	 	"pinyin": "lia3n",
+	 	"meaning": ["face"],
+        "type": "noun"
+	},
+    {
+		"character": ["喘"],
+	 	"pinyin": "chua3n",
+	 	"meaning": ["gasp for breath", "breathe heavily"],
+        "meaning-accepted": ["gasp", "breathe"],
+        "type": "verb:s",
+        "hint": {
+            "s": "person"
+        }
+	},
+    {
+		"character": ["气"],
+	 	"pinyin": "qi4",
+	 	"meaning": ["gas", "air", "breath"],
+        "type": "noun"
+	},
+    {
+		"character": ["盯"],
+	 	"pinyin": "di1ng",
+	 	"meaning": ["to stare", "to stare at", "to gaze", "to gaze at"],
+        "type": "verb"
+	},
+    {
+		"character": ["这么"],
+	 	"pinyin": "zhe4me",
+	 	"meaning": ["like so", "in this way", "like this"],
+        "meaning-accepted": ["as such", "such", "so", "this way"]
+	},
+    {
+		"character": ["运动神经"],
+	 	"pinyin": "zhe4me",
+	 	"meaning": ["like so", "in this way", "like this"],
+        "meaning-accepted": ["as such", "such", "so", "this way"]
+	},
+    {
+		"character": ["算"],
+	 	"pinyin": "sua4n",
+	 	"meaning": ["to reckon", "to figure"],
+        "meaning-accepted": ["count", "calculate", "compute"]
+	},
+    {
+		"character": ["优秀"],
+	 	"pinyin": "yo1uxiu4",
+	 	"meaning": ["outstanding", "splendid", "excellent"],
+	},
+    {
+		"character": ["成绩"],
+	 	"pinyin": "che2ngji4",
+	 	"meaning": ["achievement", "success", "result (of work or study)"],
+        "meaning-accepted": ["result"]
+	},
+    {
+        "character": ["不和"],
+        "pinyin": "bu4he2",
+        "meaning": ["discord", "not getting along well", "on bad terms", "at odds"],
+        "meaning-accepted": ["discord", "getting along poorly", "poor terms", "bad terms", "odds", "disharmony"]
+    },
+    {
+		"character": ["仍"],
+	 	"pinyin": "re1ng",
+	 	"meaning": ["to throw", "to toss", "to fling", "to cast away", "to hurl", "to throw away", "to cast aside"],
+        "meaning-accepted": ["to cast"]
+	},
+    {
+		"character": ["全都"],
+	 	"pinyin": "qua2ndo1u",
+	 	"meaning": ["without exception"],
+        "meaning-accepted": ["all", "every", "each"]
+	},
+    {
+        "character": ["让"],
+        "pinyin": "ra4ng",
+        "meaning": ["to yield", "to give way", "to concede", "to let", "to permit"],
+        "meaning-accepted": ["give up", "give ground"]
+    },
+    {
+        "character": ["想一想"],
+        "pinyin": "xia3ng yi1 xia3ng",
+        "meaning": ["think about it", "mull it over", "think it over", "mull over it", "ponder it"],
+        "meaning-accepted": ["think", "mull", "ponder", "think over", "ruminate"]
+    }
+]

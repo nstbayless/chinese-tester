@@ -1,0 +1,105 @@
+[
+    {
+        "character": ["挺"],
+        "pinyin": "ti3ng",
+        "meaning": ["quite", "rather"],
+        "meaning-accepted": ["pretty"],
+        "type": "adverb:adjonly"
+    },
+    {
+        "character": ["有名"],
+        "pinyin": "yo3umi2ng",
+        "meaning": ["famous"],
+        "type": "adjective:de"
+    },
+    {
+        "character": ["比"],
+        "pinyin": "bi3",
+        "meaning": ["-er than"],
+        "meaning": ["er", "er than", "compare", "contrast", "comparison", "comparison marker"]
+    },
+    {
+        "character": ["起来"],
+        "pinyin": "qi3la2i",
+        "meaning": [ "(in an upwards fashion)", "(to encourage others to something)"],
+        "meaning-accepted": ["upward", "upwards", "let's"]
+    },
+    {
+        "character": ["起来了"],
+        "pinyin": "qi3la2ile",
+        "meaning": ["to start", "to begin","(marks initiation of action)"]
+    },
+    {
+        "character": ["看起来"],
+        "pinyin": "ka4n qi3la2i",
+        "meaning": ["looks", "seems"]
+    },
+    {
+        "character": ["聊天记录"],
+        "pinyin": "lia2otia1n ji4lu4",
+        "meaning": ["chat record", "chat history"],
+        "type": "noun"
+    },
+    {
+        "character": ["传给"],
+        "pinyin": "chua2n ge3i",
+        "meaning": ["to pass on to", "to hand on to", "to transfer on to"],
+        "meaning-accepted": ["to pass on", "to hand on", "to transfer to", "to pass to", "to hand to", "to transfer on"],
+        "type": "verb:sdo"
+    },
+    {
+        "character": ["改天"],
+        "pinyin": "ga3itia1n",
+        "meaning": ["some other day", "some other time", "on another day"],
+        "meaning-accepted": ["another day", "another time"],
+        "type": "verb:sdo"
+    },
+    {
+        "character": ["班"],
+        "pinyin": "ba1n",
+        "meaning": ["class (in school)"],
+        "meaning-accepted": ["class"]
+    },
+    {
+        "character": ["那些"],
+        "pinyin": "na4xie1",
+        "meaning": ["those"]
+    },
+    {
+        "character": ["帮"],
+        "pinyin": "ba1ng",
+        "meaning": ["to help", "to aid", "to assist"],
+        "type": "verb:a"
+    },
+    {
+        "character": ["打听"],
+        "pinyin": "da3ti1ng",
+        "meaning": ["to inquire about", "to ask about"]
+    },
+    {
+        "character": ["容易"],
+        "pinyin": "ro2ngyi4",
+        "meaning": ["easy", "likely", "liable to"]
+    },
+    {
+        "character": ["真"],
+        "pinyin": "zhe1n",
+        "meaning": ["truly", "indeed", "genuinely"],
+        "meaning-accepted": ["true", "genuine"],
+        "type": "adverb:adjonly"
+    },
+    {
+        "character": ["如果"],
+        "pinyin": "ru2gu3o",
+        "meaning": ["if", "in the event that"]
+    },
+    {
+        "character": ["拿"],
+        "pinyin": "na2",
+        "meaning": ["to take"],
+        "type": "verb",
+        "hint": {
+            "s": "person"
+        }
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+		"character": ["相遇"],
+	 	"pinyin": "xia1ngyu4",
+	 	"meaning": ["to encounter", "to come across"],
+        "meaning-accepted": ["to meet"],
+        "type": "verb:s",
+        "hint": {
+            "s": "person"
+        }
+	},
+    {
+        "character": ["聚餐"],
+        "pinyin": "ju4ca1n",
+        "meaning": ["formal meal", "dining event", "group meal"],
+        "meaning-accepted": ["meal", "dining"],
+        "type": "noun",
+        "hint": "have"
+    },
+    {
+        "character": ["结束"],
+        "pinyin": "jie2shu4",
+        "meaning": ["termination", "to terminate", "to end", "to finish"],
+        "type": "verb:s"
+    },
+    {
+        "character": ["大概"],
+        "pinyin": "da4ga4i",
+        "meaning": ["probably"],
+        "type": "adverb"
+    },
+    {
+        "character": ["自己"],
+        "pinyin": "zi4ji3",
+        "meaning": ["oneself", "one's self"],
+        "meaning-accepted": ["one's own", "own", "self", "myself", "yourself", "theirself", "themself", "own self", "one's own self", "onesself"]
+    },
+    {
+        "character": ["终于"],
+        "pinyin": "zho1ngyu2",
+        "meaning": ["finally", "at last"],
+        "meaning-accepted": ["ultimately", "in the end"]
+    }
+]
