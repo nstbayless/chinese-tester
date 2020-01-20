@@ -1,0 +1,73 @@
+[
+	{
+		"character": ["下个"],
+	 	"pinyin": "xia4 ge",
+	 	"meaning": ["next (i.e. next week)", "next one"],
+	 	"meaning-accepted": ["next"]
+	},
+	{
+		"character": ["下"],
+	 	"pinyin": "xia4",
+	 	"meaning": ["below; next"],
+	 	"meaning-accepted": ["next", "below"]
+	},
+	{
+	    "character": ["帮"],
+	 	"pinyin": "ba1ng",
+	 	"meaning": ["to help"]
+	},
+	{
+	    "character": ["准备"],
+	 	"pinyin": "zhu3nbe4i",
+	 	"meaning": ["to prepare"]
+	},
+    {
+	    "character": ["练习"],
+	 	"pinyin": "lia4nxi2",
+	 	"meaning": ["to practice"]
+	},
+	{
+	    "character": ["说"],
+	 	"pinyin": "shuo1",
+	 	"meaning": ["to say", "to speak"]
+	},
+	{
+	    "character": ["啊"],
+	 	"pinyin": "a",
+	 	"meaning": ["(a sentence-final particle of exclamation, interrogation, etc.)"],
+	 	"meaning-accepted": ["a", "ah", "eh", "hm"]
+	},
+	{
+	    "character": ["但是"],
+	 	"pinyin": "da4nshi4",
+	 	"meaning": ["but"],
+	 	"meaning-accepted": ["however", "yet", "and yet"]
+	},
+	{
+	    "character": ["得"],
+	 	"pinyin": "de3i",
+	 	"meaning": ["must"],
+	 	"meaning-accepted": ["have to"]
+	},
+	{
+	    "character": ["跟"],
+	 	"pinyin": "ge1n",
+	 	"meaning": ["with"]
+	},
+	{
+	    "character": ["见面"],
+	 	"pinyin": "jia4n mia4n",
+	 	"meaning": ["to meet up", "to meet up with"],
+	 	"meaning": ["to meet", "to meet with"]
+	},
+	{
+	    "character": ["面"],
+	 	"pinyin": "mia4n",
+	 	"meaning": ["face"]
+	},
+	{
+	    "character": ["回来"],
+	 	"pinyin": "hui2 lai",
+	 	"meaning": ["to come back", "to come back here"]
+	}
+]
