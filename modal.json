@@ -40,6 +40,32 @@
         "type": "modal"
 	},
 	{
+		"character": ["得"],
+	 	"pinyin": "de3i",
+	 	"meaning": ["must", "to have to", "has to", "to need to", "needs to"],
+        "type": "modal"
+	},
+	{
+		"character": ["必须"],
+	 	"pinyin": "bi4xu1",
+	 	"meaning": ["must", "to have to", "has to", "to need to", "needs to"],
+        "type": "modal"
+	},
+	{
+		"character": ["不必"],
+	 	"pinyin": "bu4bi4",
+	 	"meaning": ["need not", "needn't", "don't have to", "doesn't have to", "don't need to"],
+	 	"meaning-accepted": ["do not have to", "does not have to", "not have to", "not must"],
+        "type": "modal"
+	},
+	{
+		"character": ["不用"],
+	 	"pinyin": "bu4yo4ng",
+	 	"meaning": ["need not", "needn't", "don't have to", "doesn't have to", "don't need to"],
+	 	"meaning-accepted": ["do not have to", "does not have to", "not have to", "not must"],
+        "type": "modal"
+	},
+	{
 		"character": ["必须"],
 	 	"pinyin": "bi4xu1",
 	 	"meaning": ["must", "to have to", "has to", "to need to", "needs to"],

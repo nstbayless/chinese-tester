@@ -1,0 +1,169 @@
+[
+	{
+		"character": ["出租车"],
+	 	"pinyin": "chu1zu1che1",
+	 	"meaning": ["taxi", "taxicab"],
+	 	"meaning-accepted": ["cab", "taxi cab", "taxi-cab"],
+        "type": "noun"
+	},
+    {
+		"character": ["东"],
+	 	"pinyin": "do1ng",
+	 	"meaning": ["east"]
+	},
+	{
+		"character": ["西"],
+	 	"pinyin": "xi1",
+	 	"meaning": ["west"]
+	},
+	{
+		"character": ["南"],
+	 	"pinyin": "na2n",
+	 	"meaning": ["south"]
+	},
+	{
+		"character": ["北"],
+	 	"pinyin": "be3i",
+	 	"meaning": ["north"]
+	},
+	{
+		"character": ["读"],
+	 	"pinyin": "du2",
+	 	"meaning": ["read"]
+	},
+	{
+		"character": ["块"],
+	 	"pinyin": "kua4i",
+	 	"meaning": ["piece", "chunk", "lump"],
+	 	"meaning-accepted": ["part"]
+	},
+	{
+		"character": ["后面"],
+	 	"pinyin": "ho4umia4n",
+	 	"meaning": ["behind"],
+	 	"meaning-accepted": ["rear", "back", "later", "after"]
+	},
+	{
+		"character": ["饭店"],
+	 	"pinyin": "fa4ndia4n",
+	 	"meaning": ["restaurant"],
+	 	"meaning-accepted": ["diner", "hotel"]
+	},
+	{
+		"character": ["飞机"],
+	 	"pinyin": "fe1iji1",
+	 	"meaning": ["airplane", "aircraft"],
+	 	"meaning-accepted": ["plane", "aeroplane"]
+	},
+    {
+		"character": ["分钟"],
+	 	"pinyin": "fe1nzho1ng",
+	 	"meaning": ["minute"],
+	 	"meaning-accepted": ["a minute"]
+	},
+	{
+		"character": ["狗"],
+	 	"pinyin": "go3u",
+	 	"meaning": ["dog"],
+	 	"meaning-accepted": ["hound", "mutt"]
+	},
+	{
+		"character": ["汉语"],
+	 	"pinyin": "Ha4nyu3",
+	 	"meaning": ["Chinese", "Chinese (spoken)"],
+	 	"meaning-accepted": ["Chinese language", "Chinese (language)", "Chinese (spoken)"]
+	},
+	{
+		"character": ["看见"],
+	 	"pinyin": "ka4njia4n",
+	 	"meaning": ["see", "catch sight of"],
+	 	"meaning-accepted": ["catch sight"]
+	},
+	{
+		"character": ["买"],
+	 	"pinyin": "ma3i",
+	 	"meaning": ["to buy", "to purchase"],
+	 	"meaning-accepted": ["to acquire", "to pay", "to procure", "to pay for"]
+	},
+	{
+		"character": ["卖"],
+	 	"pinyin": "ma4i",
+	 	"meaning": ["to sell"],
+	 	"meaning-accepted": ["sale"]
+	},
+	{
+		"character": ["猫"],
+	 	"pinyin": "ma1o",
+	 	"meaning": ["cat"]
+	},
+	{
+		"character": ["没关系"],
+	 	"pinyin": "me2igua1nxi4",
+	 	"meaning": ["it's ok", "no problem", "no worries", "it's all right"],
+	 	"meaning-accepted": ["it's nothing", "it's alright"]
+	},
+	{
+		"character": ["苹果"],
+	 	"pinyin": "pi2ngguo3",
+	 	"meaning": ["apple"]
+	},
+	{
+		"character": ["前面"],
+	 	"pinyin": "qia2nmia4n",
+	 	"meaning": ["in front", "ahead"],
+	 	"meaning-accepted": ["front", "fore"]
+	},
+	{
+		"character": ["前"],
+	 	"pinyin": "qia2n",
+	 	"meaning": ["ago"],
+	 	"meaning-accepted": ["front", "fore", "forepart"]
+	},
+	{
+		"character": ["热"],
+	 	"pinyin": "re4",
+	 	"meaning": ["heat"],
+	 	"meaning-accepted": ["hot", "to warm", "to heat up"]
+	},
+	{
+		"character": ["商店"],
+	 	"pinyin": "sha1ngdia4n",
+	 	"meaning": ["store", "shop"]
+	},
+	{
+		"character": ["天气"],
+	 	"pinyin": "tia1nqi4",
+	 	"meaning": ["weather", "the weather"]
+	},
+	{
+		"character": ["些"],
+	 	"pinyin": "xie1",
+	 	"meaning": ["some", "few", "several"]
+	},
+	{
+		"character": ["医院"],
+	 	"pinyin": "yi1yua4n",
+	 	"meaning": ["hospital"]
+	},
+	{
+		"character": ["衣服"],
+	 	"pinyin": "yi1fu2",
+	 	"meaning": ["clothes", "clothing"]
+	},
+	{
+		"character": ["椅子"],
+	 	"pinyin": "yi3zi",
+	 	"meaning": ["chair"]
+	},
+	{
+		"character": ["住"],
+	 	"pinyin": "zhu4",
+	 	"meaning": ["live", "dwell", "reside", "stay", "stop", "cease"]
+	},
+	{
+		"character": ["桌子"],
+	 	"pinyin": "zhuo1zi",
+	 	"meaning": ["table"],
+	 	"meaning-accepted": ["desk"]
+	}
+]
