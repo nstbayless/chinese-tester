@@ -8,6 +8,7 @@ import os
 import numpy as np
 import unicodedata
 from src import generate
+from src.pinyinutil import *
 import time
 
 audio_enabled = True
@@ -82,25 +83,6 @@ class MissingDataException(Exception):
 def check_quit(s):
   if s == "q" or s == "quit":
     raise QuitException
-
-def convert_pinyin(pinyin):
-  # converts pinyin to standardized form for comparison
-  pinyin = pinyin    \
-    .replace("0","") \
-    .replace(" ","")
-
-  return pinyin.lower();
-
-def pretty_pinyin(pinyin):
-  pinyin = pinyin.replace("0","") \
-    .replace("1",u'\u0304') \
-    .replace("2",u'\u0301') \
-    .replace("3",u'\u030C') \
-    .replace("4",u'\u0300') \
-    .replace("v",u'u\u0308') \
-    .replace("V",u'U\u0308') \
-    .replace("5","")
-  return pinyin
 
 def standard_meaning(m):
   m = m.lower()
