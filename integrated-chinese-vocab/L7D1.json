@@ -1,0 +1,134 @@
+[
+	{
+		"character": ["说话"],
+	 	"pinyin": "shuo1 hua4",
+	 	"meaning": ["to talk"]
+	},
+	{
+		"character": ["话"],
+	 	"pinyin": "hua4",
+	 	"meaning": ["speech", "word"]
+	},
+	{
+		"character": ["上个"],
+	 	"pinyin": "sha4ng ge",
+	 	"meaning": ["the previous one"],
+	 	"meaning-accepted": ["the previous", "previous", "previous one", "last one", "last", "the last one", "the last"]
+	},
+	{
+		"character": ["得"],
+	 	"pinyin": "de",
+	 	"meaning": ["(a structural particle)"],
+	 	"meaning-accepted": ["particle", "de"]
+	},
+	{
+		"character": ["复习"],
+	 	"pinyin": "fu4xi2",
+	 	"meaning": ["to review"]
+	},
+	{
+		"character": ["字"],
+	 	"pinyin": "zi4",
+	 	"meaning": ["character"]
+	},
+	{
+		"character": ["慢"],
+	 	"pinyin": "ma4n",
+	 	"meaning": ["slow"]
+	},
+	{
+		"character": ["枝"],
+	 	"pinyin": "zhi1",
+	 	"meaning": ["(measure word for long, thin, inflexible objects such as pens, rifles, etc.)"],
+	 	"meaning-accepted": ["measure word for pens", "measure word", "(measure word)", "mw: pen", "mw: pens"]
+	},
+	{
+		"character": ["笔"],
+	 	"pinyin": "bi3",
+	 	"meaning": ["pen"]
+	},
+	{
+		"character": ["张"],
+	 	"pinyin": "zha1ng",
+	 	"meaning": ["(measure word for flat objects, paper, pictures)"],
+	 	"meaining-accepted": ["mw: paper", "mw: flat"]
+	},
+	{
+		"character": ["纸"],
+	 	"pinyin": "zhi3",
+	 	"meaning": ["paper"]
+	},
+	{
+		"character": ["教"],
+	 	"pinyin": "jia1o",
+	 	"meaning": ["to teach"]
+	},
+	{
+		"character": ["怎么"],
+	 	"pinyin": "ze3nme",
+	 	"meaning": ["how", "how come"]
+	},
+	{
+		"character": ["懂"],
+	 	"pinyin": "do3ng",
+	 	"meaning": ["to understand"]
+	},
+	{
+		"character": ["真"],
+	 	"pinyin": "zhe1n",
+	 	"meaning": ["really"]
+	},
+	{
+		"character": ["哪里"],
+	 	"pinyin": "na3li",
+	 	"meaning": ["where"]
+	},
+	{
+		"character": ["预习"],
+	 	"pinyin": "yu4xi2",
+	 	"meaning": ["to preview"]
+	},
+	{
+		"character": ["学"],
+	 	"pinyin": "xue2",
+	 	"meaning": ["to study", "to learn"]
+	},
+	{
+		"character": ["第"],
+	 	"pinyin": "di4",
+	 	"meaning": ["(prefix for ordinal numbers)", "ordinal", "ordinal number"],
+	 	"meaning-accepted": ["number"]
+	},
+	{
+		"character": ["语法"],
+	 	"pinyin": "yu3fa3",
+	 	"meaning": ["grammar"]
+	},
+	{
+		"character": ["容易"],
+	 	"pinyin": "ro2ngyi4",
+	 	"meaning": ["easy"]
+	},
+	{
+		"character": ["生词"],
+	 	"pinyin": "she1ngci2",
+	 	"meaning": ["new words", "vocabulary"]
+	},
+	{
+		"character": ["多"],
+	 	"pinyin": "duo1",
+	 	"meaning": ["many", "much"]
+	},
+	{
+		"character": ["汉字"],
+	 	"pinyin": "Ha4nzi4",
+	 	"meaning": ["Chinese characters", "Chinese character"],
+	 	"meaning-accepted": ["character"]
+	},
+	{
+		"character": ["难"],
+	 	"pinyin": "na2n",
+	 	"meaning": ["difficult"],
+	 	"meaning-accepted": ["hard"]
+	}
+]

@@ -6,3 +6,4 @@ data/
 *.mp3
 *.log
 *.swp
+*.pyc
