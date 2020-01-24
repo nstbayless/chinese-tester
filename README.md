@@ -1,10 +1,30 @@
 # Mandarin vocabulary tester
 
-Tests your understanding of Chinese characters, Pinyin, and meanings of chinese words. Just plug in a json file with the dictionary of terms you're learning (or use any of the presets included in the repo) and select which quiz methods you prefer (or just `--all` if you don't care), and you're good to go!
+`python3 chinese-tester.py -cp path/to/vocab.json`
 
-There's also a support for "arbitrary pinyin" mode: listen to random chinese words drawn from 4000+ sounds and transcribe them into pinyin!
+Helps you learn Chinese characters (汉字), Pinyin, and their associated English meanings. Just plug in a .json file with the dictionary of terms you're learning (or use any of the presets included in the repo) and select which quiz methods you prefer, and you're good to go!
 
-Here's a sample output:
+## Recommended method for learning new vocab
+
+1. First preview the vocab with the `-msc` (meaning-select-character *multiple choice*) command line flag,
+2. Then learn the pinyin with `-pm` (pinyin-to-meaning),
+3. Prove you know the characters and pinyin both with `-cp` (character-to-pinyin)
+
+Skip directly to step 3 if you have some experience with the vocabulary already; return to step 1 or 2 if step 3 is too difficult.
+
+Try to get at least 80% on step 1, 70% on step 2, then **aim for 100% on step 3**. The goal is to be able to associate characters, pinyin, and meaning. Doing well on step three ensures a character-pinyin association, which implies an underlying character-meaning-pinyin association. Step 1 and step 2 exist only to help prepare for step 3, so it is not important to get a perfect score.
+
+To best retain your knowledge, use [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition): revisit step 3 one day, one week, and one month later.
+
+**Note:** this method is *not* sufficient for learning how to write the characters, only to read them. However, it *is* helpful for reading comprehension, listening comprehension, and verbal competence due to the reliance on pinyin.
+
+## Learn the readicals
+
+`python3 chinese-tester.py -cp radicals/stroke-2.json`
+
+To improve your ability to learn new characters, you should study the meanings of the most common radicals. It's most important to associate radical-meaning.
+
+## Sample Output
 
 ```
 Type q or quit at any time to end.
