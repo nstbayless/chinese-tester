@@ -1,0 +1,79 @@
+[
+	{
+		"character": ["平常"],
+	 	"pinyin": "pi2ngcha2ng",
+	 	"meaning": ["usually"]
+	},
+	{
+		"character": ["早"],
+	 	"pinyin": "za3o",
+	 	"meaning": ["early"]
+	},
+	{
+		"character": ["这么"],
+	 	"pinyin": "zhe4me",
+	 	"meaning": ["so", "this"]
+	},
+	{
+		"character": ["晚"],
+	 	"pinyin": "wa3n",
+	 	"meaning": ["late"]
+	},
+	{
+		"character": ["早上"],
+	 	"pinyin": "za3oshang",
+	 	"meaning": ["morning"]
+	},
+	{
+		"character": ["功课"],
+	 	"pinyin": "go1ngke4",
+	 	"meaning": ["homework", "schoolwork"]
+	},
+	{
+		"character": ["大家"],
+	 	"pinyin": "da4jia1",
+	 	"meaning": ["everybody"]
+	},
+	{
+		"character": ["上课"],
+	 	"pinyin": "sha4ng ke4",
+	 	"meaning": ["to be in class", "to be in a class", "to start a class", "to go to a class", "to go to class"]
+	},
+	{
+		"character": ["开始"],
+	 	"pinyin": "ka1ishi3",
+	 	"meaning": ["to begin", "to start", "beginning"]
+	},
+	{
+		"character": ["念"],
+	 	"pinyin": "nia4n",
+	 	"meaning": ["to read aloud"],
+	 	"meaning-accepted": ["to read"]
+	},
+	{
+		"character": ["课文"],
+	 	"pinyin": "ke4we2n",
+	 	"meaning": ["text of a lesson"],
+	 	"meaning-accepted": ["lesson text"]
+	},
+	{
+		"character": ["录音"],
+	 	"pinyin": "lu4yi1n",
+	 	"meaning": ["sound recording", "to record"]
+	},
+	{
+		"character": ["学习"],
+	 	"pinyin": "xue2xi2",
+	 	"meaning": ["to study", "to learn"]
+	},
+	{
+		"character": ["帅"],
+	 	"pinyin": "shua4i",
+	 	"meaning": ["handsome"]
+	},
+	{
+		"character": ["酷"],
+	 	"pinyin": "ku4",
+	 	"meaning": ["cool"]
+	}
+]
