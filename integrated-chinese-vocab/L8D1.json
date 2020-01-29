@@ -1,0 +1,97 @@
+[
+	{
+		"character": ["洗澡"],
+	 	"pinyin": "xi3 za3o",
+	 	"meaning": ["to take a bath", "to bathe", "to shower"]
+	},
+    {
+		"character": ["早饭"],
+	 	"pinyin": "za3ofa4n",
+	 	"meaning": ["breakfast"]
+	},
+    {
+		"character": ["一边"],
+	 	"pinyin": "yi4bia1n",
+	 	"meaning": ["simultaneously", "at the same time"]
+	},
+    {
+		"character": ["教室"],
+	 	"pinyin": "jia4oshi4",
+	 	"meaning": ["classroom"]
+	},
+    {
+		"character": ["发音"],
+	 	"pinyin": "fa1yi1n",
+	 	"meaning": ["pronunciation"]
+	},
+    {
+		"character": ["新"],
+	 	"pinyin": "xi1n",
+	 	"meaning": ["new"]
+	},
+    {
+		"character": ["电脑"],
+	 	"pinyin": "dia4nna3o",
+	 	"meaning": ["computer"]
+	},
+    {
+		"character": ["脑"],
+	 	"pinyin": "na3o",
+	 	"meaning": ["brain"]
+	},
+    {
+		"character": ["中午"],
+	 	"pinyin": "zho1ngwu3",
+	 	"meaning": ["noon"]
+	},
+    {
+		"character": ["餐厅"],
+	 	"pinyin": "ca1nti1ng",
+	 	"meaning": ["dining room", "cafeteria"]
+	},
+    {
+		"character": ["午饭"],
+	 	"pinyin": "wu3fa4n",
+	 	"meaning": ["lunch", "midday meal"]
+	},
+    {
+		"character": ["上网"],
+	 	"pinyin": "sha4ng wa3ng",
+	 	"meaning": ["to go online", "to surf the internet"]
+	},
+    {
+		"character": ["宿舍"],
+	 	"pinyin": "su4she4",
+	 	"meaning": ["dormitory"]
+	},
+    {
+		"character": ["那儿"],
+	 	"pinyin": "na4r",
+	 	"meaning": ["there"]
+	},
+    {
+		"character": ["正在"],
+	 	"pinyin": "zhe4ngza4i",
+	 	"meaning": ["in the middle of (doing something)", "in progress", "in the process of"]
+	},
+    {
+		"character": ["以前"],
+	 	"pinyin": "yi3qia2n",
+	 	"meaning": ["to tell"]
+	},
+    {
+		"character": ["告诉"],
+	 	"pinyin": "ga4osu",
+	 	"meaning": ["to tell"]
+	},
+    {
+		"character": ["已经"],
+	 	"pinyin": "yi1ji1ng",
+	 	"meaning": ["already"]
+	},
+    {
+		"character": ["知道"],
+	 	"pinyin": "zhi1dao",
+	 	"meaning": ["to know", "to realize"]
+	}
+]
