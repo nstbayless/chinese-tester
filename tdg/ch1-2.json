@@ -42,16 +42,6 @@
         "hint": "any"
     },
     {
-        "character": ["买"],
-        "pinyin": "ma3i",
-	 	"meaning": ["to buy", "to purchase"],
-        "type": "verb:so",
-        "hint": {
-            "s": "person",
-            "o": "hold"
-        }
-    },
-    {
         "character": ["往前"],
         "pinyin": "wa3ngqia2n",
 	 	"meaning": ["forwards", "the past", "past"]
@@ -103,15 +93,5 @@
         "character": ["外面"],
         "pinyin": "wa4imia4n",
 	 	"meaning": ["outside"]
-    },
-    {
-        "character": ["玩"],
-        "pinyin": "wa2n",
-	 	"meaning": ["to have fun"]
-    },
-    {
-        "character": ["啊"],
-        "pinyin": "a1",
-	 	"meaning": ["ah", "ah!"]
     }
 ]

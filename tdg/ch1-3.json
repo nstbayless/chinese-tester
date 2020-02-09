@@ -21,8 +21,8 @@
     {
         "character": ["起来"],
         "pinyin": "qi3la2i",
-        "meaning": [ "(in an upwards fashion)", "(to encourage others to something)"],
-        "meaning-accepted": ["upward", "upwards", "let's"]
+        "meaning": [ "(in an upwards fashion)", "(to encourage others to something)", "to get up", "(indicating an action is completed)"],
+        "meaning-accepted": ["upward", "upwards", "let's", "completed"]
     },
     {
         "character": ["起来了"],
@@ -61,32 +61,9 @@
         "meaning-accepted": ["class"]
     },
     {
-        "character": ["那些"],
-        "pinyin": "na4xie1",
-        "meaning": ["those"]
-    },
-    {
-        "character": ["帮"],
-        "pinyin": "ba1ng",
-        "meaning": ["to help", "to aid", "to assist"],
-        "type": "verb:a"
-    },
-    {
         "character": ["打听"],
         "pinyin": "da3ti1ng",
         "meaning": ["to inquire about", "to ask about"]
-    },
-    {
-        "character": ["容易"],
-        "pinyin": "ro2ngyi4",
-        "meaning": ["easy", "likely", "liable to"]
-    },
-    {
-        "character": ["真"],
-        "pinyin": "zhe1n",
-        "meaning": ["truly", "indeed", "genuinely"],
-        "meaning-accepted": ["true", "genuine"],
-        "type": "adverb:adjonly"
     },
     {
         "character": ["如果"],

@@ -1,5 +1,26 @@
 [
 	{
+		"character": ["日记"],
+	 	"pinyin": "ri4ji4",
+	 	"meaning": ["diary"]
+	},
+	{
+		"character": ["起床"],
+	 	"pinyin": "qi3chua2ng",
+	 	"meaning": ["to get up", "to get out of bed", "to wake up"]
+	},
+	{
+		"character": ["累"],
+	 	"pinyin": "le4i",
+	 	"meaning": ["tired"]
+	},
+	{
+		"character": ["篇"],
+	 	"pinyin": "pia1n",
+	 	"meaning": ["(measure word for journal entries, articles, etc.)"],
+		"meaning-accepted": ["mw: entry", "entry", "article", "mw: article", "mw: articles", "mw: entries", "entries", "journal entry"]
+	},
+	{
 		"character": ["洗澡"],
 	 	"pinyin": "xi3 za3o",
 	 	"meaning": ["to take a bath", "to bathe", "to shower"]
@@ -86,7 +107,7 @@
 	},
     {
 		"character": ["已经"],
-	 	"pinyin": "yi1ji1ng",
+	 	"pinyin": "yi3ji1ng",
 	 	"meaning": ["already"]
 	},
     {
