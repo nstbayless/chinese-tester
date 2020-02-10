@@ -56,20 +56,15 @@
 	 	"meaning": ["to go out"]
 	},
     {
-		"character": ["传"],
-	 	"pinyin": "to wear",
-	 	"meaning": ["chua1n"]
+		"character": ["穿"],
+	 	"pinyin": "chua1n",
+	 	"meaning": ["to wear"]
 	},
     {
 		"character": ["次"],
 	 	"pinyin": "ci4",
 	 	"meaning": ["time (i.e. in a sequence)"],
         "meaning-accepted": ["next", "next in a sequence", "sequence", "time"]
-	},
-    {
-		"character": ["从"],
-	 	"pinyin": "co2ng",
-	 	"meaning": ["from", "via", "through", "passing through"]
 	},
     {
 		"character": ["错"],
@@ -79,7 +74,7 @@
     {
 		"character": ["大家"],
 	 	"pinyin": "da4jia1",
-	 	"meaning": ["everyone"]
+	 	"meaning": ["everyone", "everybody"]
 	},
     {
 		"character": ["到"],
@@ -101,10 +96,5 @@
 		"character": ["懂"],
 	 	"pinyin": "do3ng",
 	 	"meaning": ["to understand"]
-	},
-    {
-		"character": ["从"],
-	 	"pinyin": "co2ng",
-	 	"meaning": ["from", "via", "through", "passing through"]
 	}
 ]
