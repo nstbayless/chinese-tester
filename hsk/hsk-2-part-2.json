@@ -1,0 +1,86 @@
+[
+    {
+		"character": ["对"],
+	 	"pinyin": "dui4",
+	 	"meaning": ["right", "correct", "true"]
+	},
+    {
+		"character": ["对"],
+	 	"pinyin": "dui4",
+	 	"meaning": ["toward"],
+        "meaning-accepted": ["at", "for"]
+	},
+    {
+		"character": ["房间"],
+	 	"pinyin": "fa2ng jia1n",
+	 	"meaning": ["room"]
+	},
+    {
+		"character": ["非常"],
+	 	"pinyin": "fe1i cha2ng",
+	 	"meaning": ["extraordinary", "unusal", "exceptional", "extreme"]
+	},
+    {
+		"character": ["服务员"],
+	 	"pinyin": "fu2wu4yua2n",
+	 	"meaning": ["waiter", "waitress", "attendant", "customer service personnel"]
+	},
+    {
+		"character": ["告诉"],
+	 	"pinyin": "ga4osu",
+	 	"meaning": ["to tell", "to inform"]
+	},
+    {
+		"character": ["公共汽车"],
+	 	"pinyin": "go1nggo4ngqi4che1",
+	 	"meaning": ["bus"]
+	},
+    {
+		"character": ["公司"],
+	 	"pinyin": "go1ngsi1",
+	 	"meaning": ["business company", "corporation", "incorporated"],
+        "meaning-accepted": ["beaning", "company", "firm"]
+	},
+    {
+		"character": ["贵"],
+	 	"pinyin": "gui4",
+	 	"meaning": ["expensive", "noble", "precious"]
+	},
+    {
+		"character": ["过"],
+	 	"pinyin": "guo",
+	 	"meaning": ["(indicates completion of action)"],
+        "meaning-accepted": ["completion", "past", "past tense", "completed", "complete"]
+	},
+    {
+		"character": ["站"],
+	 	"pinyin": "zha4n",
+	 	"meaning": ["station", "stand"]
+	},
+    {
+		"character": ["火车"],
+	 	"pinyin": "huo3che1",
+	 	"meaning": ["train"]
+	},
+    {
+		"character": ["机场"],
+	 	"pinyin": "ji1cha3ng",
+	 	"meaning": ["airport", "airfield"]
+	},
+    {
+		"character": ["鸡蛋"],
+	 	"pinyin": "ji1da4n",
+	 	"meaning": ["(chicken) egg", "egg", "hen's egg", "chicken egg"],
+        "meaning-accepted": ["egg"]
+	},
+    {
+		"character": ["件"],
+	 	"pinyin": "jia4n",
+	 	"meaning": ["item", "component", "mw: events, things, clothes, etc."]
+	},
+    {
+		"character": ["介绍"],
+	 	"pinyin": "jie4sha4o",
+	 	"meaning": ["to introduce", "to present", "to recommend", "to suggest", "o brief"]
+	}
+]
