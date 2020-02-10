@@ -1,13 +1,39 @@
+def previous_vowel(pinyin, i):
+    # returns previous principal vowel in pinyin before given point
+    if i <= 0:
+        return 0
+    s =  pinyin[:i]
+    if s.endswith("r") or s.endswith("n"):
+        return previous_vowel(pinyin, i - 1)
+    if s.endswith("ng"):
+        return previous_vowel(pinyin, i - 2)
+    if s.endswith("ai") or s.endswith("ei") or s.endswith("ao") or s.endswith("ou"):
+        return i - 1
+    return i;
+
+def principal_vowel(pinyin):
+    # converts pinyin s.t. tone number is on the principal vowel.
+    for i in range(len(pinyin)):
+        p = pinyin[i]
+        if p in ["0", "1", "2", "3", "4", "5"]:
+            pv = previous_vowel(pinyin, i);
+            pinyin = pinyin[:i] + pinyin[i + 1:]
+            pinyin = pinyin[:pv] + p + pinyin[pv:]
+    return pinyin
+
 def convert_pinyin(pinyin):
   # converts pinyin to standardized form for comparison
   pinyin = pinyin    \
     .replace("0","") \
     .replace(" ","") \
     .strip()
+    
+  pinyin = principal_vowel(pinyin)
 
   return pinyin.lower();
 
 def pretty_pinyin(pinyin):
+  pinyin = principal_vowel(pinyin)
   pinyin = pinyin.replace("0","") \
     .replace("1",u'\u0304') \
     .replace("2",u'\u0301') \

@@ -1,0 +1,110 @@
+[
+    {
+		"character": ["吧"],
+	 	"pinyin": "ba",
+	 	"meaning": ["...right?"],
+        "meaning-accepted": ["ba", "right", "softener"]
+	},
+    {
+		"character": ["白"],
+	 	"pinyin": "ba2i",
+	 	"meaning": ["white", "clear"]
+	},
+    {
+		"character": ["百"],
+	 	"pinyin": "ba3i",
+	 	"meaning": ["hundred", "one hundred", "a hundred"]
+	},
+    {
+		"character": ["帮助"],
+	 	"pinyin": "ba1ng zhu4",
+	 	"meaning": ["assistance", "to aid", "to help"]
+	},
+    {
+		"character": ["报纸"],
+	 	"pinyin": "ba4o zhi3",
+	 	"meaning": ["newspaper"]
+	},
+    {
+		"character": ["比"],
+	 	"pinyin": "bi3",
+	 	"meaning": ["than", "-er than", "to compare"]
+	},
+    {
+		"character": ["别"],
+	 	"pinyin": "bie2",
+	 	"meaning": ["do not", "don't", "other", "another"]
+	},
+    {
+		"character": ["宾馆"],
+	 	"pinyin": "bi1n gua3n",
+	 	"meaning": ["guesthouse", "hotel"]
+	},
+    {
+		"character": ["长"],
+	 	"pinyin": "cha2ng",
+	 	"meaning": ["long", "length"]
+	},
+    {
+		"character": ["唱歌"],
+	 	"pinyin": "cha4ng ge1",
+	 	"meaning": ["to sing a song", "to sing"]
+	},
+    {
+		"character": ["出"],
+	 	"pinyin": "chu1",
+	 	"meaning": ["to go out"]
+	},
+    {
+		"character": ["传"],
+	 	"pinyin": "to wear",
+	 	"meaning": ["chua1n"]
+	},
+    {
+		"character": ["次"],
+	 	"pinyin": "ci4",
+	 	"meaning": ["time (i.e. in a sequence)"],
+        "meaning-accepted": ["next", "next in a sequence", "sequence", "time"]
+	},
+    {
+		"character": ["从"],
+	 	"pinyin": "co2ng",
+	 	"meaning": ["from", "via", "through", "passing through"]
+	},
+    {
+		"character": ["错"],
+	 	"pinyin": "cuo4",
+	 	"meaning": ["mistake", "error", "bad"]
+	},
+    {
+		"character": ["大家"],
+	 	"pinyin": "da4jia1",
+	 	"meaning": ["everyone"]
+	},
+    {
+		"character": ["到"],
+	 	"pinyin": "da4o",
+	 	"meaning": ["to (a place)", "until (a time)", "to arrive", "up to"],
+        "meaning-accepted": ["to", "until"]
+	},
+    {
+		"character": ["等"],
+	 	"pinyin": "de3ng",
+	 	"meaning": ["to wait", "to wait for", "to await"]
+	},
+    {
+		"character": ["从"],
+	 	"pinyin": "co2ng",
+	 	"meaning": ["from", "via", "through", "passing through"]
+	},
+    {
+		"character": ["懂"],
+	 	"pinyin": "do3ng",
+	 	"meaning": ["to understand"]
+	},
+    {
+		"character": ["从"],
+	 	"pinyin": "co2ng",
+	 	"meaning": ["from", "via", "through", "passing through"]
+	}
+]
