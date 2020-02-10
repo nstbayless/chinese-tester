@@ -1,11 +1,5 @@
 [
     {
-		"character": ["浅色"],
-	 	"pinyin": "qia3nse4",
-	 	"meaning": ["light colours", "light colors", "light-colored", "light-coloured", "light coloured", "light colored"],
-        "meaning-accepted": ["light"]
-	},
-    {
 		"character": ["头发"],
 	 	"pinyin": "to2ufa",
 	 	"meaning": ["hair (on head)"],
@@ -170,13 +164,6 @@
         "type": "noun"
     },
     {
-        "character": ["就"],
-        "pinyin": "jiu4",
-        "meaning": ["at once", "right away", "as a result", "in that case"],
-        "meaning-accepted": ["then"],
-        "type": "adverb:verbonly"
-    },
-    {
         "character": ["空白"],
         "pinyin": "ko4ngba2i",
         "meaning": ["blank space", "blankness", "emptiness", "nothingness", "void"],
@@ -186,11 +173,5 @@
         "character": ["第一次"],
         "pinyin": "di4yi1ci4",
         "meaning": ["first time", "the first time"]
-    },
-    {
-        "character": ["第"],
-        "pinyin": "di4",
-        "meaning": ["ordinal/cardinal number marker"],
-        "meaning-accepted": ["ordinal", "cardinal", "number", "ordinal number", "cardinal number", "st", "th", "nd", "-st", "-th", "-nd"]
     }
 ]
