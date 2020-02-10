@@ -1,0 +1,82 @@
+[
+	{
+		"character": ["封"],
+	 	"pinyin": "fe1ng",
+	 	"meaning": ["(measure word for letters)"]
+	},
+	{
+		"character": ["早"],
+	 	"pinyin": "xi4n",
+	 	"meaning": ["letter", "correspondence"]
+	},
+	{
+		"character": ["最近"],
+	 	"pinyin": "zui4ji4n",
+	 	"meaning": ["recently"]
+	},
+	{
+		"character": ["最"],
+	 	"pinyin": "zui4",
+	 	"meaning": ["(of superlative degree", "most"]
+	},
+	{
+		"character": ["进"],
+	 	"pinyin": "ji4n",
+	 	"meaning": ["close", "near"]
+	},
+	{
+		"character": ["学期"],
+	 	"pinyin": "xue2qi1",
+	 	"meaning": ["school term", "semester", "quarter"]
+	},
+	{
+		"character": ["除了。。。以外"],
+	 	"pinyin": "chu2le...yi3wa4i",
+	 	"meaning": ["in addition to", "besides"]
+	},
+	{
+		"character": ["专业"],
+	 	"pinyin": "zhua1ye4",
+	 	"meaning": ["major (in college)", "specialty"]
+	},
+	{
+		"character": ["会"],
+	 	"pinyin": "hui4",
+	 	"meaning": ["can", "know how to"]
+	},
+	{
+		"character": ["后来"],
+	 	"pinyin": "ho4ula2i",
+	 	"meaning": ["later"]
+	},
+	{
+		"character": ["音乐会"],
+	 	"pinyin": "yi1nyue4hui4",
+	 	"meaning": ["concert"]
+	},
+	{
+		"character": ["希望"],
+	 	"pinyin": "xi1wa4ng",
+	 	"meaning": ["to hope", "hope"]
+	},
+	{
+		"character": ["能"],
+	 	"pinyin": "ne2ng",
+	 	"meaning": ["can", "to be able to"]
+	},
+	{
+		"character": ["用"],
+	 	"pinyin": "yo4ng",
+	 	"meaning": ["to use"]
+	},
+	{
+		"character": ["笑"],
+	 	"pinyin": "xia4o",
+	 	"meaning": ["to laugh at", "to laugh", "to smile"]
+	},
+	{
+		"character": ["祝"],
+	 	"pinyin": "zhu4",
+	 	"meaning": ["to wish"]
+	}
+]
