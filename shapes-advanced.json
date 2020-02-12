@@ -1,0 +1,27 @@
+[
+    {
+		"character": ["直角"],
+	 	"pinyin": "zhi2jia3o",
+	 	"meaning": ["right angle"]
+	},
+    {
+		"character": ["锐角"],
+	 	"pinyin": "rui4jia3o",
+	 	"meaning": ["acute angle"]
+	},
+    {
+		"character": ["钝角 "],
+	 	"pinyin": "du4njia3o",
+	 	"meaning": ["obtuse angle"]
+	},
+    {
+		"character": ["顶点"],
+	 	"pinyin": "di3ngdia3n",
+	 	"meaning": ["vertex", "apex"]
+	},
+    {
+		"character": ["圆"],
+        "pinyin": "yua2n",
+	 	"meaning": ["circle", "sphere"]
+	}
+]

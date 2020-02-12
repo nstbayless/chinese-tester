@@ -1,0 +1,55 @@
+[
+    {
+		"character": ["旁边"],
+	 	"pinyin": "pa2ngbia1n",
+	 	"meaning": ["to the side", "lateral", "beside"],
+        "meaning-accepted": ["side", "besides"]
+	},
+    {
+		"character": ["跑步"],
+	 	"pinyin": "pa3obu4",
+	 	"meaning": ["to walk quickly", "to march", "to run", "speedwalking", "speedwalk"]
+	},
+    {
+		"character": ["便宜"],
+	 	"pinyin": "pia2nyi4",
+	 	"meaning": ["cheap", "inexpensive"]
+	},
+    {
+		"character": ["票"],
+	 	"pinyin": "pia4o",
+	 	"meaning": ["ticket", "ballot"]
+	},
+    {
+		"character": ["妻子"],
+	 	"pinyin": "qi1zi",
+	 	"meaning": ["wife"]
+	},
+    {
+		"character": ["千"],
+	 	"pinyin": "qia1n",
+	 	"meaning": ["thousand", "one thousand", "a thousand"]
+	},
+    {
+		"character": ["铅笔"],
+	 	"pinyin": "qia1nbi3",
+	 	"meaning": ["pencil", "lead pencil"]
+	},
+    {
+		"character": ["晴"],
+	 	"pinyin": "qi2ng",
+	 	"meaning": ["clear (weather)", "fine (weather)"],
+        "meaning-accepted": ["clear", "fine"]
+	},
+    {
+		"character": ["去年"],
+	 	"pinyin": "qu4nia2n",
+	 	"meaning": ["last year"]
+	},
+    {
+		"character": ["让"],
+	 	"pinyin": "ra4ng",
+	 	"meaning": ["to let", "to let somebody do something"],
+        "meaning-accepted": ["to permit"]
+	}
+]

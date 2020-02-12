@@ -1,0 +1,21 @@
+[
+    {
+		"character": ["三角形"],
+	 	"pinyin": "sa1n jia3o xi2ng",
+	 	"meaning": ["triangle"]
+	},
+    {
+		"character": ["四角形"],
+	 	"pinyin": "si4 jia3o xi2ng",
+	 	"meaning": ["quadrilateral", "square"]
+	},
+    {
+		"character": ["边"],
+	 	"pinyin": "bia1n",
+	 	"meaning": ["side"],
+        "classifier": {
+            "character": "条",
+            "pinyin": "tia2o"
+        }
+	},
+]
