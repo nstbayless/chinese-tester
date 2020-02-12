@@ -1,0 +1,55 @@
+[
+    {
+		"character": ["可能"],
+	 	"pinyin": "ke3ne2ng",
+	 	"meaning": ["possible", "possibility", "maybe", "perhaps", "might"],
+        "meaning-accepted": ["possibly"]
+	},
+    {
+		"character": ["快乐"],
+	 	"pinyin": "kua4i le4",
+	 	"meaning": ["happy", "merry", "joyous"],
+        "meaning-accepted": ["joyful", "gay", "mirthful"]
+	},
+    {
+		"character": ["离"],
+	 	"pinyin": "li2",
+	 	"meaning": ["to leave", "to part from", "to be away from", "to part", "to be away"],
+        "meaning-accepted": ["to exit", "to quit", "left"]
+	},
+    {
+		"character": ["零"],
+	 	"pinyin": "li2ng",
+	 	"meaning": ["zero", "naught", "nought"]
+	},
+    {
+		"character": ["路"],
+	 	"pinyin": "lu4",
+	 	"meaning": ["path", "road", "way"]
+	},
+    {
+		"character": ["旅游"],
+	 	"pinyin": "lv3yo2u",
+	 	"meaning": ["trip", "journey", "tourism", "travel", "tour"]
+	},
+    {
+		"character": ["卖"],
+	 	"pinyin": "ma4i",
+	 	"meaning": ["to sell", "to betray"]
+	},
+    {
+		"character": ["们"],
+	 	"pinyin": "me2n",
+	 	"meaning": ["doorway", "gate", "opening"]
+	},
+    {
+		"character": ["面条"],
+	 	"pinyin": "mia4ntia2o",
+	 	"meaning": ["noodles"]
+	},
+    {
+		"character": ["牛奶"],
+	 	"pinyin": "niu4na3i",
+	 	"meaning": ["cow milk", "cow's milk"]
+	}
+]
