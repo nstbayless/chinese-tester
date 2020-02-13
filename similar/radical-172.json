@@ -1,0 +1,28 @@
+[
+    {
+		"character": ["难"],
+	 	"pinyin": "na2n",
+	 	"meaning": ["difficult", "hard", "troublesome"]
+	},
+    {
+		"character": ["谁"],
+	 	"pinyin": "she2i",
+	 	"meaning": ["who"]
+	},
+    {
+        "character": ["维"],
+        "pinyin": "we2i",
+        "meaning": ["to tie up", "to fasten", "to tie"]
+    },
+    {
+        "character": ["进", "進"],
+        "pinyin": "ji4n",
+        "meaning": ["to advance", "to move forward", "to enter"]
+    },
+    {
+		"character": ["推"],
+	 	"pinyin": "tui1",
+	 	"meaning": ["to push", "to postpone", "to delay", "to bump (a thread on the internet)"],
+        "meaning-accepted": ["to bump"]
+	}
+]

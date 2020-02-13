@@ -1,0 +1,51 @@
+[
+    {
+		"character": ["这"],
+	 	"pinyin": "zhe4",
+	 	"meaning": ["this"],
+        "meaning-accepted": ["here"]
+	},
+    {
+		"character": ["还"],
+	 	"pinyin": "ha2i",
+	 	"meaning": ["also", "in addition"],
+        "meaning-accepted": ["addition", "additionally", "furthermore", "too", "and"]
+	},
+    {
+		"character": ["过"],
+	 	"pinyin": "guo4",
+	 	"meaning": ["completion marker"],
+        "meaning-accepted": ["past", "past tense", "completion", "guo"]
+	},
+    {
+		"character": ["边"],
+	 	"pinyin": "bia1n",
+	 	"meaning": ["side"],
+        "meaning-accepted": ["edge", "line", "boundary", "simultaneously", "simultaneous", "while"]
+	},
+    {
+		"character": ["道"],
+	 	"pinyin": "da4o",
+	 	"meaning": ["way", "path", "road"]
+	},
+    {
+		"character": ["进", "進"],
+	 	"pinyin": "ji4n",
+	 	"meaning": ["to advance", "to enter", "to move forward"]
+	},
+    {
+		"character": ["近"],
+	 	"pinyin": "ji4n",
+	 	"meaning": ["near", "close"]
+	},
+    {
+		"character": ["远"],
+	 	"pinyin": "yua3n",
+	 	"meaning": ["far", "distant", "remote"]
+	},
+    {
+		"character": ["运"],
+	 	"pinyin": "yu4n",
+	 	"meaning": ["movement", "to move", "to revolve", "to carry", "to transport"]
+	}
+]

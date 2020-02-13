@@ -1,0 +1,40 @@
+[
+    {
+		"character": ["右边"],
+	 	"pinyin": "yo4ubian",
+	 	"meaning": ["right side", "to the right"],
+        "meaning-accepted": ["the right", "right"]
+	},
+    {
+		"character": ["左边"],
+	 	"pinyin": "zuo3bian",
+	 	"meaning": ["the left", "to the left", "left side"],
+        "meaning-accepted": ["left"]
+	},
+    {
+		"character": ["鱼"],
+	 	"pinyin": "yu2",
+	 	"meaning": ["fish"]
+	},
+    {
+		"character": ["远"],
+	 	"pinyin": "yua3n",
+	 	"meaning": ["far", "distant", "remote"]
+	},
+    {
+		"character": ["运动"],
+	 	"pinyin": "yu4n do4ng",
+	 	"meaning": ["movement", "campaign", "sports"]
+	},
+    {
+		"character": ["丈夫"],
+	 	"pinyin": "zha4ngfu",
+	 	"meaning": ["husband"]
+	},
+    {
+		"character": ["着"],
+	 	"pinyin": "zhe",
+	 	"meaning": ["-ing", "action in progress"],
+        "meaning-accepted": ["in progress", "ing", "resting state"]
+	}
+]

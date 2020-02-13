@@ -1,0 +1,62 @@
+[
+    {
+		"character": ["上班"],
+	 	"pinyin": "sha4ngba1n",
+	 	"meaning": ["to go to work", "to be on duty", "to start work"],
+        "meaning-accepted": ["to go to the office", "to work"]
+	},
+    {
+		"character": ["洗"],
+	 	"pinyin": "xi3",
+	 	"meaning": ["to wash", "to bathe"],
+        "meaning-accepted": ["to shower", "to take a shower"]
+	},
+    {
+		"character": ["小时"],
+	 	"pinyin": "xia3oshi2",
+	 	"meaning": ["hour"],
+        "meaning-accepted": ["an hour"]
+	},
+    {
+		"character": ["新"],
+	 	"pinyin": "xi1n",
+	 	"meaning": ["new"]
+	},
+    {
+		"character": ["性"],
+	 	"pinyin": "xi4ng",
+	 	"meaning": ["family name", "surname"],
+        "meaning-accepted": ["name"]
+	},
+    {
+		"character": ["雪"],
+	 	"pinyin": "xue3",
+	 	"meaning": ["snow", "snowfall"]
+	},
+    {
+		"character": ["眼睛"],
+	 	"pinyin": "ya3njing",
+	 	"meaning": ["eye"]
+	},
+    {
+		"character": ["眼肉"],
+	 	"pinyin": "ya2ngrou4",
+	 	"meaning": ["mutton", "lamb meat"],
+        "meaning-accepted": ["sheep", "lamb", "sheep meet"]
+	},
+    {
+		"character": ["药"],
+	 	"pinyin": "ya4o",
+	 	"meaning": ["medicine", "drug"]
+	},
+    {
+		"character": ["阴"],
+	 	"pinyin": "yi1n",
+	 	"meaning": ["overcast", "cloudy", "overcast (weather)"]
+	},
+    {
+		"character": ["游泳"],
+	 	"pinyin": "yo2yo3ng",
+	 	"meaning": ["to swim"]
+	}
+]
