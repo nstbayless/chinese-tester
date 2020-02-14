@@ -1,0 +1,16 @@
+[
+    {"character": ["\u706b", "\u706c"], "pinyin": "huo3", "meaning": ["fire", "flame"], "type": "radical"},
+    {"character": ["\u706b"], "pinyin": "huo3", "meaning": ["fire", "flame"], "type": "radical"},
+    {"character": ["\u7cf8", "\u7cf9"], "pinyin": "mi4", "meaning": ["silk"], "type": "radical"},
+    {"character": ["\u8279", "\u8278"], "pinyin": "ca3o", "meaning": ["grass"], "type": "radical"},
+    {"character": ["\u8ba0", "\u8a01", "\u8a00"], "pinyin": "ya2n", "meaning": ["speech"], "type": "radical"},
+    {"character": ["\u8fb6", "\u2ecd"], "pinyin": "xi2ng", "meaning": ["walk"], "type": "radical"},
+    {"character": ["\u9485", "\u91d2", "\u91d1"], "pinyin": "ji1n", "meaning": ["gold", "metal"], "type": "radical"},
+    {"character": ["\u5202", "\u5200"], "pinyin": "da4o", "meaning": ["knife", "dagger"], "type": "radical"},
+    {"character": ["\u5b80"], "pinyin": "mia2n", "meaning": ["roof"], "type": "radical"},
+    {
+		"character": ["\u8d1d", "\u8c9d"],
+	 	"pinyin": "be4i",
+	 	"meaning": ["cowrie shell", "shell"]
+	}
+]

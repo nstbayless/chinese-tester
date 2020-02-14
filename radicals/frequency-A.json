@@ -1,0 +1,12 @@
+[
+    {"character": ["\u4eba", "\u4ebb"], "pinyin": "re2n", "meaning": ["human", "person"], "meaning-accepted": ["man"], "type": "radical"},
+    {"character": ["\u53e3"], "pinyin": "ko3u", "meaning": ["mouth"], "type": "radical"},
+    {"character": ["\u571f"], "pinyin": "tu3", "meaning": ["earth"], "type": "radical"},
+    {"character": ["\u6c34"], "pinyin": "shui3", "meaning": ["water"], "type": "radical"},
+    {"character": ["\u53e3"], "pinyin": "ko3u", "meaning": ["mouth"], "type": "radical"},
+    {"character": ["\u5973"], "pinyin": "nv3", "meaning": ["woman"], "type": "radical"},
+    {"character": ["\u5fc3", "\u5fc4"], "pinyin": "xi1n", "meaning": ["heart"], "type": "radical"},
+    {"character": ["\u624b", "\u624c", "\u9fb5"], "pinyin": "sho3u", "meaning": ["hand"], "type": "radical"},
+    {"character": ["\u65e5"], "pinyin": "ri4", "meaning": ["sun"], "type": "radical"},
+    {"character": ["\u6c34", "\u6c3a", "\u6c35"], "pinyin": "shui3", "meaning": ["water"], "type": "radical"}
+]
