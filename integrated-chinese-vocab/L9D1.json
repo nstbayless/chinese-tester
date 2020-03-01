@@ -1,0 +1,164 @@
+[
+	{
+		"character": ["商店"],
+	 	"pinyin": "sha1ngdia4n",
+	 	"meaning": ["store", "shop"]
+	},
+	{
+		"character": ["买"],
+	 	"pinyin": "ma3i",
+	 	"meaning": ["to buy", "to purchase"]
+	},
+	{
+		"character": ["东西"],
+	 	"pinyin": "do1ngxi1",
+	 	"meaning": ["stuff", "things", "objects"]
+	},
+	{
+		"character": ["售货员"],
+	 	"pinyin": "sho4uhuo4yua2n",
+	 	"meaning": ["shop assistant", "salesclerk"],
+		"meaning-accepted": ["clerk", "cashier"]
+	},
+	{
+		"character": ["衣服"],
+	 	"pinyin": "yi1fu",
+	 	"meaning": ["clothes"]
+	},
+	{
+		"character": ["件"],
+	 	"pinyin": "jia4n",
+	 	"meaning": ["(measure word for shirts, dresses, jackets, coats, etc.)"],
+		"meaning-accepted": ["mw: shirts", "mw: dresses", "mw: jackets", "mw: coats"]
+	},
+	{
+		"character": ["衬衫"],
+	 	"pinyin": "che4nsha1n",
+	 	"meaning": ["shirt"]
+	},
+	{
+		"character": ["黄"],
+	 	"pinyin": "hua2ng",
+	 	"meaning": ["yellow"]
+	},
+	{
+		"character": ["红"],
+	 	"pinyin": "ho2ng",
+	 	"meaning": ["red"]
+	},
+	{
+		"character": ["穿"],
+	 	"pinyin": "chua1n",
+	 	"meaning": ["to wear", "to put on"]
+	},
+	{
+		"character": ["条"],
+	 	"pinyin": "tia2o",
+	 	"meaning": ["(measure word for pants and long, thin objects)"],
+		"meaning": ["mw: pants", "mw: long, thin objects"]
+	},
+	{
+		"character": ["裤子"],
+	 	"pinyin": "ku4zi",
+	 	"meaning": ["pants", "trousers"]
+	},
+	{
+		"character": ["号"],
+	 	"pinyin": "ha4o",
+	 	"meaning": ["size"]
+	},
+	{
+		"character": ["中"],
+	 	"pinyin": "zho1ng",
+	 	"meaning": ["medium", "middle"]
+	},
+	{
+		"character": ["便宜"],
+	 	"pinyin": "pia2nyi",
+	 	"meaning": ["cheap", "inexpensive"]
+	},
+	{
+		"character": ["如果"],
+	 	"pinyin": "ru2guo3",
+	 	"meaning": ["if"]
+	},
+	{
+		"character": ["的话"],
+	 	"pinyin": "dehua4",
+	 	"meaning": ["if"]
+	},
+	{
+		"character": ["长短"],
+	 	"pinyin": "cha2ngdua3n",
+	 	"meaning": ["length"]
+	},
+	{
+		"character": ["长"],
+	 	"pinyin": "cha2ng",
+	 	"meaning": ["long"]
+	},
+	{
+		"character": ["短"],
+	 	"pinyin": "dua3n",
+	 	"meaning": ["short"]
+	},
+	{
+		"character": ["合适"],
+	 	"pinyin": "he2shi4",
+	 	"meaning": ["suitable"]
+	},
+	{
+		"character": ["试"],
+	 	"pinyin": "shi4",
+	 	"meaning": ["to try"]
+	},
+	{
+		"character": ["不用"],
+	 	"pinyin": "bu2yo4ng",
+	 	"meaning": ["need not", "needn't", "don't need to"]
+	},
+	{
+		"character": ["一共"],
+	 	"pinyin": "yi2go4ng",
+	 	"meaning": ["altogether"]
+	},
+	{
+		"character": ["多少"],
+	 	"pinyin": "duo1shao",
+	 	"meaning": ["how much", "how many"]
+	},
+	{
+		"character": ["钱"],
+	 	"pinyin": "qia2n",
+	 	"meaning": ["money"],
+		"meaning-accepted": ["cash"]
+	},
+	{
+		"character": ["快"],
+	 	"pinyin": "kua4i",
+	 	"meaning": ["(measure word for the basic Chinese monetary unit)"],
+		"meaning-accepted": ["mw: cash", "dollar", "1/1 kuai", "1"]
+	},
+	{
+		"character": ["毛"],
+	 	"pinyin": "ma2o",
+	 	"meaning": ["(measure word for 1/10 of a kuai, dime)"],
+		"meaning-accepted": ["mw: 1/10 kuai", "dime", "1/10 kuai", "1/10"]
+	},
+	{
+		"character": ["分"],
+	 	"pinyin": "fe1n",
+	 	"meaning": ["(measure word for 1/100 of a kuai, cent)"],
+		"meaning-accepted": ["mw: 1/100 kuai", "cent", "1/100 kuai", "1/10 mao"]
+	},
+	{
+		"character": ["百"],
+	 	"pinyin": "ba3i",
+	 	"meaning": ["hundred", "one hundred", "a hundred"]
+	},
+	{
+		"character": ["找钱"],
+	 	"pinyin": "zha3o qia2n",
+	 	"meaning": ["to give change", "to make change", "to find change"]
+	}
+]
