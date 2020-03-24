@@ -18,17 +18,6 @@
         "meaning-accepted": ["an hour"]
 	},
     {
-		"character": ["新"],
-	 	"pinyin": "xi1n",
-	 	"meaning": ["new"]
-	},
-    {
-		"character": ["性"],
-	 	"pinyin": "xi4ng",
-	 	"meaning": ["family name", "surname"],
-        "meaning-accepted": ["name"]
-	},
-    {
 		"character": ["雪"],
 	 	"pinyin": "xue3",
 	 	"meaning": ["snow", "snowfall"]
@@ -39,7 +28,7 @@
 	 	"meaning": ["eye"]
 	},
     {
-		"character": ["眼肉"],
+		"character": ["羊肉"],
 	 	"pinyin": "ya2ngrou4",
 	 	"meaning": ["mutton", "lamb meat"],
         "meaning-accepted": ["sheep", "lamb", "sheep meet"]

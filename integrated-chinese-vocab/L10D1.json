@@ -1,0 +1,139 @@
+[
+	{
+		"character": ["寒假"],
+	 	"pinyin": "ha2njia4",
+	 	"meaning": ["winter vacation"]
+	},
+	{
+		"character": ["飞机"],
+	 	"pinyin": "fe1iji1",
+	 	"meaning": ["airplane"]
+	},
+	{
+		"character": ["飞"],
+	 	"pinyin": "fe1i",
+	 	"meaning": ["to fly"]
+	},
+	{
+		"character": ["机"],
+	 	"pinyin": "ji1",
+	 	"meaning": ["machine"]
+	},
+	{
+		"character": ["票"],
+	 	"pinyin": "pia4o",
+	 	"meaning": ["ticket"]
+	},
+	{
+		"character": ["坐"],
+	 	"pinyin": "zuo4",
+	 	"meaning": ["to travel by"]
+	},
+	{
+		"character": ["公共汽车"],
+	 	"pinyin": "go1nggo4ng qi4che1",
+	 	"meaning": ["bus"]
+	},
+	{
+		"character": ["公共"],
+	 	"pinyin": "go1nggo4ng",
+	 	"meaning": ["public"]
+	},
+	{
+		"character": ["汽车"],
+	 	"pinyin": "qi4che1",
+	 	"meaning": ["automobile"]
+	},
+	{
+		"character": ["车"],
+	 	"pinyin": "che1",
+	 	"meaning": ["vehicle", "car"]
+	},
+	{
+		"character": ["或者"],
+	 	"pinyin": "huo4zhe3",
+	 	"meaning": ["or"]
+	},
+	{
+		"character": ["走"],
+	 	"pinyin": "zo3u",
+	 	"meaning": ["to go by way of", "to walk"]
+	},
+	{
+		"character": ["先"],
+	 	"pinyin": "xia1n",
+	 	"meaning": ["first"]
+	},
+	{
+		"character": ["下车"],
+	 	"pinyin": "xia4 che1",
+	 	"meaning": ["to get off (a bus, train, etc.)", "to disembark"],
+	 	"meaning-accepted": ["to get off"]
+	},
+	{
+		"character": ["然后"],
+	 	"pinyin": "ra2nhou4",
+	 	"meaning": ["then"]
+	},
+	{
+		"character": ["绿"],
+	 	"pinyin": "lv4",
+	 	"meaning": ["green"]
+	},
+	{
+		"character": ["线"],
+	 	"pinyin": "xia4n",
+	 	"meaning": ["line"]
+	},
+	{
+		"character": ["最后"],
+	 	"pinyin": "zui4hou4",
+	 	"meaning": ["final", "last"]
+	},
+	{
+		"character": ["蓝"],
+	 	"pinyin": "la2n",
+	 	"meaning": ["blue"]
+	},
+	{
+		"character": ["麻烦"],
+	 	"pinyin": "ma2fan",
+	 	"meaning": ["troublesome"]
+	},
+	{
+		"character": ["打车"],
+	 	"pinyin": "da3 che1",
+	 	"meaning": ["to take a taxi"]
+	},
+	{
+		"character": ["出租汽车"],
+	 	"pinyin": "chu1zu1 qi4che1",
+	 	"meaning": ["taxi", "taxicab", "cab"]
+	},
+	{
+		"character": ["出租"],
+	 	"pinyin": "chu1zu1",
+	 	"meaning": ["to rent out", "to let"]
+	},
+	{
+		"character": ["租"],
+	 	"pinyin": "zu1",
+	 	"meaning": ["to rent"]
+	},
+	{
+		"character": ["开车"],
+	 	"pinyin": "ka1i che1",
+	 	"meaning": ["to drive a car"]
+	},
+	{
+		"character": ["开"],
+	 	"pinyin": "ka1i",
+	 	"meaning": ["to operate", "to drive"]
+	},
+	{
+		"character": ["送"],
+	 	"pinyin": "so4ng",
+	 	"meaning": ["to see off or out", "to see off", "to see out", "to take (someone somewhere)"],
+	 	"meaning-accepted": ["to take"]
+	}
+]

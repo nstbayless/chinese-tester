@@ -1,0 +1,36 @@
+[
+	{
+		"character": ["出租车"],
+	 	"pinyin": "chu1zu1che1",
+	 	"meaning": ["taxi", "taxicab"],
+	 	"meaning-accepted": ["cab", "taxi cab", "taxi-cab"],
+        "type": "noun"
+	},
+	{
+		"character": ["热"],
+	 	"pinyin": "re4",
+	 	"meaning": ["heat"],
+	 	"meaning-accepted": ["hot", "to warm", "to heat up"]
+	},
+	{
+		"character": ["医院"],
+	 	"pinyin": "yi1yua4n",
+	 	"meaning": ["hospital"]
+	},
+	{
+		"character": ["椅子"],
+	 	"pinyin": "yi3zi",
+	 	"meaning": ["chair"]
+	},
+	{
+		"character": ["住"],
+	 	"pinyin": "zhu4",
+	 	"meaning": ["live", "dwell", "reside", "stay", "stop", "cease"]
+	},
+	{
+		"character": ["桌子"],
+	 	"pinyin": "zhuo1zi",
+	 	"meaning": ["table"],
+	 	"meaning-accepted": ["desk"]
+	}
+]

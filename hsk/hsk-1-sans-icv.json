@@ -83,7 +83,7 @@
 		"character": ["买"],
 	 	"pinyin": "ma3i",
 	 	"meaning": ["to buy", "to purchase"],
-	 	"meaning-accepted": ["to acquire", "to pay", "to procure", "to pay for"]
+	 	"meaning-accepted": ["to acquire", "to pay", "to procure", "to pay for"],
         "type": "verb:so",
         "hint": {
             "s": "person",
