@@ -1,0 +1,105 @@
+[
+	{
+        "character": ["双"],
+        "pinyin": "shua1ng",
+        "meaning": ["(measure word for a pair)", "a pair", "pair"],
+        "meaning-accepted": ["mw: pair", "mw: shoes"]
+    },
+    {
+        "character": ["鞋"],
+        "pinyin": "xie2",
+        "meaning": ["shoes"],
+        "meaning-accepted": ["shoe"]
+    },
+    {
+        "character": ["一样"],
+        "pinyin": "yi2ya4ng",
+        "meaning": ["same", "alike"]
+    },
+    {
+        "character": ["虽然"],
+        "pinyin": "sui1ra2n",
+        "meaning": ["although"]
+    },
+    {
+        "character": ["大小"],
+        "pinyin": "da4xia3o",
+        "meaning": ["size"]
+    },
+    {
+        "character": ["咖啡色"],
+        "pinyin": "ka1fe1ise4",
+        "meaning": ["coffee-coloured", "brown", "coffee colour"],
+        "meaning-accepted": ["coffee-colored", "coffee color"]
+    },
+    {
+        "character": ["种"],
+        "pinyin": "zho3ng",
+        "meaning": ["kind", "sort", "type"]
+    },
+    {
+        "character": ["黑"],
+        "pinyin": "he1i",
+        "meaning": ["black"]
+    },
+    {
+        "character": ["样子"],
+        "pinyin": "ya4ngzi",
+        "meaning": ["style"]
+    },
+    {
+        "character": ["挺"],
+        "pinyin": "ti3ng",
+        "meaning": ["very", "rather"]
+    },
+    {
+        "character": ["这儿"],
+        "pinyin": "zhe4r",
+        "meaning": ["here"]
+    },
+    {
+        "character": ["刷卡"],
+        "pinyin": "shua1ka3",
+        "meaning": ["to pay with a credit card"]
+    },
+    {
+        "character": ["刷"],
+        "pinyin": "shua1",
+        "meaning": ["to swipe", "to brush"]
+    },
+    {
+        "character": ["卡"],
+        "pinyin": "ka3",
+        "meaning": ["card"]
+    },
+    {
+        "character": ["收"],
+        "pinyin": "sho1u",
+        "meaning": ["to receive", "to accept"]
+    },
+    {
+        "character": ["信用卡"],
+        "pinyin": "xi4nyo4ngka3",
+        "meaning": ["credit card"]
+    },
+    {
+        "character": ["不过"],
+        "pinyin": "bu2guo4",
+        "meaning": ["however", "but"]
+    },
+    {
+        "character": ["再"],
+        "pinyin": "za4i",
+        "meaning": ["again"]
+    },
+    {
+        "character": ["付钱"],
+        "pinyin": "fu4 qia2n",
+        "meaning": ["to pay money"]
+    },
+    {
+        "character": ["付"],
+        "pinyin": "fu4",
+        "meaning": ["to pay"]
+    }
+]
