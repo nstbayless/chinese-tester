@@ -1,0 +1,23 @@
+[
+  {
+	"character": ["锻炼"],
+   	"pinyin": "dua4nlia4n",
+   	"meaning": ["work out", "to work out"],
+    "meaning-accepted": ["workout", "work-out"]
+  },
+  {
+	"character": ["跑步"],
+   	"pinyin": "pa3obu4",
+   	"meaning": ["to run", "to go for a run"]
+  },
+  {
+	"character": ["骑马"],
+   	"pinyin": "qi2ma3",
+   	"meaning": ["to ride a horse", "to ride horses", "horse riding"]
+  },
+  {
+	"character": ["游泳"],
+   	"pinyin": "yo2uyo3ng",
+   	"meaning": ["to go swimming", "to swim", "swimming"]
+  }
+]

@@ -1,0 +1,43 @@
+[
+    {
+  	    "character": ["牛肉"],
+     	"pinyin": "niu2ro4u",
+     	"meaning": ["cow meat", "beef"]
+    },
+    {
+  	    "character": ["羊肉"],
+     	"pinyin": "ya2ngrou4",
+     	"meaning": ["lamb meat"],
+        "meaning-accepted": ["lamb", "mutton"]
+    },
+    {
+  	    "character": ["鱼"],
+     	"pinyin": "yu2",
+     	"meaning": ["fish (food)"],
+        "meaning-accepted": ["fish"]
+    },
+    {
+  	    "character": ["猪肉"],
+     	"pinyin": "zhu1ro4u",
+     	"meaning": ["pig meat", "pork"],
+        "meaning-accepted": ["ham"]
+    },
+    {
+  	    "character": ["肌肉"],
+     	"pinyin": "ji1rou5",
+     	"meaning": ["chicken (food)"],
+        "meaning-accepted": ["chicken meat", "chicken"]
+    },
+    {
+  	    "character": ["鸡蛋"],
+     	"pinyin": "ji1da4n",
+     	"meaning": ["chicken egg"],
+        "meaning-accepted": ["egg"]
+    },
+    {
+  	    "character": ["牛奶"],
+     	"pinyin": "niu2na3i",
+     	"meaning": ["cow milk"],
+        "meaning-accepted": ["milk"]
+    }
+]
