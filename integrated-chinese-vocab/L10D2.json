@@ -1,0 +1,84 @@
+[
+	{
+		"character": ["电子邮件"],
+	 	"pinyin": "dian4zi3 yo2ujia4n",
+	 	"meaning": ["email"]
+	},
+	{
+		"character": ["电子"],
+	 	"pinyin": "dia4nzi3",
+	 	"meaning": ["electron"]
+	},
+	{
+		"character": ["让"],
+	 	"pinyin": "ra4ng",
+	 	"meaning": ["to allow or cause (somebody to do something)"],
+	 	"meaning-accepted": ["to let", "to make"]
+	},
+	{
+		"character": ["花"],
+	 	"pinyin": "hua1",
+	 	"meaning": ["to spend"]
+	},
+	{
+		"character": ["每"],
+	 	"pinyin": "me3i",
+	 	"meaning": ["every", "each"]
+	},
+	{
+		"character": ["城市"],
+	 	"pinyin": "che2ngshi4",
+	 	"meaning": ["city"]
+	},
+	{
+		"character": ["特别"],
+	 	"pinyin": "te4bie2",
+	 	"meaning": ["especially"]
+	},
+	{
+		"character": ["高速公路"],
+	 	"pinyin": "ga1osu4 go1nglu4",
+	 	"meaning": ["highway", "public road"]
+	},
+	{
+		"character": ["高速"],
+	 	"pinyin": "ga1osu4",
+	 	"meaning": ["high-speed", "high speed"],
+	 	"meaning-accepted": ["highspeed"]
+	},
+	{
+		"character": ["公路"],
+	 	"pinyin": "go1nglu4",
+	 	"meaning": ["road", "path"]
+	},
+	{
+		"character": ["紧张"],
+	 	"pinyin": "ji3nzha1ng",
+	 	"meaning": ["nervous", "anxious"]
+	},
+	{
+		"character": ["自己"],
+	 	"pinyin": "zi4ji3",
+	 	"meaning": ["self", "oneself"]
+	},
+	{
+		"character": ["手机"],
+	 	"pinyin": "sho3uji1",
+	 	"meaning": ["cellphone", "cell phone", "mobile phone"]
+	},
+	{
+		"character": ["发短信"],
+	 	"pinyin": "fa1 dua3nxi4n",
+	 	"meaning": ["to send a text message", "to send a short message"]
+	},
+	{
+		"character": ["新年"],
+	 	"pinyin": "xi1nnia2n",
+	 	"meaning": ["new year"]
+	},
+	{
+		"character": ["快乐"],
+	 	"pinyin": "kua4ile4",
+	 	"meaning": ["happy"]
+	}
+]

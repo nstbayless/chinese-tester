@@ -61,6 +61,17 @@
 	 	"meaning": ["light colours", "light colors", "light-colored", "light-coloured", "light coloured", "light colored"],
         "meaning-accepted": ["light"]
 	},
+	{
+		"character": ["淡"],
+	 	"pinyin": "da4n",
+	 	"meaning": ["pale-", "pale"],
+	},
+	{
+		"character": ["淡蓝色"],
+	 	"pinyin": "da4n la2nse4",
+	 	"meaning": ["pale-blue", "pale blue"],
+	 	"meaning-accepted": ["light blue", "light-blue"]
+	},
     {
 		"character": ["浅蓝色"],
 	 	"pinyin": "qia3nla2nse4",
