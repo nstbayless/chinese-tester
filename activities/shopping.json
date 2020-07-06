@@ -1,0 +1,39 @@
+[
+  {
+	"character": ["换"],
+   	"pinyin": "hua4n",
+   	"meaning": ["to exchange", "to change"]
+    },
+    {
+        "character": ["花"],
+        "pinyin": "hua1",
+        "meaning": ["flower", "to spend", "to spend (time or money)"]
+    },
+    {
+        "character": ["旧"],
+        "pinyin": "jiu4",
+        "meaning": ["old (of an object)", "old (former)", "old (used)", "old (worn)"],
+        "meaning-accepted": ["old", "worn", "former", "used"]
+    },
+    {
+        "character": ["皮"],
+        "pinyin": "pi2",
+        "meaning": ["leather"]
+    },
+    {
+        "character": ["超市"],
+        "pinyin": "cha1oshi4",
+        "meaning": ["supermarket"]
+    },,
+    {
+        "character": ["打折"],
+        "pinyin": "da3zhe2",
+        "meaning": ["discount", "discounted", "on sale"]
+    }
+    {
+        "character": ["角"],
+        "pinyin": "jia3o",
+        "meaning": ["1/10th of a yuan", ".01 yuan"],
+        "meaning-accepted": ["dime", "jiao", "mao", "10 cents", "ten cents", "10 cent", "ten cent"]
+    }
+]

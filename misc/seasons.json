@@ -1,0 +1,23 @@
+[
+    {
+        "character": ["夏"],
+        "pinyin": "xia4",
+        "meaning": ["summer"]
+    },
+    {
+        "character": ["春"],
+        "pinyin": "chu1n",
+        "meaning": ["spring", "springtime"]
+    },
+    {
+        "character": ["冬"],
+        "pinyin": "do1ng",
+        "meaning": ["winter"]
+    },
+    {
+        "character": ["秋"],
+        "pinyin": "qiu1",
+        "meaning": ["autumn"],
+        "meaning-accepted": ["fall"]
+    }
+]

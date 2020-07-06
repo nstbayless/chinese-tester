@@ -1,4 +1,9 @@
-[
+[ 
+    {
+     "character": ["现在"],
+   "pinyin": "xia4nza4i",
+   "meaning": ["now", "right now"]
+ },
   {
 	  "character": ["九月"],
    	"pinyin": "jiu3yue4",
@@ -100,5 +105,5 @@
         "character": ["星期天"],
         "pinyin": "xi1ngqi1tia1n",
 	 	"meaning": ["sunday"]
-    },
+    }
 ]
