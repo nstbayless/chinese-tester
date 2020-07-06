@@ -1,0 +1,761 @@
+[
+  {
+	"character": ["换"],
+   	"pinyin": "hua4n",
+   	"meaning": ["to exchange", "to change"]
+    },
+    {
+        "character": ["花"],
+        "pinyin": "hua1",
+        "meaning": ["flower", "to spend", "to spend (time or money)"]
+    },
+    {
+        "character": ["旧"],
+        "pinyin": "jiu4",
+        "meaning": ["old (of an object)", "old (former)", "old (used)", "old (worn)"],
+        "meaning-accepted": ["old", "worn", "former", "used"]
+    },
+    {
+        "character": ["皮"],
+        "pinyin": "pi2",
+        "meaning": ["leather"]
+    },
+    {
+        "character": ["超市"],
+        "pinyin": "cha1oshi4",
+        "meaning": ["supermarket"]
+    },,
+    {
+        "character": ["打折"],
+        "pinyin": "da3zhe2",
+        "meaning": ["discount", "discounted", "on sale"]
+    }
+    {
+        "character": ["角"],
+        "pinyin": "jia3o",
+        "meaning": ["1/10th of a yuan", ".01 yuan"],
+        "meaning-accepted": ["dime", "jiao", "mao", "10 cents", "ten cents", "10 cent", "ten cent"]
+    },
+    {
+        "character": ["香蕉"],
+        "pinyin": "xia1ngjia1o",
+        "meaning": ["banana"]
+    },
+    {
+        "character": ["水果"],
+        "pinyin": "shui3gu3o",
+        "meaning": ["fruit"]
+    },
+    {
+        "character": ["苹果"],
+        "pinyin": "pi2ngguo3",
+        "meaning": ["apple"]
+    },
+    {
+        "character": ["西瓜"],
+        "pinyin": "xi1gua1",
+        "meaning": ["watermelon"]
+    },
+    {
+        "character": ["事情"],
+        "pinyin": "shi4qing",
+        "meaning": ["matter (affairs)", "task"],
+        "meaning-accepted": ["thing", "matter", "affair", "things"]
+    },
+    {
+        "character": ["大概"],
+        "pinyin": "da4ga4i",
+        "meaning": ["probably"]
+    },
+    {
+        "character": ["堵车"],
+        "pinyin": "du3che1",
+        "meaning": ["traffic", "traffic jam"]
+    },
+    {
+        "character": ["热"],
+        "pinyin": "re4",
+        "meaning": ["heat", "hot"]
+    },
+    {
+        "character": ["台湾"],
+        "pinyin": "ta2iwa1n",
+        "meaning": ["Taiwan"]
+    },
+    {
+        "character": ["越"],
+        "pinyin": "yue4",
+        "meaning": ["?more", "?to exceed", "?to pass over", "?to cross over", "?to go over"]
+    },
+    {
+        "character": ["澳大利亚"],
+        "pinyin": "ao4da4li4ya4",
+        "meaning": ["Australia"]
+    },
+    {
+        "character": ["澳"],
+        "pinyin": "ao4",
+        "meaning": ["?inlet", "?bay"]
+    },
+    {
+        "character": ["冬"],
+        "pinyin": "do1ng",
+        "meaning": ["winter"]
+    },
+    {
+        "character": ["春"],
+        "pinyin": "chu1n",
+        "meaning": ["spring", "springtime"]
+    },
+    {
+        "character": ["秋"],
+        "pinyin": "qiu1",
+        "meaning": ["fall", "autumn"]
+    },
+    {
+        "character": ["夏"],
+        "pinyin": "xia4",
+        "meaning": ["summer"]
+    },
+    {
+        "character": ["泳"],
+        "pinyin": "yo3ng",
+        "meaning": ["to swim", "swimming"]
+    },
+    {
+        "character": ["面条"],
+        "pinyin": "mia4ntia2o",
+        "meaning": ["noodles"]
+    },
+    {
+        "character": ["游"],
+        "pinyin": "you2",
+        "meaning": ["to swim"]
+    },
+    {
+        "character": ["锻炼"],
+        "pinyin": "dua4nlia4n",
+        "meaning": ["to work out"]
+    },
+    {
+        "character": ["参加"],
+        "pinyin": "ca1njia1",
+        "meaning": ["to take part in"]
+    },
+    {
+        "character": ["冰箱"],
+        "pinyin": "bi1ngxia1ng",
+        "meaning": ["refrigerator", "fridge", "freezer", "icebox"]
+    },
+    {
+        "character": ["箱"],
+        "pinyin": "xia1ng",
+        "meaning": ["box"]
+    },
+    {
+        "character": ["冰箱"],
+        "pinyin": "bi1ngxia1ng",
+        "meaning": ["refrigerator", "fridge", "freezer", "icebox"]
+    },
+    {
+        "character": ["园"],
+        "pinyin": "yua2n",
+        "meaning": ["garden"]
+    },
+    {
+        "character": ["馆"],
+        "pinyin": "gua3n",
+        "meaning": ["?pavillion"]
+    },
+    {
+        "character": ["图"],
+        "pinyin": "tu2",
+        "meaning": ["?fig"]
+    },
+    {
+        "character": ["图"],
+        "pinyin": "tu2",
+        "meaning": ["?fig"]
+    },
+    {
+        "character": ["碗"],
+        "pinyin": "wa3n",
+        "meaning": ["bowl"]
+    },
+    {
+        "character": ["盘"],
+        "pinyin": "pa2n",
+        "meaning": ["?plate"]
+    },
+    {
+        "character": ["卓"],
+        "pinyin": "zhuo1",
+        "meaning": ["?table"]
+    },
+    {
+        "character": ["盘"],
+        "pinyin": "pa2n",
+        "meaning": ["?plate"]
+    },
+    {
+        "character": ["地方"],
+        "pinyin": "di2fa1ng",
+        "meaning": ["local"]
+    },
+    {
+        "character": ["盘"],
+        "pinyin": "pa2n",
+        "meaning": ["?plate"]
+    },
+    {
+        "character": ["城"],
+        "pinyin": "che2ng",
+        "meaning": ["?city"]
+    },
+    {
+        "character": ["司"],
+        "pinyin": "si1",
+        "meaning": ["?company"]
+    },
+    {
+        "character": ["盘"],
+        "pinyin": "pa2n",
+        "meaning": ["?plate"]
+    },
+    {
+        "character": ["附"],
+        "pinyin": "fu4",
+        "meaning": ["?location", "?part of 'near'"]
+    },
+    {
+        "character": ["附"],
+        "pinyin": "fu4",
+        "meaning": ["?attached", "?part of 'near'"]
+    },
+    {
+        "character": ["锅"],
+        "pinyin": "gu1o",
+        "meaning": ["?pot"]
+    },
+    {
+        "character": ["锅"],
+        "pinyin": "gu1o",
+        "meaning": ["?pot"]
+    },
+    {
+        "character": ["炒"],
+        "pinyin": "cha3o",
+        "meaning": ["fried", "fry"]
+    },
+    {
+        "character": ["炒"],
+        "pinyin": "cha3o",
+        "meaning": ["fried"]
+    },
+    {
+        "character": ["粥"],
+        "pinyin": "zho1u",
+        "meaning": ["porridge"]
+    },
+    {
+        "character": ["健康"],
+        "pinyin": "jia4nka1ng",
+        "meaning": ["health"]
+    },
+    {
+        "character": ["健"],
+        "pinyin": "jia4n",
+        "meaning": ["?healthy"]
+    },
+    {
+        "character": ["康"],
+        "pinyin": "ka1ng",
+        "meaning": ["?health"]
+    },
+    {
+        "character": ["豆"],
+        "pinyin": "do4u",
+        "meaning": ["?bean", "?part of 'soy milk'", "?part of 'tofu'"]
+    },
+    {
+        "character": ["浆"],
+        "pinyin": "jia1ng",
+        "meaning": ["?pulp", "?part of 'soy milk'"]
+    },
+    {
+        "character": ["拉"],
+        "pinyin": "la1",
+        "meaning": ["?part of 'ramen'"]
+    },
+    {
+        "character": ["饱"],
+        "pinyin": "ba3o",
+        "meaning": ["full"]
+    },
+    {
+        "character": ["拉"],
+        "pinyin": "la1",
+        "meaning": ["?part of 'ramen'"]
+    },
+    {
+        "character": ["戏"],
+        "pinyin": "xi4",
+        "meaning": ["?play", "?part of 'game'"]
+    },
+    {
+        "character": ["戏"],
+        "pinyin": "xi4",
+        "meaning": ["?play", "?part of 'game'"]
+    },
+    {
+        "character": ["闻"],
+        "pinyin": "we2n",
+        "meaning": ["?part of 'news'"]
+    },
+    {
+        "character": ["像"],
+        "pinyin": "xia4ng",
+        "meaning": ["like", "resemblance", "resemble"]
+    },
+    {
+        "character": ["亲戚"],
+        "pinyin": "qi1nqi1",
+        "meaning": ["relative"]
+    },
+    {
+        "character": ["叔"],
+        "pinyin": "shu1",
+        "meaning": ["?part of 'uncle'"]
+    },
+    {
+        "character": ["亲戚"],
+        "pinyin": "qi1nqi1",
+        "meaning": ["relative"]
+    },
+    {
+        "character": ["关系"],
+        "pinyin": "gua1nxi4",
+        "meaning": ["relationship"]
+    },
+    {
+        "character": ["爷"],
+        "pinyin": "ye2",
+        "meaning": ["?part of 'grandfather'"]
+    },
+    {
+        "character": ["报纸"],
+        "pinyin": "ba4ozhi3",
+        "meaning": ["newspaper"]
+    },
+    {
+        "character": ["奶"],
+        "pinyin": "na3i",
+        "meaning": ["?part of 'grandmother'"]
+    },
+    {
+        "character": ["阿姨"],
+        "pinyin": "a1yi2",
+        "meaning": ["aunt"]
+    }
+    {
+        "character": ["零"],
+        "pinyin": "li2ng",
+        "meaning": ["zero"]
+    },
+    {
+        "character": ["礼物"],
+        "pinyin": "li3wu4",
+        "meaning": ["gift", "present"]
+    },
+    {
+        "character": ["春节"],
+        "pinyin": "chu1njie2",
+        "meaning": ["Chinese New Year", "Spring Festival"]
+    },
+    {
+        "character": ["失望"],
+        "pinyin": "shi1wa4ng",
+        "meaning": ["disappointed"]
+    },
+    {
+        "character": ["失望"],
+        "pinyin": "shi1wa4ng",
+        "meaning": ["disappointed"]
+    },
+    {
+        "character": ["骑"],
+        "pinyin": "qi2",
+        "meaning": ["to ride"]
+    },
+    {
+        "character": ["钟"],
+        "pinyin": "zho1ng",
+        "meaning": ["?bell"]
+    },
+    {
+        "character": ["钟"],
+        "pinyin": "zho1ng",
+        "meaning": ["?bell", "?part of 'minute'"]
+    },
+    {
+        "character": ["胖"],
+        "pinyin": "pa4ng",
+        "meaning": ["fat"]
+    },
+    {
+        "character": ["赢"],
+        "pinyin": "yi2ng",
+        "meaning": ["to win"]
+    },
+    {
+        "character": ["信心"],
+        "pinyin": "xi4nxi1n",
+        "meaning": ["confidence"]
+    },
+    {
+        "character": ["输"],
+        "pinyin": "shu1",
+        "meaning": ["to lose", "lost", "loss"]
+    },
+    {
+        "character": ["网球"],
+        "pinyin": "wa3ngqiu2",
+        "meaning": ["tennis"]
+    },
+    {
+        "character": ["排球"],
+        "pinyin": "pa2iqiu2",
+        "meaning": ["volleyball"]
+    },
+    {
+        "character": ["派"],
+        "pinyin": "pa4i",
+        "meaning": ["?part of 'party'"]
+    },
+    {
+        "character": ["手表"],
+        "pinyin": "sho3ubia3o",
+        "meaning": ["watch", "wristwatch", "wrist-watch"]
+    },
+    {
+        "character": ["完"],
+        "pinyin": "wa2n",
+        "meaning": ["to finish"]
+    },
+    {
+        "character": ["短"],
+        "pinyin": "dua3n",
+        "meaning": ["short"]
+    },
+    {
+        "character": ["完"],
+        "pinyin": "wa2n",
+        "meaning": ["to finish"]
+    },
+    {
+        "character": ["阴"],
+        "pinyin": "yi1n",
+        "meaning": ["?yin(yang)", "?dark", "?moon"]
+    },
+    {
+        "character": ["阳"],
+        "pinyin": "ya2ng",
+        "meaning": ["?(yin)yang", "?light", "?sun"]
+    },
+    {
+        "character": ["裙"],
+        "pinyin": "qu2n",
+        "meaning": ["?part of 'dress'", "?part of 'skirt'"]
+    },
+    {
+        "character": ["裤"],
+        "pinyin": "ku4",
+        "meaning": ["?part of 'pants'"]
+    },
+    {
+        "character": ["科"],
+        "pinyin": "ke1",
+        "meaning": ["?part of 'science'"]
+    },
+    {
+        "character": ["旁"],
+        "pinyin": "pa2ng",
+        "meaning": ["?part of 'beside'"]
+    },
+    {
+        "character": ["地理"],
+        "pinyin": "di4li3",
+        "meaning": ["geography"]
+    },
+    {
+        "character": ["身体"],
+        "pinyin": "she1nti",
+        "meaning": ["body"]
+    },
+    {
+        "character": ["地理"],
+        "pinyin": "di4li3",
+        "meaning": ["geography"]
+    },
+    {
+        "character": ["又"],
+        "pinyin": "yo4u",
+        "meaning": ["?also"]
+    },
+    {
+        "character": ["帽"],
+        "pinyin": "ma4o",
+        "meaning": ["?hat", "?cap"]
+    },
+    {
+        "character": ["右"],
+        "pinyin": "yo4u",
+        "meaning": ["?right"]
+    },
+    {
+        "character": ["风"],
+        "pinyin": "fe1ng",
+        "meaning": ["wind"]
+    },
+    {
+        "character": ["烧"],
+        "pinyin": "sha1o",
+        "meaning": ["?fever"]
+    },
+    {
+        "character": ["脸"],
+        "pinyin": "la3i",
+        "meaning": ["face"]
+    },
+    {
+        "character": ["舒"],
+        "pinyin": "shu1",
+        "meaning": ["?comfortable"]
+    },
+    {
+        "character": ["约会"],
+        "pinyin": "yue1hui4",
+        "meaning": ["date", "appointment"]
+    },
+    {
+        "character": ["约"],
+        "pinyin": "yue1",
+        "meaning": ["?date"]
+    },
+    {
+        "character": ["浪漫"],
+        "pinyin": "la4ngma4n",
+        "meaning": ["romantic"]
+    },
+    {
+        "character": ["留"],
+        "pinyin": "liu2",
+        "meaning": ["stay"]
+    },
+    {
+        "character": ["留"],
+        "pinyin": "liu2",
+        "meaning": ["stay"]
+    },
+    {
+        "character": ["旅游"],
+        "pinyin": "lv3yo2u",
+        "meaning": ["tourism"]
+    },
+    {
+        "character": ["随"],
+        "pinyin": "sui2",
+        "meaning": ["?part of 'wherever/casual/whatever'"]
+    },
+    {
+        "character": ["注意"],
+        "pinyin": "zhu4yi4",
+        "meaning": ["pay attention to", "look after", "take care of"]
+    },
+    {
+        "character": ["糖"],
+        "pinyin": "ta2ng",
+        "meaning": ["sugar", "sweet"]
+    },
+    {
+        "character": ["脚"],
+        "pinyin": "jia3o",
+        "meaning": ["foot"]
+    },
+    {
+        "character": ["嘴"],
+        "pinyin": "zui3",
+        "meaning": ["?mouth"]
+    },
+    {
+        "character": ["鼻"],
+        "pinyin": "bi2",
+        "meaning": ["?nose"]
+    },
+    {
+        "character": ["质量"],
+        "pinyin": "zhi4lia4ng",
+        "meaning": ["quality"]
+    },
+    {
+        "character": ["新鲜"],
+        "pinyin": "xi1nxia1n",
+        "meaning": ["fresh"]
+    },
+    {
+        "character": ["巧"],
+        "pinyin": "qia3o",
+        "meaning": ["?part of 'chocolate'"]
+    },
+    {
+        "character": ["克"],
+        "pinyin": "ke4",
+        "meaning": ["?part of 'chocolate'"]
+    },
+    {
+        "character": ["味道"],
+        "pinyin": "we4ida4o",
+        "meaning": ["taste", "flavour"]
+    },
+    {
+        "character": ["哦"],
+        "pinyin": "e4",
+        "meaning": ["hungry"]
+    },
+    {
+        "character": ["渴"],
+        "pinyin": "ke3",
+        "meaning": ["thirsty"]
+    },
+    {
+        "character": ["小费"],
+        "pinyin": "xia3ofe4i",
+        "meaning": ["tip"]
+    },
+    {
+        "character": ["妻"],
+        "pinyin": "qi1",
+        "meaning": ["?wife"]
+    },
+    {
+        "character": ["打扮"],
+        "pinyin": "da3ba4n",
+        "meaning": ["dress up"]
+    },
+    {
+        "character": ["打扮"],
+        "pinyin": "da3ba4n",
+        "meaning": ["dress up"]
+    },
+    {
+        "character": ["树"],
+        "pinyin": "shu4",
+        "meaning": ["tree"]
+    },
+    {
+        "character": ["德"],
+        "pinyin": "de4",
+        "meaning": ["?part of 'germany'"]
+    },
+    {
+        "character": ["树"],
+        "pinyin": "shu4",
+        "meaning": ["tree"]
+    },
+    {
+        "character": ["船"],
+        "pinyin": "chua2n",
+        "meaning": ["boat"]
+    },
+    {
+        "character": ["欢迎"],
+        "pinyin": "hua1nyi2ng",
+        "meaning": ["welcome"]
+    },
+    {
+        "character": ["蔬菜"],
+        "pinyin": "shu1ca4i",
+        "meaning": ["vegetables"]
+    },
+    {
+        "character": ["蔬"],
+        "pinyin": "shu1",
+        "meaning": ["?vegetables"]
+    },
+    {
+        "character": ["菜"],
+        "pinyin": "ca4i",
+        "meaning": ["?vegetables"]
+    },
+    {
+        "character": ["矮"],
+        "pinyin": "ai3",
+        "meaning": ["short"]
+    },
+    {
+        "character": ["韩"],
+        "pinyin": "ha2n",
+        "meaning": ["?korea"]
+    },
+    {
+        "character": ["往"],
+        "pinyin": "wa3ng",
+        "meaning": ["toward"]
+    },
+    {
+        "character": ["订位"],
+        "pinyin": "di4ngwe4i",
+        "meaning": ["booking", "reservation"]
+    },
+    {
+        "character": ["路"],
+        "pinyin": "lu4",
+        "meaning": ["road"]
+    },
+    {
+        "character": ["万"],
+        "pinyin": "wa4n",
+        "meaning": ["ten thousand", "10,000"],
+        "meaning-accepted": ["10000"]
+    },
+    {
+        "character": ["丈夫"],
+        "pinyin": "zha4ngfu1",
+        "meaning": ["husband"]
+    },
+    {
+        "character": ["收"],
+        "pinyin": "sho1u",
+        "meaning": ["accept"]
+    },
+    {
+        "character": ["椅"],
+        "pinyin": "yi3",
+        "meaning": ["?chair"]
+    },
+    {
+        "character": ["明星"],
+        "pinyin": "mi2ngxi1ng",
+        "meaning": ["celebrity"]
+    },
+    {
+        "character": ["边"],
+        "pinyin": "bia1n",
+        "meaning": ["side"]
+    },
+    {
+        "character": ["左"],
+        "pinyin": "zuo3",
+        "meaning": ["?left"]
+    },
+    {
+        "character": ["体育"],
+        "pinyin": "ti2yu4",
+        "meaning": ["physical education", "P.E."]
+    },
+    {
+        "character": ["左"],
+        "pinyin": "zuo3",
+        "meaning": ["?left"]
+    }
+]
